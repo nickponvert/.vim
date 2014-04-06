@@ -1,0 +1,50 @@
+affineTransSECdistrfunctionfunctionsnobject	a	A	name	compNames	dropTRUE
+coeffunctionfunctionsnobject	...
+conditionalSECdistrfunctionfunctionsnobject	fixed.comp	fixed.values	name	dropTRUE
+cp2dpfunctionfunctionsncp	family
+dmscfunctionfunctionsnx	xirep(0, length(alpha))	Omega	alpha	dpNULL	logFALSE
+dmsnfunctionfunctionsnx	xirep(0, length(alpha))	Omega	alpha	tau0	dpNULL	logFALSE
+dmstfunctionfunctionsnx	xirep(0, length(alpha))	Omega	alpha	nuInf	dpNULL	logFALSE
+dp2cpfunctionfunctionsndp	family	objNULL	cp.type"proper"	uptoNULL
+dscfunctionfunctionsnx	xi0	omega1	alpha0	dpNULL	logFALSE
+dsnfunctionfunctionsnx	xi0	omega1	alpha0	tau0	dpNULL	logFALSE
+dstfunctionfunctionsnx	xi0	omega1	alpha0	nuInf	dpNULL	logFALSE
+fittedfunctionfunctionsnobject	...
+logLikfunctionfunctionsnobject	...
+makeSECdistrfunctionfunctionsndp	family	name	compNames
+marginalSECdistrfunctionfunctionsnobject	comp	name	dropTRUE
+MPpenaltyfunctionfunctionsnalpha	der0
+msn.mlefunctionfunctionsnx	y	startNULL	w	traceFALSE	opt.methodc("nlminb", "Nelder-Mead", "BFGS", "CG", "SANN")	controllist()
+msn.mplefunctionfunctionsnx	y	startNULL	w	traceFALSE	penaltyNULL	opt.methodc("nlminb", "Nelder-Mead", "BFGS", "CG", "SANN")	controllist()
+mst.mplefunctionfunctionsnx	y	startNULL	w	penalty	fixed.nuNULL	traceFALSE	opt.methodc("nlminb", "Nelder-Mead", "BFGS", "CG", "SANN")	controllist()
+plotfunctionfunctionsnx	yNULL	type"p"	xlimNULL	ylimNULL	log""	mainNULL	subNULL	xlabNULL	ylabNULL	annpar("ann")	axesTRUE	frame.plot	panel.firstNULL	panel.lastNULL	aspNA	...
+pmscfunctionfunctionsnx	xirep(0, length(alpha))	Omega	alpha	dpNULL	...
+pmsnfunctionfunctionsnx	xirep(0, length(alpha))	Omega	alpha	tau0	dpNULL	...
+pmstfunctionfunctionsnx	xirep(0, length(alpha))	Omega	alpha	nuInf	dpNULL	...
+pscfunctionfunctionsnx	xi0	omega1	alpha0	dpNULL
+psnfunctionfunctionsnx	xi0	omega1	alpha0	tau0	dpNULL	engine	...
+pstfunctionfunctionsnx	xi0	omega1	alpha0	nuInf	dpNULL	...
+Qpenaltyfunctionfunctionsnalpha_etc	nuNULL	der0
+qscfunctionfunctionsnp	xi0	omega1	alpha0	dpNULL
+qsnfunctionfunctionsnp	xi0	omega1	alpha0	tau0	dpNULL	tol1e-08	...
+qstfunctionfunctionsnp	xi0	omega1	alpha0	nuInf	tol1e-08	dpNULL	...
+residualsfunctionfunctionsnobject	...
+rmscfunctionfunctionsnn1	xirep(0, length(alpha))	Omega	alpha	dpNULL
+rmsnfunctionfunctionsnn1	xirep(0, length(alpha))	Omega	alpha	tau0	dpNULL
+rmstfunctionfunctionsnn1	xirep(0, length(alpha))	Omega	alpha	nuInf	dpNULL
+rscfunctionfunctionsnn1	xi0	omega1	alpha0	dpNULL
+rsnfunctionfunctionsnn1	xi0	omega1	alpha0	tau0	dpNULL
+rstfunctionfunctionsnn1	xi0	omega1	alpha0	nuInf	dpNULL
+selmfunctionfunctionsnformula	family"SN"	data	weights	subset	na.action	startNULL	fixed.paramlist()	method"MLE"	penaltyNULL	offset	modelTRUE	xFALSE	yFALSE	...
+selm.fitfunctionfunctionsnx	y	family"SN"	startNULL	w	fixed.paramlist()	offsetNULL	selm.control
+showfunctionfunctionsnobject
+sn.cumulantsfunctionfunctionsnxi0	omega1	alpha0	tau0	dpNULL	n4
+sn.infoMvfunctionfunctionsndp	xNULL	y	w	norm2.tol1e-06
+sn.infoUvfunctionfunctionsndpNULL	cpNULL	xNULL	y	w	penaltyNULL	norm2.tol1e-06
+sn.mplefunctionfunctionsnx	y	cpNULL	w	penaltyNULL	traceFALSE
+st.cumulantsfunctionfunctionsnxi0	omega1	alpha0	nuInf	dpNULL	n4
+st.mplefunctionfunctionsnx	y	dpNULL	fixed.nuNULL	w	penaltyNULL	traceFALSE
+summaryfunctionfunctionsnobject	...	digitsmax(3L, getOption("digits") - 3L)
+T.Owenfunctionfunctionsnh	a	jmax50	cut.point8
+vcovfunctionfunctionsnobject	...
+zetafunctionfunctionsnk	x

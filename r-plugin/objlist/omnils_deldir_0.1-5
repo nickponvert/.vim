@@ -1,0 +1,17 @@
+acwfunctionfunctiondeldirxxx
+deldirfunctionfunctiondeldirx	y	dplNULL	rwNULL	eps1e-09	sortTRUE	plotitFALSE	digits6	zNULL	zdumNULL	suppressMsgeFALSE	...
+dumptsfunctionfunctiondeldirx	y	dpl	rw
+duplicatedxyfunctionfunctiondeldirx	y
+get.cnrindfunctionfunctiondeldirx	y	rw
+getColfunctionfunctiondeldirx	warnFALSE
+mid.infunctionfunctiondeldirx	y	rx	ry
+mnndfunctionfunctiondeldirx	y
+plot.deldirfunctionfunctiondeldirx	addFALSE	wlinesc("both", "triang", "tess")	wpointsc("both", "real", "dummy", "none")	numberFALSE	cex1	nex1	colNULL	ltyNULL	pchNULL	xlimNULL	ylimNULL	xlab"x"	ylab"y"	showrectFALSE	...
+plot.tile.listfunctionfunctiondeldirx	verboseFALSE	closeFALSE	pch1	fillcolgetCol(x, warn = warn)	col.ptsNULL	borderNULL	showpointsTRUE	addFALSE	asp1	clippNULL	xlab"x"	ylab"y"	main""	warnFALSE	...
+plot.triang.listfunctionfunctiondeldirx	showrectFALSE	addFALSE	xlab"x"	ylab"y"	main""	asp1	...
+tile.centroidsfunctionfunctiondeldirxxx
+tile.listfunctionfunctiondeldirobject
+tilePerimfunctionfunctiondeldirobject	inclbdryTRUE
+tilePerim0functionfunctiondeldirobject	inclbdryTRUE
+triang.listfunctionfunctiondeldirobject
+triMatfunctionfunctiondeldirobject

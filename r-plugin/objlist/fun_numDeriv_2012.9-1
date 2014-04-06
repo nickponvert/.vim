@@ -1,0 +1,4 @@
+syn keyword rFunction genD
+syn keyword rFunction grad
+syn keyword rFunction hessian
+syn keyword rFunction jacobian

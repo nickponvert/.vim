@@ -1,0 +1,238 @@
+acfPlotfunctionfunctionfBasicsx	labelsTRUE	...
+adTestfunctionfunctionfBasicsx	titleNULL	descriptionNULL
+akimaInterpfunctionfunctionfBasicsx	yNULL	zNULL	gridPoints21	xoseq(min(x), max(x), length = gridPoints)	yoseq(min(y), max(y), length = gridPoints)	extrapFALSE
+akimaInterppfunctionfunctionfBasicsx	yNULL	zNULL	xo	yo	extrapFALSE
+basicStatsfunctionfunctionfBasicsx	ci0.95
+box_functionfunctionfBasicscolc("white", "black")
+BoxcarfunctionfunctionfBasicsx	a0.5
+boxLfunctionfunctionfBasicscol"white"
+boxPercentilePlotfunctionfunctionfBasicsx	col"steelblue"	titleTRUE	...
+boxPlotfunctionfunctionfBasicsx	col"steelblue"	titleTRUE	...
+characterTablefunctionfunctionfBasicsfont1	cex0.7
+cmPalettefunctionfunctionfBasicsn64	...
+colIdsfunctionfunctionfBasicsx	...
+colIds<-functionfunctionfBasicsx	value
+colorLocatorfunctionfunctionfBasicslocatorFALSE	cex.axis0.7
+colorMatrixfunctionfunctionfBasicsNO_ARGS
+colorTablefunctionfunctionfBasicscex0.7
+colVecfunctionfunctionfBasicsx
+copyrightfunctionfunctionfBasicsNO_ARGS
+correlationTestfunctionfunctionfBasicsx	y	methodc("pearson", "kendall", "spearman")	titleNULL	descriptionNULL
+countFunctionsfunctionfunctionfBasicspackage	character.onlyFALSE
+cumulatedPlotfunctionfunctionfBasicsx	index100	labelsTRUE	type"l"	col"steelblue"	titleTRUE	gridTRUE	boxTRUE	rugTRUE	...
+cvmTestfunctionfunctionfBasicsx	titleNULL	descriptionNULL
+dagoTestfunctionfunctionfBasicsx	titleNULL	descriptionNULL
+decorfunctionfunctionfBasicsNO_ARGS
+DeltafunctionfunctionfBasicsx	a0
+densityPlotfunctionfunctionfBasicsx	labelsTRUE	col"steelblue"	fitTRUE	histTRUE	titleTRUE	gridTRUE	rugTRUE	skipFALSE	...
+dghfunctionfunctionfBasicsx	alpha1	beta0	delta1	mu0	lambda-1/2	logFALSE
+dghtfunctionfunctionfBasicsx	beta0.1	delta1	mu0	nu10	logFALSE
+dgldfunctionfunctionfBasicsx	lambda10	lambda2-1	lambda3-1/8	lambda4-1/8	logFALSE
+dhypfunctionfunctionfBasicsx	alpha1	beta0	delta1	mu0	pmc("1", "2", "3", "4")	logFALSE
+distCheckfunctionfunctionfBasicsfun"norm"	n1000	robustTRUE	subdivisions100	...
+divPalettefunctionfunctionfBasicsn	namec("BrBG", "PiYG", "PRGn", "PuOr", "RdBu", "RdGy", "RdYlBu", "RdYlGn", 	name    "Spectral")
+dmaxddfunctionfunctionfBasicsx	sd1	horizon100	N1000
+dnigfunctionfunctionfBasicsx	alpha1	beta0	delta1	mu0	logFALSE
+drawdownPlotfunctionfunctionfBasicsx	labelsTRUE	type"l"	col"steelblue"	titleTRUE	gridTRUE	boxTRUE	rugTRUE	...
+dsghfunctionfunctionfBasicsx	zeta1	rho0	lambda1	logFALSE
+dsghtfunctionfunctionfBasicsx	beta0.1	delta1	mu0	nu10	logFALSE
+dsnigfunctionfunctionfBasicsx	zeta1	rho0	logFALSE
+dssdfunctionfunctionfBasicsx	param	logFALSE
+focusPalettefunctionfunctionfBasicsn	namec("redfocus", "greenfocus", "bluefocus")
+getArgsfunctionfunctionfBasicsf	signaturecharacter()
+getDescriptionfunctionfunctionfBasicsobject
+get.lcgseedfunctionfunctionfBasicsNO_ARGS
+getModelfunctionfunctionfBasicsobject
+getSlotfunctionfunctionfBasicsobject	slotName
+getTitlefunctionfunctionfBasicsobject
+ghFitfunctionfunctionfBasicsx	alpha1	beta0	delta1	mu0	lambda-1/2	scaleTRUE	doplotTRUE	span"auto"	traceTRUE	titleNULL	descriptionNULL	...
+ghIQRfunctionfunctionfBasicsalpha1	beta0	delta1	mu0	lambda-1/2
+ghKurtfunctionfunctionfBasicsalpha1	beta0	delta1	mu0	lambda-1/2
+ghKURTfunctionfunctionfBasicsalpha1	beta0	delta1	mu0	lambda-1/2
+ghMeanfunctionfunctionfBasicsalpha1	beta0	delta1	mu0	lambda-1/2
+ghMEDfunctionfunctionfBasicsalpha1	beta0	delta1	mu0	lambda-1/2
+ghModefunctionfunctionfBasicsalpha1	beta0	delta1	mu0	lambda-1/2
+ghMomentsfunctionfunctionfBasicsorder	typec("raw", "central", "mu")	alpha1	beta0	delta1	mu0	lambda-1/2
+ghSkewfunctionfunctionfBasicsalpha1	beta0	delta1	mu0	lambda-1/2
+ghSKEWfunctionfunctionfBasicsalpha1	beta0	delta1	mu0	lambda-1/2
+ghSliderfunctionfunctionfBasicsNO_ARGS
+ghtFitfunctionfunctionfBasicsx	beta0.1	delta1	mu0	nu10	scaleTRUE	doplotTRUE	span"auto"	traceTRUE	titleNULL	descriptionNULL	...
+ghtIQRfunctionfunctionfBasicsbeta0.1	delta1	mu0	nu10
+ghtKurtfunctionfunctionfBasicsbeta0.1	delta1	mu0	nu10
+ghtKURTfunctionfunctionfBasicsbeta0.1	delta1	mu0	nu10
+ghtMeanfunctionfunctionfBasicsbeta0.1	delta1	mu0	nu10
+ghtMEDfunctionfunctionfBasicsbeta0.1	delta1	mu0	nu10
+ghtModefunctionfunctionfBasicsbeta0.1	delta1	mu0	nu10
+ghtMomentsfunctionfunctionfBasicsorder	typec("raw", "central", "mu")	beta0.1	delta1	mu0	nu10
+ghtSkewfunctionfunctionfBasicsbeta0.1	delta1	mu0	nu10
+ghtSKEWfunctionfunctionfBasicsbeta0.1	delta1	mu0	nu10
+ghtVarfunctionfunctionfBasicsbeta0.1	delta1	mu0	nu10
+ghVarfunctionfunctionfBasicsalpha1	beta0	delta1	mu0	lambda-1/2
+gldFitfunctionfunctionfBasicsx	lambda10	lambda2-1	lambda3-1/8	lambda4-1/8	methodc("mle", "mps", "gof", "hist", "rob")	scaleNA	doplotTRUE	addFALSE	span"auto"	traceTRUE	titleNULL	descriptionNULL	...
+gldIQRfunctionfunctionfBasicslambda10	lambda2-1	lambda3-1/8	lambda4-1/8
+gldKURTfunctionfunctionfBasicslambda10	lambda2-1	lambda3-1/8	lambda4-1/8
+gldMEDfunctionfunctionfBasicslambda10	lambda2-1	lambda3-1/8	lambda4-1/8
+gldModefunctionfunctionfBasicslambda10	lambda2-1	lambda3-1/8	lambda4-1/8
+gldSKEWfunctionfunctionfBasicslambda10	lambda2-1	lambda3-1/8	lambda4-1/8
+greyPalettefunctionfunctionfBasicsn64	...
+gridVectorfunctionfunctionfBasicsx	yNULL
+heatPalettefunctionfunctionfBasicsn64	...
+HeavisidefunctionfunctionfBasicsx	a0
+hgridfunctionfunctionfBasicsnyNULL	...
+hilbertfunctionfunctionfBasicsn
+histPlotfunctionfunctionfBasicsx	labelsTRUE	col"steelblue"	fitTRUE	titleTRUE	gridTRUE	rugTRUE	skipFALSE	...
+hypFitfunctionfunctionfBasicsx	alpha1	beta0	delta1	mu0	scaleTRUE	doplotTRUE	span"auto"	traceTRUE	titleNULL	descriptionNULL	...
+hypIQRfunctionfunctionfBasicsalpha1	beta0	delta1	mu0
+hypKurtfunctionfunctionfBasicsalpha1	beta0	delta1	mu0
+hypKURTfunctionfunctionfBasicsalpha1	beta0	delta1	mu0
+hypMeanfunctionfunctionfBasicsalpha1	beta0	delta1	mu0
+hypMEDfunctionfunctionfBasicsalpha1	beta0	delta1	mu0
+hypModefunctionfunctionfBasicsalpha1	beta0	delta1	mu0	pmc(1, 2, 3, 4)
+hypMomentsfunctionfunctionfBasicsorder	typec("raw", "central", "mu")	alpha1	beta0	delta1	mu0
+hypSkewfunctionfunctionfBasicsalpha1	beta0	delta1	mu0
+hypSKEWfunctionfunctionfBasicsalpha1	beta0	delta1	mu0
+hypSliderfunctionfunctionfBasicsNO_ARGS
+hypVarfunctionfunctionfBasicsalpha1	beta0	delta1	mu0
+interactivePlotfunctionfunctionfBasicsx	choicespaste("Plot", 1:9)	plotFUNpaste("plot.", 1:9, sep = "")	which"all"	...
+invfunctionfunctionfBasicsx
+isPositiveDefinitefunctionfunctionfBasicsx
+jarqueberaTestfunctionfunctionfBasicsx	titleNULL	descriptionNULL
+jbTestfunctionfunctionfBasicsx	titleNULL	descriptionNULL
+kendallTestfunctionfunctionfBasicsx	y	titleNULL	descriptionNULL
+krigeInterpfunctionfunctionfBasicsx	yNULL	zNULL	gridPoints21	xoseq(min(x), max(x), length = gridPoints)	yoseq(min(y), max(y), length = gridPoints)	extrapFALSE	polDegree6
+kronfunctionfunctionfBasicsx	y
+ks2TestfunctionfunctionfBasicsx	y	titleNULL	descriptionNULL
+ksnormTestfunctionfunctionfBasicsx	titleNULL	descriptionNULL
+lacfPlotfunctionfunctionfBasicsx	n12	lag.max20	typec("returns", "values")	labelsTRUE	...
+lillieTestfunctionfunctionfBasicsx	titleNULL	descriptionNULL
+linearInterpfunctionfunctionfBasicsx	yNULL	zNULL	gridPoints21	xoseq(min(x), max(x), length = gridPoints)	yoseq(min(y), max(y), length = gridPoints)
+linearInterppfunctionfunctionfBasicsx	yNULL	zNULL	xo	yo
+listDescriptionfunctionfunctionfBasicspackage	character.onlyFALSE
+listFunctionsfunctionfunctionfBasicspackage	character.onlyFALSE
+listIndexfunctionfunctionfBasicspackage	character.onlyFALSE
+locationTestfunctionfunctionfBasicsx	y	methodc("t", "kw2")	titleNULL	descriptionNULL
+logDensityPlotfunctionfunctionfBasicsx	labelsTRUE	col"steelblue"	robustTRUE	titleTRUE	gridTRUE	rugTRUE	skipFALSE	...
+makePositiveDefinitefunctionfunctionfBasicsx
+maxddStatsfunctionfunctionfBasicsmean0	sd1	horizon1000
+monoPalettefunctionfunctionfBasicsn	namec("redmono", "greenmono", "bluemono")
+nFitfunctionfunctionfBasicsx	doplotTRUE	span"auto"	titleNULL	descriptionNULL	...
+nigFitfunctionfunctionfBasicsx	alpha1	beta0	delta1	mu0	methodc("mle", "gmm", "mps", "vmps")	scaleTRUE	doplotTRUE	span"auto"	traceTRUE	titleNULL	descriptionNULL	...
+nigIQRfunctionfunctionfBasicsalpha1	beta0	delta1	mu0
+nigKurtfunctionfunctionfBasicsalpha1	beta0	delta1	mu0
+nigKURTfunctionfunctionfBasicsalpha1	beta0	delta1	mu0
+nigMeanfunctionfunctionfBasicsalpha1	beta0	delta1	mu0
+nigMEDfunctionfunctionfBasicsalpha1	beta0	delta1	mu0
+nigModefunctionfunctionfBasicsalpha1	beta0	delta1	mu0
+nigMomentsfunctionfunctionfBasicsorder	typec("raw", "central", "mu")	alpha1	beta0	delta1	mu0
+nigShapeTrianglefunctionfunctionfBasicsobject	addFALSE	labelsTRUE	...
+nigSkewfunctionfunctionfBasicsalpha1	beta0	delta1	mu0
+nigSKEWfunctionfunctionfBasicsalpha1	beta0	delta1	mu0
+nigSliderfunctionfunctionfBasicsNO_ARGS
+nigVarfunctionfunctionfBasicsalpha1	beta0	delta1	mu0
+normfunctionfunctionfBasicsx	p2
+normalTestfunctionfunctionfBasicsx	methodc("sw", "jb")	na.rmFALSE
+normIQRfunctionfunctionfBasicsmean0	sd1
+normKURTfunctionfunctionfBasicsmean0	sd1
+normMEDfunctionfunctionfBasicsmean0	sd1
+normSKEWfunctionfunctionfBasicsmean0	sd1
+pacfPlotfunctionfunctionfBasicsx	labelsTRUE	...
+pascalfunctionfunctionfBasicsn
+pchiTestfunctionfunctionfBasicsx	titleNULL	descriptionNULL
+pdlfunctionfunctionfBasicsx	d2	q3	trimFALSE
+pearsonTestfunctionfunctionfBasicsx	y	titleNULL	descriptionNULL
+pghfunctionfunctionfBasicsq	alpha1	beta0	delta1	mu0	lambda-1/2
+pghtfunctionfunctionfBasicsq	beta0.1	delta1	mu0	nu10
+pgldfunctionfunctionfBasicsq	lambda10	lambda2-1	lambda3-1/8	lambda4-1/8
+phypfunctionfunctionfBasicsq	alpha1	beta0	delta1	mu0	pmc("1", "2", "3", "4")	...
+pmaxddfunctionfunctionfBasicsq	sd1	horizon100	N1000
+pnigfunctionfunctionfBasicsq	alpha1	beta0	delta1	mu0
+print.controlfunctionfunctionfBasicsx	...
+psghfunctionfunctionfBasicsq	zeta1	rho0	lambda1
+psghtfunctionfunctionfBasicsq	beta0.1	delta1	mu0	nu10
+psnigfunctionfunctionfBasicsq	zeta1	rho0
+pssdfunctionfunctionfBasicsq	param
+qghfunctionfunctionfBasicsp	alpha1	beta0	delta1	mu0	lambda-1/2
+qghtfunctionfunctionfBasicsp	beta0.1	delta1	mu0	nu10
+qgldfunctionfunctionfBasicsp	lambda10	lambda2-1	lambda3-1/8	lambda4-1/8
+qhypfunctionfunctionfBasicsp	alpha1	beta0	delta1	mu0	pmc("1", "2", "3", "4")	...
+qnigfunctionfunctionfBasicsp	alpha1	beta0	delta1	mu0
+qqghtPlotfunctionfunctionfBasicsx	labelsTRUE	col"steelblue"	pch19	titleTRUE	mtextTRUE	gridFALSE	rugTRUE	scaleTRUE	...
+qqgldPlotfunctionfunctionfBasicsx	labelsTRUE	col"steelblue"	pch19	titleTRUE	mtextTRUE	gridFALSE	rugTRUE	scaleTRUE	...
+qqnigPlotfunctionfunctionfBasicsx	labelsTRUE	col"steelblue"	pch19	titleTRUE	mtextTRUE	gridFALSE	rugTRUE	scaleTRUE	...
+qqnormPlotfunctionfunctionfBasicsx	labelsTRUE	col"steelblue"	pch19	titleTRUE	mtextTRUE	gridFALSE	rugTRUE	scaleTRUE	...
+qsghfunctionfunctionfBasicsp	zeta1	rho0	lambda1
+qsghtfunctionfunctionfBasicsp	beta0.1	delta1	mu0	nu10
+qsnigfunctionfunctionfBasicsp	zeta1	rho0
+qssdfunctionfunctionfBasicsp	param
+qualiPalettefunctionfunctionfBasicsn	namec("Accent", "Dark2", "Paired", "Pastel1", "Pastel2", "Set1", 	name    "Set2", "Set3")
+rainbowPalettefunctionfunctionfBasicsn64	...
+RampfunctionfunctionfBasicsx	a0
+rampPalettefunctionfunctionfBasicsn	namec("blue2red", "green2red", "blue2green", "purple2green", "blue2yellow", 	name    "cyan2magenta")
+returnPlotfunctionfunctionfBasicsx	labelsTRUE	type"l"	col"steelblue"	titleTRUE	gridTRUE	boxTRUE	rugTRUE	...
+returnSeriesGUIfunctionfunctionfBasicsx
+rghfunctionfunctionfBasicsn	alpha1	beta0	delta1	mu0	lambda-1/2
+rghtfunctionfunctionfBasicsn	beta0.1	delta1	mu0	nu10
+rgldfunctionfunctionfBasicsn100	lambda10	lambda2-1	lambda3-1/8	lambda4-1/8
+rhypfunctionfunctionfBasicsn	alpha1	beta0	delta1	mu0	pmc("1", "2", "3", "4")
+rkfunctionfunctionfBasicsx	methodc("qr", "chol")
+rmaxddfunctionfunctionfBasicsn	mean0	sd1	horizon100
+rnigfunctionfunctionfBasicsn	alpha1	beta0	delta1	mu0
+rnorm.lcgfunctionfunctionfBasicsn	mean0	sd1
+rowAvgsfunctionfunctionfBasicsx	...
+rowIdsfunctionfunctionfBasicsx	...
+rowIds<-functionfunctionfBasicsx	value
+rowKurtosisfunctionfunctionfBasicsx	...
+rowMaxsfunctionfunctionfBasicsx	...
+rowMinsfunctionfunctionfBasicsx	...
+rowProdsfunctionfunctionfBasicsx	...
+rowQuantilesfunctionfunctionfBasicsx	prob0.05	...
+rowSdsfunctionfunctionfBasicsx	...
+rowSkewnessfunctionfunctionfBasicsx	...
+rowStatsfunctionfunctionfBasicsx	FUN	...
+rowStdevsfunctionfunctionfBasicsx	...
+rowVarsfunctionfunctionfBasicsx	...
+rowVecfunctionfunctionfBasicsx
+rsghfunctionfunctionfBasicsn	zeta1	rho0	lambda1
+rsghtfunctionfunctionfBasicsn	beta0.1	delta1	mu0	nu10
+rsnigfunctionfunctionfBasicsn	zeta1	rho0
+rssdfunctionfunctionfBasicsn	param
+rt.lcgfunctionfunctionfBasicsn	df
+runif.lcgfunctionfunctionfBasicsn	min0	max1
+sampleIQRfunctionfunctionfBasicsx
+sampleKURTfunctionfunctionfBasicsx
+sampleLmomentsfunctionfunctionfBasicsx	rmax4
+sampleMEDfunctionfunctionfBasicsx
+sampleSKEWfunctionfunctionfBasicsx
+scaleTestfunctionfunctionfBasicsx	y	methodc("ansari", "mood")	titleNULL	descriptionNULL
+scalinglawPlotfunctionfunctionfBasicsx	spanceiling(log(length(x)/252)/log(2))	doplotTRUE	labelsTRUE	traceTRUE	...
+seqPalettefunctionfunctionfBasicsn	namec("Blues", "BuGn", "BuPu", "GnBu", "Greens", "Greys", "Oranges", 	name    "OrRd", "PuBu", "PuBuGn", "PuRd", "Purples", "RdPu", "Reds", 	name    "YlGn", "YlGnBu", "YlOrBr", "YlOrRd")
+seriesPlotfunctionfunctionfBasicsx	labelsTRUE	type"l"	col"steelblue"	titleTRUE	gridTRUE	boxTRUE	rugTRUE	...
+set.lcgseedfunctionfunctionfBasicsseed4711
+sfTestfunctionfunctionfBasicsx	titleNULL	descriptionNULL
+sghFitfunctionfunctionfBasicsx	zeta1	rho0	lambda1	include.lambdaTRUE	scaleTRUE	doplotTRUE	span"auto"	traceTRUE	titleNULL	descriptionNULL	...
+shapiroTestfunctionfunctionfBasicsx	titleNULL	descriptionNULL
+showfunctionfunctionfBasicsobject
+SignfunctionfunctionfBasicsx	a0
+snigFitfunctionfunctionfBasicsx	zeta1	rho0	scaleTRUE	doplotTRUE	span"auto"	traceTRUE	titleNULL	descriptionNULL	...
+spearmanTestfunctionfunctionfBasicsx	y	titleNULL	descriptionNULL
+ssdFitfunctionfunctionfBasicsx
+stableFitfunctionfunctionfBasicsx	alpha1.75	beta0	gamma1	delta0	typec("q", "mle")	doplotTRUE	controllist()	traceFALSE	titleNULL	descriptionNULL
+stableSliderfunctionfunctionfBasicscol"steelblue"	col.med"gray30"
+stdevfunctionfunctionfBasicsx	na.rmFALSE
+symbolTablefunctionfunctionfBasicsfontpar("font")	cex0.7
+teffectPlotfunctionfunctionfBasicsx	deltasseq(from = 0.2, to = 3, by = 0.2)	lag.max10	ymaxNA	standardizeTRUE	labelsTRUE	...
+termPlotfunctionfunctionfBasicsmodel	...
+terrainPalettefunctionfunctionfBasicsn64	...
+tFitfunctionfunctionfBasicsx	df4	doplotTRUE	span"auto"	traceFALSE	titleNULL	descriptionNULL	...
+timPalettefunctionfunctionfBasicsn64
+topoPalettefunctionfunctionfBasicsn64	...
+trfunctionfunctionfBasicsx
+triangfunctionfunctionfBasicsx
+TriangfunctionfunctionfBasicsx
+tsHessianfunctionfunctionfBasicsx	fun	...
+tslagfunctionfunctionfBasicsx	k1	trimFALSE
+varianceTestfunctionfunctionfBasicsx	y	methodc("varf", "bartlett", "fligner")	titleNULL	descriptionNULL
+vecfunctionfunctionfBasicsx
+vechfunctionfunctionfBasicsx
+vgridfunctionfunctionfBasicsnxNULL	...
+volatilityfunctionfunctionfBasicsobject	...

@@ -1,0 +1,3 @@
+hetcorfunctionfunctionpolycordata	...	MLFALSE	std.errTRUE	bins4	pdTRUE
+polychorfunctionfunctionpolycorx	y	MLFALSE	controllist()	std.errFALSE	maxcor0.9999
+polyserialfunctionfunctionpolycorx	y	MLFALSE	controllist()	std.errFALSE	maxcor0.9999	bins4

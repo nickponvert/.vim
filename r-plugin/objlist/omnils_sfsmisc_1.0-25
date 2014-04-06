@@ -1,0 +1,121 @@
+AsciiToIntfunctionfunctionsfsmiscstrings
+as.intBasefunctionfunctionsfsmiscx	base2
+as.integer.basedIntfunctionfunctionsfsmiscx	...
+axTexprfunctionfunctionsfsmiscside	ataxTicks(side, axp = axp, usr = usr, log = log)	axpNULL	usrNULL	logNULL	drop.1FALSE
+bl.stringfunctionfunctionsfsmiscno
+capture.and.writefunctionfunctionsfsmiscEXPR	first	last2	middleNA	i.middle	dotdots" ....... "	n.dots2
+ccatfunctionfunctionsfsmisc...
+chars8bitfunctionfunctionsfsmisci1:255
+C.MonatsnamecharactercharactersfsmiscNot a function
+code2nfunctionfunctionsfsmiscncod	ndig1	dec.codesc("", "d", "c", "k")
+col01scalefunctionfunctionsfsmiscmat	scale.funcfunction(x) diff(range(x))	location.func
+colcenterfunctionfunctionsfsmiscmat
+compresid2wayfunctionfunctionsfsmiscaov	dataNULL	fac1:2	labelTRUE	numlabelFALSE	xlabNULL	ylabNULL	mainNULL	colc(2, 3, 4, 4)	ltyc(1, 1, 2, 4)	pchc(1, 2)
+cum.Vert.funktfunctionfunctionsfsmiscx	QuartileTRUE	titelTRUE	DatumTRUE	rang.axisn <= 20	xlab""	main""	...
+C.weekdaycharactercharactersfsmiscNot a function
+C.WochentagcharactercharactersfsmiscNot a function
+C.WochentagkurzcharactercharactersfsmiscNot a function
+D1D2functionfunctionsfsmiscx	y	xout	spar.offset0.1384	deriv1:2	spl.sparNULL
+D1ssfunctionfunctionsfsmiscx	y	xout	spar.offset0.1384	spl.sparNULL
+D1trfunctionfunctionsfsmiscy	x1
+D2ssfunctionfunctionsfsmiscx	y	xout	spar.offset0.1384	spl.sparNULL
+dDAfunctionfunctionsfsmiscx	cll	poolTRUE
+diagDAfunctionfunctionsfsmiscls	cll	ts	poolTRUE
+diagXfunctionfunctionsfsmiscn
+digitsBasefunctionfunctionsfsmiscx	base2	ndigits1 + floor(1e-09 + log(max(x), base))
+Duplicatedfunctionfunctionsfsmiscv	incomparablesFALSE	fromLastFALSE
+eaxisfunctionfunctionsfsmiscside	atif (log && getRversion() >= "2.14.0") axTicks(side, log = log, 	at    nintLog = nintLog) else axTicks(side, log = log)	labelsNULL	logNULL	f.smalltcl3/5	at.smallNULL	small.multNULL	small.argslist()	draw.between.ticksTRUE	between.max4	outer.atTRUE	drop.1TRUE	las1	nintLogmax(10, par("lab")[2L - is.x])	max.atInf	...
+ecdf.ksCIfunctionfunctionsfsmiscx	mainNULL	subNULL	xlabdeparse(substitute(x))	ci.col"red"	...
+ellipsePointsfunctionfunctionsfsmisca	b	alpha0	locc(0, 0)	n201	keep.ab.orderFALSE
+empty.dimnamesfunctionfunctionsfsmisca
+errbarfunctionfunctionsfsmiscx	y	yplus	yminus	cap0.015	ylimrange(y, yplus, yminus)	xlabdeparse(substitute(x))	ylabdeparse(substitute(y))	...
+factorizefunctionfunctionsfsmiscn	verboseFALSE
+f.robftestfunctionfunctionsfsmiscobject	var-1
+hatMatfunctionfunctionsfsmiscx	traceFALSE	pred.smfunction(x, y, ...) predict(smooth.spline(x, y, ...), x = x)$y	...
+hist.bxpfunctionfunctionsfsmiscx	...
+histBxpfunctionfunctionsfsmiscx	nclass	breaks	probabilityFALSE	include.lowestTRUE	xlabdeparse(substitute(x))	...	width0.2	boxcol3	medcol2	medlwd5	whisklty2	staplelty1
+icharfunctionfunctionsfsmiscstrings
+integrate.xyfunctionfunctionsfsmiscx	fx	a	b	use.splineTRUE	xtol2e-08
+inv.seqfunctionfunctionsfsmisci
+iterate.lin.recursionfunctionfunctionsfsmiscx	coeff	delta0	nr.it
+KSdfunctionfunctionsfsmiscn
+lastfunctionfunctionsfsmiscx	length.out1	na.rmFALSE
+linesHyperb.lmfunctionfunctionsfsmiscobject	c.prob0.95	confidenceFALSE	kif (confidence) Inf else 1	col2	lty2	do.ablineTRUE
+list2matfunctionfunctionsfsmiscx	checkTRUE
+lseqfunctionfunctionsfsmiscfrom	to	length
+margin2tablefunctionfunctionsfsmiscx	totName"sum"	name.if.emptyFALSE
+mat2texfunctionfunctionsfsmiscx	file"mat.tex"	nam.center"l"	col.center"c"	appendTRUE	digits3	title
+mplfunctionfunctionsfsmiscmat	...
+mult.figfunctionfunctionsfsmiscnr.plots	mfrow	mfcol	marPrep(0, 4)	mgpc(1.5, 0.6, 0)	marmarP + 0.1 + c(4, 4, 2, 1)	omac(0, 0, tit.wid, 0)	mainNULL	tit.widif (is.null(main)) 0 else 1 + 1.5 * cex.main	quiet.Device == "postscript"	cex.mainpar("cex.main")	line.maincex.main - 1/2	col.mainpar("col.main")	font.mainpar("font.main")	...
+n.codefunctionfunctionsfsmiscn	ndig1	dec.codesc("", "d", "c", "k")
+nearcorfunctionfunctionsfsmiscR	eig.tol1e-06	conv.tol1e-07	posd.tol1e-08	maxits100	verboseFALSE
+n.plotfunctionfunctionsfsmiscx	yNULL	namNULL	abbrn >= 20 || max(nchar(nam)) >= 8	xlabNULL	ylabNULL	log""	cexpar("cex")	colpar("col")	...
+nr.sign.chgfunctionfunctionsfsmiscy
+p.arrowsfunctionfunctionsfsmiscx1	y1	x2	y2	size1	width(sqrt(5) - 1)/4/cin	fill2	...
+paste.vecfunctionfunctionsfsmiscname	digitsoptions()$digits
+p.datumfunctionfunctionsfsmiscouterFALSE	cex0.75	...
+p.dchisqfunctionfunctionsfsmiscnu	h0.col"light gray"	...
+pdf.dofunctionfunctionsfsmiscfile	paper"default"	width-1	height-1	onefileFALSE	titleNULL	version"1.4"	quietFALSE	...
+pdf.endfunctionfunctionsfsmisccall.viewerNULL	commandgetOption("pdfviewer")	debuggetOption("verbose")
+pdf.latexfunctionfunctionsfsmiscfile	height5 + main.space * 1.25	width9.5	main.spaceFALSE	lab.space	paper"special"	titleNULL	labc(10, 10, 7)	mgp.labc(1.6, 0.7, 0)	marc(4, 4, 0.9, 1.1)	...
+p.dgammafunctionfunctionsfsmiscshape	h0.col"light gray"	...
+p.dnormfunctionfunctionsfsmiscmu0	s1	h0.col"light gray"	ms.linesTRUE	ms.col"gray"	...
+p.hboxpfunctionfunctionsfsmiscx	y.lo	y.hi	boxcol3	medcol2	medlwd5	whisklty2	staplelty1
+pl.dsfunctionfunctionsfsmisc...
+plotDSfunctionfunctionsfsmiscx	yd	ys	xlab""	ylab""	ylimrrange(c(yd, ys))	xpdTRUE	do.segTRUE	seg.p0.95	segPlist(lty = 2, lwd = 1, col = 2)	linPlist(lty = 1, lwd = 2.5, col = 3)	...
+plotStepfunctionfunctionsfsmiscti	y	cad.lagTRUE	verticals!cad.lag	left.points	right.pointsFALSE	end.pointsFALSE	addFALSE	pchpar("pch")	xlabdeparse(substitute(ti))	ylabdeparse(substitute(y))	mainNULL	...
+p.mfunctionfunctionsfsmiscmat	...
+pmax.safunctionfunctionsfsmiscscalar	arr
+pmin.safunctionfunctionsfsmiscscalar	arr
+polyn.evalfunctionfunctionsfsmisccoef	x
+posdefifyfunctionfunctionsfsmiscm	methodc("someEVadd", "allEVadd")	symmetricTRUE	eigen.meigen(m, symmetric = symmetric)	eps.ev1e-07
+p.pllinesfunctionfunctionsfsmiscx	y	group	ltyc(1, 3, 2, 4)	...
+p.profileTracesfunctionfunctionsfsmiscx	cex1	subtitlepaste("t-Profiles and traces of ", deparse(attr(x, "summary")$formula))
+p.res.2factfunctionfunctionsfsmiscx	y	z	restricted	notchFALSE	xlabNULL	ylabNULL	mainNULL
+p.res.2xfunctionfunctionsfsmiscx	y	z	restrictedNULL	size1	slwd1	scol2:3	xlabNULL	ylabNULL	mainNULL	xlimrange(x)	ylimrange(y)	...
+pretty10expfunctionfunctionsfsmiscx	drop.1FALSE	digits.fuzz7
+primesfunctionfunctionsfsmiscn
+printTable2functionfunctionsfsmisctable2	digits3
+prt.DEBUGfunctionfunctionsfsmisc...	LEVEL1
+p.scalesfunctionfunctionsfsmiscunitrelsysize * 2.54 * min(pin)	relsysize0.05
+ps.dofunctionfunctionsfsmiscfile	width-1	height-1	onefileFALSE	horizontalFALSE	titleNULL	...
+ps.endfunctionfunctionsfsmisccall.gvNULL	commandgetOption("eps_view")	debuggetOption("verbose")
+ps.latexfunctionfunctionsfsmiscfile	height5 + main.space * 1.25	width9.5	main.spaceFALSE	lab.space	paper"special"	titleNULL	labc(10, 10, 7)	mgp.labc(1.6, 0.7, 0)	marc(4, 4, 0.9, 1.1)	...
+p.tachoPlotfunctionfunctionsfsmiscx	y	z	anglec(pi/4, 3 * pi/4)	size	methodc("robust", "sensitive", "rank")	legendTRUE	show.method	xlabdeparse(substitute(x))	ylabdeparse(substitute(y))	xlim	ylim	...
+p.tsfunctionfunctionsfsmiscx	nrplotsmax(1, min(8, n%/%400))	overlapnk%/%16	date.xNULL	do.x.axis!is.null(date.x)	do.x.rugFALSE	ax.format	main.titNULL	ylimNULL	ylab""	xlab"Time"	quietFALSE	mgpc(1.25, 0.5, 0)	...
+quadrantfunctionfunctionsfsmiscx	yNULL
+QUniffunctionfunctionsfsmiscn	min0	max1	n.min1	p	leap1
+repCharfunctionfunctionsfsmiscchar	no
+rot2functionfunctionsfsmiscxy	phi
+roundfixSfunctionfunctionsfsmiscx	methodc("offset-round", "round+fix", "1greedy")
+rrangefunctionfunctionsfsmiscx	range1	coef1.5	na.rmTRUE
+seqXtendfunctionfunctionsfsmiscx	length.	methodc("simple", "aim", "interpolate")	fromNULL	toNULL
+sHaltonfunctionfunctionsfsmiscn.max	n.min1	base2	leap1
+signifunctionfunctionsfsmiscx	digits6
+sourceAttachfunctionfunctionsfsmiscfile	pos2	namepaste(abbreviate(gsub(fsep, "", dirname(file)), 12, method = "both.sides"), 	name    basename(file), sep = fsep)	keep.sourcegetOption("keep.source.pkgs")	warn.conflictsTRUE
+strcodesfunctionfunctionsfsmiscx	tablechars8bit(1:255)
+str_datafunctionfunctionsfsmiscpkgs	filterFUN	...
+Sys.cpuinfofunctionfunctionsfsmiscNO_ARGS
+Sys.memGBfunctionfunctionsfsmisckind"MemTotal"
+Sys.meminfofunctionfunctionsfsmiscNO_ARGS
+Sys.MIPSfunctionfunctionsfsmiscNO_ARGS
+Sys.psfunctionfunctionsfsmiscprocessSys.getpid()	fieldsc("pid", "pcpu", "time", "vsz", "comm")	usefilelength(fields) > 10	ps.cmdSys.ps.cmd()	verbosegetOption("verbose")	warn.multiverbose || any(fields != "ALL")
+Sys.ps.cmdfunctionfunctionsfsmiscNO_ARGS
+Sys.sizesfunctionfunctionsfsmiscprocessSys.getpid()	ps.cmdSys.ps.cmd()
+TA.plotfunctionfunctionsfsmisclm.res	fitfitted(lm.res)	resresiduals(lm.res, type = "pearson")	labelsNULL	mainmk.main()	xlab"Fitted values"	draw.smoothn >= 10	show.callTRUE	show.2sigmaTRUE	lo.iterNULL	lo.cexNULL	par0linelist(lty = 2, col = "gray")	parSmoothlist(lwd = 1.5, lty = 4, col = 2)	parSigmalist(lwd = 1.2, lty = 3, col = 4)	...
+tapplySimplfunctionfunctionsfsmiscX	INDEX	FUN	...
+tkdensityfunctionfunctionsfsmiscy	n1024	log.bwTRUE	showvalueTRUE	xlimNULL	do.rugsize < 1000	kernelsNULL	from.fif (log.bw) -2 else 1/1000	to.fif (log.bw) +2.2 else 2	col2
+u.assign0functionfunctionsfsmiscx	value	immediateFALSE
+u.boxplot.xfunctionfunctionsfsmiscn	j1:n	fullrange100
+u.datefunctionfunctionsfsmiscshortFALSE
+u.datumdecodefunctionfunctionsfsmiscd	YMDHMnamesc("Jahr", "Monat", "Tag", "Std", "Min")
+u.DatumvonheutefunctionfunctionsfsmiscW.tag2	ZeitFALSE
+u.get0functionfunctionsfsmiscx
+u.logfunctionfunctionsfsmiscx	c1
+uniffunctionfunctionsfsmiscn	round.dig1 + trunc(log10(n))
+uniqueLfunctionfunctionsfsmiscx	isuniq!duplicated(x)	need.sortis.unsorted(x)
+u.sysfunctionfunctionsfsmisc...	internTRUE
+vcatfunctionfunctionsfsmiscvec	sep" "
+wrapFormulafunctionfunctionsfsmiscf	data	wrapString"s(*)"
+xy.gridfunctionfunctionsfsmiscx	y
+xy.unique.xfunctionfunctionsfsmiscx	y	w	fun.mean

@@ -1,0 +1,7 @@
+bkdefunctionfunctionKernSmoothx	kernel"normal"	canonicalFALSE	bandwidth	range.x	truncateTRUE
+bkde2DfunctionfunctionKernSmoothx	bandwidth	gridsizec(51L, 51L)	range.x	truncateTRUE
+bkfefunctionfunctionKernSmoothx	drv	bandwidth	range.x	binnedFALSE	truncateTRUE
+dpihfunctionfunctionKernSmoothx	scalest"minim"	range.xrange(x)	truncateTRUE
+dpikfunctionfunctionKernSmoothx	scalest"minim"	kernel"normal"	canonicalFALSE	range.xrange(x)	truncateTRUE
+dpillfunctionfunctionKernSmoothx	y	blockmax5	divisor20	trim0.01	proptrun0.05	range.xrange(x)	truncateTRUE
+locpolyfunctionfunctionKernSmoothx	y	degree	kernel"normal"	bandwidth	bwdisc25	range.x	binnedFALSE	truncateTRUE

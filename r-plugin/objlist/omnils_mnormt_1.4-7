@@ -1,0 +1,10 @@
+biv.nt.probfunctionfunctionmnormtdf	lower	upper	mean	S
+dmnormfunctionfunctionmnormtx	meanrep(0, d)	varcov	logFALSE
+dmtfunctionfunctionmnormtx	meanrep(0, d)	S	dfInf	logFALSE
+pd.solvefunctionfunctionmnormtx	silentFALSE	log.detFALSE
+pmnormfunctionfunctionmnormtx	meanrep(0, length(x))	varcov	...
+pmtfunctionfunctionmnormtx	meanrep(0, length(x))	S	dfInf	...
+rmnormfunctionfunctionmnormtn1	meanrep(0, d)	varcov
+rmtfunctionfunctionmnormtn1	meanrep(0, d)	S	dfInf
+sadmvnfunctionfunctionmnormtlower	upper	mean	varcov	maxpts2000 * d	abseps1e-06	releps0
+sadmvtfunctionfunctionmnormtdf	lower	upper	mean	S	maxpts2000 * d	abseps1e-06	releps0

@@ -1,0 +1,3 @@
+syn keyword rFunction hetcor
+syn keyword rFunction polychor
+syn keyword rFunction polyserial

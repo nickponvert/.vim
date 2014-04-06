@@ -1,0 +1,7 @@
+syn keyword rFunction bkde
+syn keyword rFunction bkde2D
+syn keyword rFunction bkfe
+syn keyword rFunction dpih
+syn keyword rFunction dpik
+syn keyword rFunction dpill
+syn keyword rFunction locpoly

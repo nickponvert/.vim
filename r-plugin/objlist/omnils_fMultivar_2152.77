@@ -1,0 +1,27 @@
+contour.gridDatafunctionfunctionfMultivarx	addImageTRUE	...
+dcauchy2dfunctionfunctionfMultivarx	y	rho0
+delliptical2dfunctionfunctionfMultivarx	y	rho0	paramNULL	typec("norm", "cauchy", "t", "logistic", "laplace", "kotz", "epower")	outputc("vector", "list")
+density2dfunctionfunctionfMultivarx	yNULL	n20	hNULL	limitsc(range(x), range(y))
+dmvsnormfunctionfunctionfMultivarx	dim2	murep(0, dim)	Omegadiag(dim)	alpharep(0, dim)
+dmvstfunctionfunctionfMultivarx	dim2	murep(0, dim)	Omegadiag(dim)	alpharep(0, dim)	df4
+dnorm2dfunctionfunctionfMultivarx	y	rho0
+dt2dfunctionfunctionfMultivarx	y	rho0	nu4
+grid2dfunctionfunctionfMultivarx(0:10)/10	y
+gridDatafunctionfunctionfMultivarx(-10:10)/10	y	zouter(x, y, function(x, y) (x^2 + y^2))
+hexBinningfunctionfunctionfMultivarx	yNULL	bins30
+hist2dfunctionfunctionfMultivarx	yNULL	nc(20, 20)
+integrate2dfunctionfunctionfMultivarfun	error1e-05	...
+mvFitfunctionfunctionfMultivarx	methodc("snorm", "st")	fixed.dfNA	titleNULL	descriptionNULL	traceFALSE	...
+pcauchy2dfunctionfunctionfMultivarx	y	rho0
+persp.gridDatafunctionfunctionfMultivarx	theta-40	phi30	col"steelblue"	ticktype"detailed"	...
+pmvsnormfunctionfunctionfMultivarq	dim2	murep(0, dim)	Omegadiag(dim)	alpharep(0, dim)
+pmvstfunctionfunctionfMultivarq	dim2	murep(0, dim)	Omegadiag(dim)	alpharep(0, dim)	df4
+pnorm2dfunctionfunctionfMultivarx	y	rho0
+pt2dfunctionfunctionfMultivarx	y	rho0	nu4
+rcauchy2dfunctionfunctionfMultivarn	rho0
+rmvsnormfunctionfunctionfMultivarn	dim2	murep(0, dim)	Omegadiag(dim)	alpharep(0, dim)
+rmvstfunctionfunctionfMultivarn	dim2	murep(0, dim)	Omegadiag(dim)	alpharep(0, dim)	df4
+rnorm2dfunctionfunctionfMultivarn	rho0
+rt2dfunctionfunctionfMultivarn	rho0	nu4
+showfunctionfunctionfMultivarobject
+squareBinningfunctionfunctionfMultivarx	yNULL	bins30
