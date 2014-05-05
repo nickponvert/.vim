@@ -1,0 +1,6 @@
+asCairoDevicefunctionfunctioncairoDevicewidget	pointsize10	width500	height500
+CairofunctionfunctioncairoDevicewidth7	height7	pointsize8	surfacec("screen", "png", "pdf", "ps", "svg")	filenameNULL
+Cairo_pdffunctionfunctioncairoDevicefilename	width7	height7	pointsize10
+Cairo_pngfunctionfunctioncairoDevicefilename	width7	height7	pointsize10
+Cairo_psfunctionfunctioncairoDevicefilename	width7	height7	pointsize10
+Cairo_svgfunctionfunctioncairoDevicefilename	width7	height7	pointsize10

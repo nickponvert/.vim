@@ -1,0 +1,175 @@
+addAttributesfunctionfunctionXMLnode	...	.attrsNULL	suppressNamespaceWarninggetOption("suppressXMLNamespaceWarning", FALSE)	appendTRUE
+addChildrenfunctionfunctionXMLnode	...	kidslist(...)	atNA	cdataFALSE	appendTRUE
+addNodefunctionfunctionXMLnode	parent	to	...
+addSiblingfunctionfunctionXMLnode	...	kidslist(...)	afterNA
+append.xmlNodefunctionfunctionXMLto	...
+append.XMLNodefunctionfunctionXMLto	...
+asXMLNodefunctionfunctionXMLx
+asXMLTreeNodefunctionfunctionXMLnode	env	idget(".nodeIdGenerator", env)(xmlName(node))	className"XMLTreeNode"
+catalogAddfunctionfunctionXMLorig	replace	type"rewriteURI"
+catalogClearTablefunctionfunctionXMLNO_ARGS
+catalogDumpfunctionfunctionXMLfileNametempfile()	asTextTRUE
+catalogLoadfunctionfunctionXMLfileNames
+catalogResolvefunctionfunctionXMLid	type"uri"	asIsFALSE	debugFALSE
+coercefunctionfunctionXMLfrom	to	strictTRUE
+comment.SAXfunctionfunctionXMLcontent	.stateNULL
+COMPACTnumericnumericXMLNot a function
+compareXMLDocsfunctionfunctionXMLa	b	...
+docNamefunctionfunctionXMLdoc	...
+docName<-functionfunctionXMLx	value
+DoctypefunctionfunctionXMLsystemcharacter()	publiccharacter()	name""
+DTDATTRnumericnumericXMLNot a function
+dtdElementfunctionfunctionXMLname	dtd
+dtdElementValidEntryfunctionfunctionXMLelement	name	posNULL
+dtdEntityfunctionfunctionXMLname	dtd
+dtdIsAttributefunctionfunctionXMLname	element	dtd
+DTDLOADnumericnumericXMLNot a function
+DTDVALIDnumericnumericXMLNot a function
+dtdValidElementfunctionfunctionXMLname	within	dtd	posNULL
+endElement.SAXfunctionfunctionXMLname	.stateNULL
+ensureNamespacefunctionfunctionXMLdoc	what
+entityDeclaration.SAXfunctionfunctionXMLname	base	sysId	publicId	notationName	.stateNULL
+findXIncludefunctionfunctionXMLx	asNodeFALSE	recursiveFALSE
+freefunctionfunctionXMLobj
+genericSAXHandlersfunctionfunctionXMLinclude	exclude	useDotNamesFALSE
+getChildrenStringsfunctionfunctionXMLnode	encodinggetEncoding(node)	asVectorTRUE	lenxmlSize(node)	addNamesTRUE
+getDefaultNamespacefunctionfunctionXMLdoc	nsxmlNamespaceDefinitions(doc, simplify = simplify)	simplifyFALSE
+getEncodingfunctionfunctionXMLobj	...
+getHTMLExternalFilesfunctionfunctionXMLdoc	xpQueryc("//img/@src", "//link/@href", "//script/@href", "//embed/@src")	baseURLdocName(doc)	relativeFALSE	asNodesFALSE	recursiveFALSE
+getHTMLLinksfunctionfunctionXMLdoc	externalOnlyTRUE	xpQuery"//a/@href"	baseURLdocName(doc)	relativeFALSE
+getLineNumberfunctionfunctionXMLnode	...
+getNodeLocationfunctionfunctionXMLnode	recursiveTRUE	fileOnlyFALSE
+getNodePositionfunctionfunctionXMLx
+getNodeSetfunctionfunctionXMLdoc	path	namespacesxmlNamespaceDefinitions(doc, simplify = TRUE)	funNULL	sessionEncoding	addFinalizerNA	...
+getRelativeURLfunctionfunctionXMLu	baseURL	sep"/"	addBaseTRUE	simplifyTRUE
+getSiblingfunctionfunctionXMLnode	afterTRUE	...
+getXIncludesfunctionfunctionXMLfilename	recursiveTRUE	skipcharacter()	omitPattern"\.(js|html?|txt|R|c)$"	namespacec(xi = "http://www.w3.org/2003/XInclude")	duplicatedTRUE
+getXMLErrorsfunctionfunctionXMLfilename	parse	...
+htmlParsefunctionfunctionXMLfile	ignoreBlanksTRUE	handlersNULL	replaceEntitiesFALSE	asTextFALSE	trimTRUE	validateFALSE	getDTDTRUE	isURLFALSE	asTreeFALSE	addAttributeNamespacesFALSE	useInternalNodesTRUE	isSchemaFALSE	fullNamespaceInfoFALSE	encodingcharacter()	useDotNameslength(grep("^\\.", names(handlers))) > 0	xincludeTRUE	addFinalizerTRUE	error	isHTMLTRUE	optionsinteger()	parentFirstFALSE
+htmlTreeParsefunctionfunctionXMLfile	ignoreBlanksTRUE	handlersNULL	replaceEntitiesFALSE	asTextFALSE	trimTRUE	validateFALSE	getDTDTRUE	isURLFALSE	asTreeFALSE	addAttributeNamespacesFALSE	useInternalNodesFALSE	isSchemaFALSE	fullNamespaceInfoFALSE	encodingcharacter()	useDotNameslength(grep("^\\.", names(handlers))) > 0	xincludeTRUE	addFinalizerTRUE	error	isHTMLTRUE	optionsinteger()	parentFirstFALSE
+HUGEnumericnumericXMLNot a function
+isXMLStringfunctionfunctionXMLstr
+libxmlFeaturesfunctionfunctionXMLNO_ARGS
+libxmlVersionfunctionfunctionXMLrunTimeFALSE
+makeClassTemplatefunctionfunctionXMLxnode	typescharacter()	default"ANY"	classNamexmlName(xnode)	whereglobalenv()
+matchNamespacesfunctionfunctionXMLdoc	namespaces	nsDefsxmlNamespaceDefinitions(doc, recursive = TRUE, simplify = FALSE)	defaultNsgetDefaultNamespace(doc, simplify = TRUE)
+names.XMLNodefunctionfunctionXMLx
+newHTMLDocfunctionfunctionXMLdtd"loose"	addFinalizerTRUE	namecharacter()	nodenewXMLNode("html", newXMLNode("head", addFinalizer = FALSE), 	node    newXMLNode("body", addFinalizer = FALSE), addFinalizer = FALSE)
+newXMLCDataNodefunctionfunctionXMLtext	parentNULL	docNULL	atNA	sep"\n"	addFinalizerNA
+newXMLCommentNodefunctionfunctionXMLtext	parentNULL	docNULL	atNA	addFinalizerNA
+newXMLDocfunctionfunctionXMLdtd""	namespacesNULL	addFinalizerTRUE	namecharacter()	nodeNULL	isHTMLFALSE
+newXMLDTDNodefunctionfunctionXMLnodeName	externalIDcharacter()	systemIDcharacter()	docNULL	addFinalizerNA
+newXMLNamespacefunctionfunctionXMLnode	namespace	prefixnames(namespace)	setFALSE
+newXMLNodefunctionfunctionXMLname	...	attrsNULL	namespacecharacter()	namespaceDefinitionscharacter()	docNULL	.childrenlist(...)	parentNULL	atNA	cdataFALSE	suppressNamespaceWarninggetOption("suppressXMLNamespaceWarning", FALSE)	siblingNULL	addFinalizerNA	noNamespacelength(namespace) == 0 && !missing(namespace)	fixNamespacesc(dummy = TRUE, default = TRUE)
+newXMLPINodefunctionfunctionXMLname	text	parentNULL	docNULL	atNA	addFinalizerNA
+newXMLTextNodefunctionfunctionXMLtext	parentNULL	docNULL	cdataFALSE	escapeEntitiesis(text, "AsIs")	addFinalizerNA
+NOBASEFIXnumericnumericXMLNot a function
+NOBLANKSnumericnumericXMLNot a function
+NOCDATAnumericnumericXMLNot a function
+NODICTnumericnumericXMLNot a function
+NOENTnumericnumericXMLNot a function
+NOERRORnumericnumericXMLNot a function
+NONETnumericnumericXMLNot a function
+NOWARNINGnumericnumericXMLNot a function
+NOXINCNODEnumericnumericXMLNot a function
+NSCLEANnumericnumericXMLNot a function
+OLD10numericnumericXMLNot a function
+OLDSAXnumericnumericXMLNot a function
+parseDTDfunctionfunctionXMLextId	asTextFALSE	name""	isURLFALSE	errorxmlErrorCumulator()
+parseURIfunctionfunctionXMLuri
+parseXMLAndAddfunctionfunctionXMLtxt	parentNULL	top"tmp"	nsDefscharacter()
+PEDANTICnumericnumericXMLNot a function
+processingInstruction.SAXfunctionfunctionXMLtarget	content	.stateNULL
+processXIncludefunctionfunctionXMLnode
+readHTMLListfunctionfunctionXMLdoc	trimTRUE	elFun	whichinteger()	...
+readHTMLTablefunctionfunctionXMLdoc	headerNA	colClassesNULL	skip.rowsinteger()	trimTRUE	elFun	as.data.frameTRUE	whichinteger()	...
+readKeyValueDBfunctionfunctionXMLdoc	...
+readSolrDocfunctionfunctionXMLdoc	...
+RECOVERnumericnumericXMLNot a function
+removeAttributesfunctionfunctionXMLnode	...	.attrsNULL	.namespaceFALSE	.all(length(list(...)) + length(.attrs)) == 0
+removeChildrenfunctionfunctionXMLnode	...	kidslist(...)	freeFALSE
+removeNodesfunctionfunctionXMLnode	freerep(FALSE, length(node))
+removeXMLNamespacesfunctionfunctionXMLnode	...	allFALSE	.elsunlist(list(...))
+replaceNodesfunctionfunctionXMLoldNode	newNode	...
+saveXMLfunctionfunctionXMLdoc	fileNULL	compression0	indentTRUE	prefix"<?xml version="1.0"?>\n"	doctypeNULL	encodinggetEncoding(doc)	...
+SAX1numericnumericXMLNot a function
+schemaValidationErrorHandlerfunctionfunctionXMLNO_ARGS
+setXMLNamespacefunctionfunctionXMLnode	namespace	appendFALSE
+showfunctionfunctionXMLobject
+sourcefunctionfunctionXMLfile	localFALSE	echo	print.eval	verbosegetOption("verbose")	prompt.echogetOption("prompt")	max.deparse.length150	chdirFALSE	encodinggetOption("encoding")	continue.echogetOption("continue")	skip.echo0	keep.sourcegetOption("keep.source")
+startElement.SAXfunctionfunctionXMLname	atts	.stateNULL
+supportsExpatfunctionfunctionXMLNO_ARGS
+supportsLibxmlfunctionfunctionXMLNO_ARGS
+text.SAXfunctionfunctionXMLcontent	.stateNULL
+toHTMLfunctionfunctionXMLx	contextNULL
+toString.XMLNodefunctionfunctionXMLx	...
+XINCLUDEnumericnumericXMLNot a function
+xmlfunctionfunctionXMLx
+xmlAncestorsfunctionfunctionXMLx	funNULL	...	addFinalizerNA	count-1L
+xmlApplyfunctionfunctionXMLX	FUN	...
+xmlAttributeTypefunctionfunctionXMLdef	defaultTypeFALSE
+xmlAttrsfunctionfunctionXMLnode	...
+xmlAttrs<-functionfunctionXMLnode	appendTRUE	suppressNamespaceWarninggetOption("suppressXMLNamespaceWarning", FALSE)	value
+xmlCDataNodefunctionfunctionXML...
+xmlChildrenfunctionfunctionXMLx	addNamesTRUE	...
+xmlChildren<-functionfunctionXMLx	...	value
+xmlCleanNamespacesfunctionfunctionXMLdoc	optionsinteger()	outdocName(doc)	...
+xmlClonefunctionfunctionXMLnode	recursiveTRUE	addFinalizerFALSE	...
+xmlCodeFilefunctionfunctionXMLf	parseFALSE
+xmlCommentNodefunctionfunctionXMLtext
+xmlContainsElementfunctionfunctionXMLname	dtd
+xmlContainsEntityfunctionfunctionXMLname	dtd
+xmlDeserializeHookfunctionfunctionXMLx
+xmlDocfunctionfunctionXMLnode	addFinalizerTRUE
+xmlDOMApplyfunctionfunctionXMLdom	func
+xmlElementsByTagNamefunctionfunctionXMLel	name	recursiveFALSE
+xmlElementSummaryfunctionfunctionXMLurl	handlersxmlElementSummaryHandlers(url)
+xmlErrorCumulatorfunctionfunctionXMLclass"XMLParserErrorList"	immediateTRUE
+xmlEventHandlerfunctionfunctionXMLNO_ARGS
+xmlEventParsefunctionfunctionXMLfile	handlersxmlEventHandler()	ignoreBlanksFALSE	addContextTRUE	useTagNameTRUE	asTextFALSE	trimTRUE	useExpatFALSE	isURLFALSE	stateNULL	replaceEntitiesTRUE	validateFALSE	saxVersion1	branchesNULL	useDotNameslength(grep("^\\.", names(handlers))) > 0	errorxmlErrorCumulator()	addFinalizerNA
+xmlGetAttrfunctionfunctionXMLnode	name	defaultNULL	converterNULL	namespaceDefinitioncharacter()	addNamespacelength(grep(":", name)) > 0
+xmlHandlerfunctionfunctionXMLNO_ARGS
+xmlHashTreefunctionfunctionXMLnodeslist()	parentscharacter()	childrenlist()	envnew.env(TRUE, parent = emptyenv())
+xmlInternalTreeParsefunctionfunctionXMLfile	ignoreBlanksTRUE	handlersNULL	replaceEntitiesFALSE	asTextFALSE	trimTRUE	validateFALSE	getDTDTRUE	isURLFALSE	asTreeFALSE	addAttributeNamespacesFALSE	useInternalNodesTRUE	isSchemaFALSE	fullNamespaceInfoFALSE	encodingcharacter()	useDotNameslength(grep("^\\.", names(handlers))) > 0	xincludeTRUE	addFinalizerTRUE	errorxmlErrorCumulator()	isHTMLFALSE	optionsinteger()	parentFirstFALSE
+xmlNamefunctionfunctionXMLnode	fullFALSE
+xmlName<-functionfunctionXMLx	value
+xmlNamespacefunctionfunctionXMLx
+xmlNamespace<-functionfunctionXMLx	...	value
+xmlNamespaceDefinitionsfunctionfunctionXMLx	addNamesTRUE	recursiveFALSE	simplifyFALSE	...
+xmlNamespacesfunctionfunctionXMLx	addNamesTRUE	recursiveFALSE	simplifyFALSE	...
+xmlNamespaces<-functionfunctionXMLx	appendTRUE	setFALSE	value
+xmlNativeTreeParsefunctionfunctionXMLfile	ignoreBlanksTRUE	handlersNULL	replaceEntitiesFALSE	asTextFALSE	trimTRUE	validateFALSE	getDTDTRUE	isURLFALSE	asTreeFALSE	addAttributeNamespacesFALSE	useInternalNodesTRUE	isSchemaFALSE	fullNamespaceInfoFALSE	encodingcharacter()	useDotNameslength(grep("^\\.", names(handlers))) > 0	xincludeTRUE	addFinalizerTRUE	errorxmlErrorCumulator()	isHTMLFALSE	optionsinteger()	parentFirstFALSE
+xmlNodefunctionfunctionXMLname	...	attrsNULL	namespace""	namespaceDefinitionsNULL	.childrenlist(...)
+xmlOutputBufferfunctionfunctionXMLdtdNULL	nameSpaceNULL	bufNULL	nsURINULL	header"<?xml version="1.0"?>"
+xmlOutputDOMfunctionfunctionXMLtag"doc"	attrsNULL	dtdNULL	nameSpaceNULL	nsURIcharacter(0)	xmlDeclarationNULL
+xmlParentfunctionfunctionXMLx	...
+xmlParent<-functionfunctionXMLx	...	value
+xmlParsefunctionfunctionXMLfile	ignoreBlanksTRUE	handlersNULL	replaceEntitiesFALSE	asTextFALSE	trimTRUE	validateFALSE	getDTDTRUE	isURLFALSE	asTreeFALSE	addAttributeNamespacesFALSE	useInternalNodesTRUE	isSchemaFALSE	fullNamespaceInfoFALSE	encodingcharacter()	useDotNameslength(grep("^\\.", names(handlers))) > 0	xincludeTRUE	addFinalizerTRUE	errorxmlErrorCumulator()	isHTMLFALSE	optionsinteger()	parentFirstFALSE
+xmlParseDocfunctionfunctionXMLfile	encodingcharacter()	asText!file.exists(file)	baseURL
+xmlParserContextFunctionfunctionfunctionXMLf	class"XMLParserContextFunction"
+xmlParseStringfunctionfunctionXMLcontent	docNULL	namespaces	cleanTRUE	addFinalizerNA
+xmlPINodefunctionfunctionXMLsys	value	namespace""
+xmlRootfunctionfunctionXMLx	skipTRUE	...
+xmlSApplyfunctionfunctionXMLX	FUN	...
+xmlSchemaParsefunctionfunctionXMLfile	asTextFALSE	xincludeTRUE	errorxmlErrorCumulator()
+xmlSchemaValidatefunctionfunctionXMLschema	doc	errorHandlerxmlErrorFun()
+xmlSearchNsfunctionfunctionXMLnode	ns	asPrefixTRUE	docas(node, "XMLInternalDocument")
+xmlSerializeHookfunctionfunctionXMLx
+xmlSizefunctionfunctionXMLobj
+xmlSize.defaultfunctionfunctionXMLobj
+xmlSourcefunctionfunctionXMLurl	...	envirglobalenv()	xpathcharacter()	idscharacter()	omitcharacter()	askFALSE	exampleNA	fatalTRUE	verboseTRUE	echo	print	xnodes	namespaces	sectioncharacter()	evalTRUE	initTRUE	setNodeNamesFALSE	parseTRUE	forceFALSE
+xmlSourceFunctionsfunctionfunctionXMLdoc	idscharacter()	parseTRUE	...
+xmlSourceSectionfunctionfunctionXMLdoc	idscharacter()	xnodesc(".//r:function", ".//r:init[not(@eval='false')]", ".//r:code[not(@eval='false')]", 	xnodes    ".//r:plot[not(@eval='false')]")	namespaces	...
+xmlStopParserfunctionfunctionXMLparser
+xmlStructuredStopfunctionfunctionXMLmsg	code	domain	line	col	level	filename	class"XMLError"
+xmlTextNodefunctionfunctionXMLvalue	namespace""	entities	cdataFALSE
+xmlToDataFramefunctionfunctionXMLdoc	colClassesNULL	homogeneousNA	collectNamesTRUE	nodeslist()	stringsAsFactorsdefault.stringsAsFactors()
+xmlToListfunctionfunctionXMLnode	addAttributesTRUE	simplifyFALSE
+xmlToS4functionfunctionXMLnode	objnew(xmlName(node))	...
+xmlTreefunctionfunctionXMLtagNULL	attrsNULL	dtdNULL	namespaceslist()	docnewXMLDoc(dtd, namespaces)
+xmlTreeParsefunctionfunctionXMLfile	ignoreBlanksTRUE	handlersNULL	replaceEntitiesFALSE	asTextFALSE	trimTRUE	validateFALSE	getDTDTRUE	isURLFALSE	asTreeFALSE	addAttributeNamespacesFALSE	useInternalNodesFALSE	isSchemaFALSE	fullNamespaceInfoFALSE	encodingcharacter()	useDotNameslength(grep("^\\.", names(handlers))) > 0	xincludeTRUE	addFinalizerTRUE	errorxmlErrorCumulator()	isHTMLFALSE	optionsinteger()	parentFirstFALSE
+xmlValuefunctionfunctionXMLx	ignoreCommentsFALSE	recursiveTRUE	encodinggetEncoding(x)	trimFALSE
+xmlValue<-functionfunctionXMLx	...	value
+xmlXIncludesfunctionfunctionXMLfilename	recursiveTRUE	omitPattern"\.(js|html?|txt|R|c)$"	namespacec(xi = "http://www.w3.org/2003/XInclude")	addNamesTRUE	cleanNULL	ignoreTextParseFALSE
+xpathApplyfunctionfunctionXMLdoc	path	funNULL	...	namespacesxmlNamespaceDefinitions(doc, simplify = TRUE)	resolveNamespacesTRUE	addFinalizerNA
+xpathSApplyfunctionfunctionXMLdoc	path	funNULL	...	namespacesxmlNamespaceDefinitions(doc, simplify = TRUE)	resolveNamespacesTRUE	simplifyTRUE	addFinalizerNA

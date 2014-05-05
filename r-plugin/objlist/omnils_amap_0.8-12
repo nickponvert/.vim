@@ -1,0 +1,21 @@
+acpfunctionfunctionamapx	centerTRUE	reduceTRUE	wIrep(1, nrow(x))	wVrep(1, ncol(x))
+acpgenfunctionfunctionamapx	h1	h2	centerTRUE	reduceTRUE	kernel"gaussien"
+acprobfunctionfunctionamapx	h1	centerTRUE	reduceTRUE	kernel"gaussien"
+afcfunctionfunctionamapx
+biplot.acpfunctionfunctionamapx	i1	j2	label"Composants"	col"darkblue"	length0.1	main"Variables PCA"	circleTRUE	...
+burtfunctionfunctionamapx
+dissfunctionfunctionamapx	wrep(1, ncol(x))
+Distfunctionfunctionamapx	method"euclidean"	nbproc2	diagFALSE	upperFALSE
+hclusterfunctionfunctionamapx	method"euclidean"	diagFALSE	upperFALSE	link"complete"	membersNULL	nbproc2	doubleprecisionTRUE
+hclusterparfunctionfunctionamapx	method"euclidean"	diagFALSE	upperFALSE	link"complete"	membersNULL	nbproc2	doubleprecisionTRUE
+Kfunctionfunctionamapu	kernel"gaussien"
+Kmeansfunctionfunctionamapx	centers	iter.max10	nstart1	method"euclidean"
+matlogicfunctionfunctionamapx
+pcafunctionfunctionamapx	centerTRUE	reduceTRUE	wIrep(1, nrow(x))	wVrep(1, ncol(x))
+plot2functionfunctionamapx	pourcentFALSE	eigenTRUE	label"Comp."	col"lightgrey"	main"Scree Graph"	ylab"Eigen Values"
+plot.acpfunctionfunctionamapx	i1	j2	textTRUE	label"Composants"	col"darkblue"	main"Individuals PCA"	variablesTRUE	individual.labelNULL	...
+plotAllfunctionfunctionamapx
+popfunctionfunctionamapx	fmbvrTRUE	triabsTRUE	allsolTRUE
+print.acpfunctionfunctionamapx	...
+varrobfunctionfunctionamapx	h	DNULL	kernel"gaussien"
+Wfunctionfunctionamapx	h	DNULL	kernel"gaussien"

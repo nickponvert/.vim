@@ -1,0 +1,6 @@
+syn keyword rFunction asCairoDevice
+syn keyword rFunction Cairo
+syn keyword rFunction Cairo_pdf
+syn keyword rFunction Cairo_png
+syn keyword rFunction Cairo_ps
+syn keyword rFunction Cairo_svg

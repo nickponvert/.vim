@@ -1,0 +1,66 @@
+asSGDF_GRODfunctionfunctionrgdalx	offset	region.dim	output.dim	p4sNULL	...	half.cellc(0.5, 0.5)	OVERRIDE_PROJ_DATUM_WITH_TOWGS84NULL
+checkCRSArgsfunctionfunctionrgdaluprojargs
+closeDatasetfunctionfunctionrgdaldataset
+coercefunctionfunctionrgdalfrom	to	strictTRUE
+copyDatasetfunctionfunctionrgdaldataset	driver	strictFALSE	optionsNULL	fnameNULL
+copy.SpatialGDALfunctionfunctionrgdaldataset	fname	drivergetDriver(dataset@grod)	strictFALSE	optionsNULL	silentFALSE
+create2GDALfunctionfunctionrgdaldataset	drivername"GTiff"	type"Float32"	mvFlagNA	optionsNULL	fnameNULL	setStatisticsFALSE	colorTablesNULL	catNamesNULL
+CRSargsfunctionfunctionrgdalobject
+deleteDatasetfunctionfunctionrgdaldataset
+displayDatasetfunctionfunctionrgdalx	offsetc(0, 0)	region.dimdim(x)	reduction1	band1	colNULL	reset.parTRUE	max.dim500	...
+GDALcallfunctionfunctionrgdalobject	option	...
+GDAL.closefunctionfunctionrgdaldataset
+gdalDriversfunctionfunctionrgdalNO_ARGS
+GDALinfofunctionfunctionrgdalfname	silentFALSE	returnRATFALSE	returnCategoryNamesFALSE	returnStatsTRUE	returnColorTableFALSE	OVERRIDE_PROJ_DATUM_WITH_TOWGS84NULL	returnScaleOffsetTRUE
+GDAL.openfunctionfunctionrgdalfilename	read.onlyTRUE	silentFALSE
+GDALSpatialReffunctionfunctionrgdalfname	silentFALSE	OVERRIDE_PROJ_DATUM_WITH_TOWGS84NULL
+getColorTablefunctionfunctionrgdaldataset	band1
+getCPLConfigOptionfunctionfunctionrgdalConfigOption
+getDescriptionfunctionfunctionrgdalobject
+getDriverfunctionfunctionrgdaldataset
+getDriverLongNamefunctionfunctionrgdaldriver
+getDriverNamefunctionfunctionrgdaldriver
+getGDALCheckVersionfunctionfunctionrgdalNO_ARGS
+getGDAL_DATA_PathfunctionfunctionrgdalNO_ARGS
+getGDALDriverNamesfunctionfunctionrgdalNO_ARGS
+getGDALVersionInfofunctionfunctionrgdalstr"--version"
+getGeoTransFuncfunctionfunctionrgdaldataset
+get_OVERRIDE_PROJ_DATUM_WITH_TOWGS84functionfunctionrgdalNO_ARGS
+getPROJ4libPathfunctionfunctionrgdalNO_ARGS
+getPROJ4VersionInfofunctionfunctionrgdalNO_ARGS
+getProjectionReffunctionfunctionrgdaldataset	OVERRIDE_PROJ_DATUM_WITH_TOWGS84NULL
+getRasterBandfunctionfunctionrgdaldataset	band1
+getRasterBlockSizefunctionfunctionrgdalraster
+getRasterDatafunctionfunctionrgdaldataset	bandNULL	offsetc(0, 0)	region.dimdim(dataset)	output.dim	interleavec(0, 0)	as.isFALSE	list_outFALSE
+getRasterTablefunctionfunctionrgdaldataset	bandNULL	offsetc(0, 0)	region.dimdim(dataset)
+initializefunctionfunctionrgdal.Object	...
+llgridlinesfunctionfunctionrgdalobj	easts	norths	ndiscr20	lty2	offset0.5	side"WS"	llcrs"+proj=longlat +datum=WGS84"	plotLinesTRUE	plotLabelsTRUE	...
+make_EPSGfunctionfunctionrgdalfile
+ogrDriversfunctionfunctionrgdalNO_ARGS
+ogrFIDsfunctionfunctionrgdaldsn	layer
+ogrInfofunctionfunctionrgdaldsn	layer	encodingNULL	input_field_name_encodingNULL	use_iconvNULL
+ogrListLayersfunctionfunctionrgdaldsn
+OGRSpatialReffunctionfunctionrgdaldsn	layer
+open.SpatialGDALfunctionfunctionrgdalcon	...	silentFALSE
+print.GDALobjfunctionfunctionrgdalx	...
+projectfunctionfunctionrgdalxy	proj	invFALSE	use_ob_tranFALSE
+projInfofunctionfunctionrgdaltype"proj"
+projNADfunctionfunctionrgdalNO_ARGS
+putRasterDatafunctionfunctionrgdaldataset	rasterData	band1	offsetc(0, 0)
+rawTransformfunctionfunctionrgdalprojfrom	projto	n	x	y	zNULL
+readGDALfunctionfunctionrgdalfname	offset	region.dim	output.dim	band	p4sNULL	...	half.cellc(0.5, 0.5)	silentFALSE	OVERRIDE_PROJ_DATUM_WITH_TOWGS84NULL
+readOGRfunctionfunctionrgdaldsn	layer	verboseTRUE	p4sNULL	stringsAsFactorsdefault.stringsAsFactors()	drop_unsupported_fieldsFALSE	input_field_name_encodingNULL	pointDropZFALSE	dropNULLGeometriesTRUE	useCTRUE	disambiguateFIDsFALSE	addCommentsToPolygonsTRUE	encodingNULL	use_iconvNULL
+RGB2PCTfunctionfunctionrgdalx	band	driver.name"MEM"	ncolors256	set.ctabTRUE
+saveDatasetfunctionfunctionrgdaldataset	filename	optionsNULL	returnNewObjFALSE
+saveDatasetAsfunctionfunctionrgdaldataset	filename	driverNULL	optionsNULL
+setCPLConfigOptionfunctionfunctionrgdalConfigOption	value
+set_OVERRIDE_PROJ_DATUM_WITH_TOWGS84functionfunctionrgdalvalue
+SGDF2PCTfunctionfunctionrgdalx	ncolors256	adjust.bandsTRUE
+showWKTfunctionfunctionrgdalp4s	fileNULL	morphToESRITRUE
+sub.GDRODfunctionfunctionrgdalx	i	j	...	dropFALSE
+summaryfunctionfunctionrgdalobject	...	digitsmax(3L, getOption("digits") - 3L)
+toSignedfunctionfunctionrgdalx	base
+toUnSignedfunctionfunctionrgdalx	base
+vec2RGBfunctionfunctionrgdalvec	breaks	col
+writeGDALfunctionfunctionrgdaldataset	fname	drivername"GTiff"	type"Float32"	mvFlagNA	optionsNULL	copy_drivername"GTiff"	setStatisticsFALSE	colorTablesNULL	catNamesNULL
+writeOGRfunctionfunctionrgdalobj	dsn	layer	driver	dataset_optionsNULL	layer_optionsNULL	verboseFALSE	check_existsNULL	overwrite_layerFALSE	delete_dsnFALSE	morphToESRINULL

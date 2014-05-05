@@ -1,0 +1,156 @@
+addAttrToGeomfunctionfunctionspx	y	match.ID	...
+areaSpatialGridfunctionfunctionspobj
+as.character.DMSfunctionfunctionspx	...
+as.double.DMSfunctionfunctionspx	...
+as.image.SpatialGridDataFramefunctionfunctionspx	xcol1	ycol2	attr1
+as.numeric.DMSfunctionfunctionspx	...
+as.SpatialLines.SLDFfunctionfunctionspSLDF
+as.SpatialPolygons.GridTopologyfunctionfunctionspgrd	proj4stringCRS(as.character(NA))
+as.SpatialPolygons.PolygonsListfunctionfunctionspSrl	proj4stringCRS(as.character(NA))
+bbexpandfunctionfunctionspx	fraction
+bboxfunctionfunctionspobj
+bpy.colorsfunctionfunctionspn100	cutoff.tails0.1	alpha1
+bubblefunctionfunctionspobj	zcol1	...	fillTRUE	maxsize3	do.sqrtTRUE	pch	colc(2, 3)	key.entriesquantile(data[, zcol])	mainifelse(is.numeric(zcol), names(data)[zcol], zcol)	identifyFALSE	labelsrow.names(data.frame(obj))	key.space"right"	scaleslist(draw = FALSE)	xlabNULL	ylabNULL	panel	sp.layoutNULL
+char2dmsfunctionfunctionspfrom	chd"d"	chm"'"	chs"""
+coercefunctionfunctionspfrom	to	strictTRUE
+coordinatesfunctionfunctionspobj	...
+coordinates<-functionfunctionspobject	value
+coordinatevaluesfunctionfunctionspobj
+coordnamesfunctionfunctionspx
+coordnames<-functionfunctionspx	value
+CRSfunctionfunctionspprojargs
+dd2dmsfunctionfunctionspdd	NSFALSE
+degAxisfunctionfunctionspside	at	labels	...
+degreeLabelsEWfunctionfunctionspx
+degreeLabelsNSfunctionfunctionspx
+dimensionsfunctionfunctionspobj
+disaggregatefunctionfunctionspx	...
+flipHorizontalfunctionfunctionspx
+flipVerticalfunctionfunctionspx
+fullgridfunctionfunctionspobj
+fullgrid<-functionfunctionspobj	value
+geometryfunctionfunctionspobj
+getGridIndexfunctionfunctionspcc	grid	all.insideTRUE
+getGridTopologyfunctionfunctionspobj
+getLinesIDSlotfunctionfunctionspLines
+getLinesLinesSlotfunctionfunctionspSL
+get_ll_TOLfunctionfunctionspNO_ARGS
+get_ll_warnfunctionfunctionspNO_ARGS
+getPolygonAreaSlotfunctionfunctionspPolygon
+getPolygonCoordsSlotfunctionfunctionspPolygon
+getPolygonHoleSlotfunctionfunctionspPolygon
+getPolygonLabptSlotfunctionfunctionspPolygon
+getPolygonsIDSlotfunctionfunctionspPolygons
+getPolygonsLabptSlotfunctionfunctionspPolygons
+getPolygonsplotOrderSlotfunctionfunctionspPolygons
+getPolygonsPolygonsSlotfunctionfunctionspPolygons
+get_PolypathfunctionfunctionspNO_ARGS
+get_PolypathRulefunctionfunctionspNO_ARGS
+get_ReplCRS_warnfunctionfunctionspNO_ARGS
+getSLLinesIDSlotsfunctionfunctionspSL
+getSLlinesSlotfunctionfunctionspSL
+getSpatialLinesMidPointsfunctionfunctionspSL
+getSpatialPolygonsLabelPointsfunctionfunctionspSP
+getSpPnHolesfunctionfunctionspSpP
+getSpPnPartsfunctionfunctionspSpP
+getSpPplotOrderSlotfunctionfunctionspSpP
+getSpPPolygonsIDSlotsfunctionfunctionspSpP
+getSpPPolygonsLabptSlotsfunctionfunctionspSpP
+getSpPpolygonsSlotfunctionfunctionspSpP
+gridatfunctionfunctionspx	eastspretty(bbox(x)[1, ])	northspretty(bbox(x)[2, ])	offset0.5	side"WS"
+griddedfunctionfunctionspobj
+gridded<-functionfunctionspobj	value
+gridIndex2nbfunctionfunctionspobj	maxdistsqrt(2)	fullMatTRUE	...
+gridlinesfunctionfunctionspx	eastspretty(bbox(x)[1, ])	northspretty(bbox(x)[2, ])	ndiscr20
+gridparametersfunctionfunctionspobj
+GridTopologyfunctionfunctionspcellcentre.offset	cellsize	cells.dim
+HexPoints2SpatialPolygonsfunctionfunctionsphex	dx
+identicalCRSfunctionfunctionspx	y
+IDvaluesGridTopologyfunctionfunctionspobj
+IDvaluesSpatialPixelsfunctionfunctionspobj
+image2Gridfunctionfunctionspim	p4as.character(NA)	digits10
+is.projectedfunctionfunctionspobj
+layout.north.arrowfunctionfunctionsptype1
+layout.scale.barfunctionfunctionspheight0.05
+Linefunctionfunctionspcoords
+LineLengthfunctionfunctionspcc	longlatFALSE	sumTRUE
+Linesfunctionfunctionspslinelist	ID
+LinesLengthfunctionfunctionspLs	longlatFALSE
+loadMeusefunctionfunctionspNO_ARGS
+longlat.scalesfunctionfunctionspobj	scales	xlim	ylim
+makegridfunctionfunctionspx	n10000	nsig2	cellsize	offsetrep(0.5, nrow(bb))
+mapaspfunctionfunctionspdata	xlimbbox(data)[1, ]	ylimbbox(data)[2, ]
+mapLegendGrobfunctionfunctionspobj	widthsunit(1, "cm")	heightsunit(1, "cm")	fill"black"	just"right"
+mergefunctionfunctionspx	y	...
+nowrapSpatialLinesfunctionfunctionspobj	offset0	epsrep(.Machine$double.eps, 2)
+overfunctionfunctionspx	y	returnListFALSE	fnNULL	...
+%over%functionfunctionspx	y
+overDF_for_rgeosfunctionfunctionspr	data	n	returnList	fn	...
+overlayfunctionfunctionspx	y	...
+panel.gridplotfunctionfunctionspx	y	z	subscripts	...	sp.layout
+panel.pointsplotfunctionfunctionspsp.layout	x	y	subscripts	groups	col	cex	pch	...
+panel.polygonsplotfunctionfunctionspx	y	z	subscripts	atpretty(z)	shrink	labelsNULL	label.stylec("mixed", "flat", "align")	contourFALSE	regionTRUE	coladd.line$col	ltyadd.line$lty	lwdadd.line$lwd	cexadd.text$cex	fontadd.text$font	fontfamilyadd.text$fontfamily	fontfaceadd.text$fontface	col.textadd.text$col	...	col.regionsregions$col	alpha.regionsregions$alpha	grid.polygons	sp.layout
+plotfunctionfunctionspx	yNULL	type"p"	xlimNULL	ylimNULL	log""	mainNULL	subNULL	xlabNULL	ylabNULL	annpar("ann")	axesTRUE	frame.plot	panel.firstNULL	panel.lastNULL	aspNA	...
+point.in.polygonfunctionfunctionsppoint.x	point.y	pol.x	pol.y	mode.checkedFALSE
+points2gridfunctionfunctionsppoints	tolerancesqrt(.Machine$double.eps)	roundNULL
+Polygonfunctionfunctionspcoords	holeas.logical(NA)
+polygonsfunctionfunctionspobj
+polygons<-functionfunctionspobject	value
+Polygonsfunctionfunctionspsrl	ID
+print.DMSfunctionfunctionspx	...
+proj4stringfunctionfunctionspobj
+proj4string<-functionfunctionspobj	value
+rbind.SpatialLinesfunctionfunctionsp...	makeUniqueIDsFALSE
+rbind.SpatialLinesDataFramefunctionfunctionsp...
+rbind.SpatialPixelsfunctionfunctionsp...
+rbind.SpatialPixelsDataFramefunctionfunctionsp...
+rbind.SpatialPointsfunctionfunctionsp...
+rbind.SpatialPointsDataFramefunctionfunctionsp...
+rbind.SpatialPolygonsfunctionfunctionsp...	makeUniqueIDsFALSE
+rbind.SpatialPolygonsDataFramefunctionfunctionsp...
+read.asciigridfunctionfunctionspfname	as.imageFALSE	plot.imageFALSE	colname	proj4stringCRS(as.character(NA))
+recenterfunctionfunctionspobj
+remove.duplicatesfunctionfunctionspobj	zero0	remove.secondTRUE
+select.spatialfunctionfunctionspdata	digitizeTRUE	pch"+"	rownamesFALSE
+set_ll_TOLfunctionfunctionspvalue
+set_ll_warnfunctionfunctionspvalue
+set_Polypathfunctionfunctionspvalue
+set_PolypathRulefunctionfunctionspvalue
+set_ReplCRS_warnfunctionfunctionspvalue
+showfunctionfunctionspobject
+Spatialfunctionfunctionspbbox	proj4stringCRS(as.character(NA))
+SpatialGridfunctionfunctionspgrid	proj4stringCRS(as.character(NA))
+SpatialGridDataFramefunctionfunctionspgrid	data	proj4stringCRS(as.character(NA))
+SpatialLinesfunctionfunctionspLinesList	proj4stringCRS(as.character(NA))
+SpatialLinesDataFramefunctionfunctionspsl	data	match.IDTRUE
+SpatialLinesLengthsfunctionfunctionspSL	longlat
+SpatialPixelsfunctionfunctionsppoints	tolerancesqrt(.Machine$double.eps)	proj4stringCRS(as.character(NA))	roundNULL	gridNULL
+SpatialPixelsDataFramefunctionfunctionsppoints	data	tolerancesqrt(.Machine$double.eps)	proj4stringCRS(as.character(NA))	roundNULL	gridNULL
+SpatialPointsfunctionfunctionspcoords	proj4stringCRS(as.character(NA))	bboxNULL
+SpatialPointsDataFramefunctionfunctionspcoords	data	coords.nrsnumeric(0)	proj4stringCRS(as.character(NA))	match.IDTRUE	bboxNULL
+SpatialPolygonsfunctionfunctionspSrl	pO	proj4stringCRS(as.character(NA))
+SpatialPolygonsDataFramefunctionfunctionspSr	data	match.IDTRUE
+SpatialPolygonsRescalefunctionfunctionspobj	offset	scale1	fill"black"	col"black"	plot.gridTRUE	...
+spChFIDsfunctionfunctionspobj	x
+spChFIDs<-functionfunctionspobj	value
+spDistsfunctionfunctionspx	y	longlatFALSE
+spDistsN1functionfunctionsppts	pt	longlatFALSE
+sp.gridfunctionfunctionspobj	col1	alpha1	...	atpretty(obj[[1]])	col.regions
+sp.linesfunctionfunctionspobj	col1	...
+splitfunctionfunctionspx	f	dropFALSE	sep"."	...
+spmap.to.levfunctionfunctionspdata	zcol1:n	n2	names.attr
+sp.panel.layoutfunctionfunctionsplst	p.number	...
+spplotfunctionfunctionspobj	...
+spplot.keyfunctionfunctionspsp.layout	rows1	cols1
+spplot.locatorfunctionfunctionspn512	type"n"	...
+sp.pointsfunctionfunctionspobj	pch3	...
+sp.polygonsfunctionfunctionspobj	col1	fill"transparent"	...
+spsamplefunctionfunctionspx	n	type	...
+sp.textfunctionfunctionsploc	txt	...
+sp.themefunctionfunctionspsetFALSE	regionslist(col = bpy.colors(100))	...
+spTransformfunctionfunctionspx	CRSobj	...
+summaryfunctionfunctionspobject	...	digitsmax(3L, getOption("digits") - 3L)
+surfaceAreafunctionfunctionspm	...
+write.asciigridfunctionfunctionspx	fname	attr1	na.value-9999	...
+zerodistfunctionfunctionspobj	zero0	unique.IDFALSE
+zerodist2functionfunctionspobj1	obj2	zero0

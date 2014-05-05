@@ -1,0 +1,2 @@
+syn keyword rFunction ellipse
+syn keyword rFunction plotcorr

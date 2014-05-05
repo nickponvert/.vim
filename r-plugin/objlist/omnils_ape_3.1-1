@@ -1,0 +1,502 @@
+acefunctionfunctionapex	phy	type"continuous"	methodif (type == "continuous") "REML" else "ML"	CITRUE	modelif (type == "continuous") "BM" else "ER"	scaledTRUE	kappa1	corStructNULL	ip0.1	use.expmFALSE	use.eigenTRUE
+additivefunctionfunctionapeX
+add.scale.barfunctionfunctionapex	y	lengthNULL	askFALSE	lwd1	lcol"black"	...
+AIC.acefunctionfunctionapeobject	...	k2
+alexfunctionfunctionapex	...
+all.equal.phylofunctionfunctionapetarget	current	use.edge.lengthTRUE	use.tip.labelTRUE	index.returnFALSE	tolerance.Machine$double.eps^0.5	scaleNULL	...
+anova.acefunctionfunctionapeobject	...
+arecompatiblefunctionfunctionapex	y	n
+as.alignmentfunctionfunctionapex
+as.bitsplitsfunctionfunctionapex
+as.bitsplits.prop.partfunctionfunctionapex
+as.character.DNAbinfunctionfunctionapex	...
+as.DNAbinfunctionfunctionapex	...
+as.DNAbin.alignmentfunctionfunctionapex	...
+as.DNAbin.characterfunctionfunctionapex	...
+as.DNAbin.listfunctionfunctionapex	...
+as.hclust.phylofunctionfunctionapex	...
+as.igraph.evonetfunctionfunctionapex	directedTRUE	use.labelsTRUE	...
+as.igraph.phylofunctionfunctionapex	directedis.rooted(x)	use.labelsTRUE	...
+as.list.DNAbinfunctionfunctionapex	...
+as.matchingfunctionfunctionapex	...
+as.matching.phylofunctionfunctionapex	labelsTRUE	...
+as.matrix.DNAbinfunctionfunctionapex	...
+as.network.evonetfunctionfunctionapex	directedTRUE	...
+as.network.phylofunctionfunctionapex	directedis.rooted(x)	...
+as.networx.evonetfunctionfunctionapex	weightNA	...
+as.phylofunctionfunctionapex	...
+as.phylo.evonetfunctionfunctionapex	...
+as.phylo.formulafunctionfunctionapex	dataparent.frame()	...
+as.phylo.hclustfunctionfunctionapex	...
+as.phylo.matchingfunctionfunctionapex	...
+as.phylo.phylogfunctionfunctionapex	...
+as.prop.partfunctionfunctionapex
+as.prop.part.bitsplitsfunctionfunctionapex
+axisPhylofunctionfunctionapeside1	...
+balancefunctionfunctionapephy
+base.freqfunctionfunctionapex	freqFALSE	allFALSE
+BaseProportionCRoutinelistapeNot a function
+BaseProportion$namecharactercharacterapeNot a function
+BaseProportion$addressRegisteredNativeSymbol apeNot a function
+BaseProportion$dllDLLInfo apeNot a function
+BaseProportion$numParametersintegernumericapeNot a function
+bd.extfunctionfunctionapephy	S	conditionalTRUE
+bd.timefunctionfunctionapephy	birth	death	BIRTHNULL	DEATHNULL	ip	lower	upper	fastFALSE	boot0	trace0
+bind.treefunctionfunctionapex	y	where"root"	position0	interactiveFALSE
+bionjfunctionfunctionapeX
+bionjsfunctionfunctionapeX	fs15
+bipartitionCallRoutinelistapeNot a function
+bipartition$namecharactercharacterapeNot a function
+bipartition$addressRegisteredNativeSymbol apeNot a function
+bipartition$dllDLLInfo apeNot a function
+bipartition$numParametersintegernumericapeNot a function
+biplot.pcoafunctionfunctionapex	YNULL	plot.axesc(1, 2)	dir.axis11	dir.axis21	rnNULL	...
+birthdeathfunctionfunctionapephy
+birth.stepfunctionfunctionapedata	pos	h	curloglik	prior	jump.prob	b.lin	sk1	ci	prior.height.mean	prior.height.var
+bitsplitsfunctionfunctionapex
+bitsplits_multiPhyloCallRoutinelistapeNot a function
+bitsplits_multiPhylo$namecharactercharacterapeNot a function
+bitsplits_multiPhylo$addressRegisteredNativeSymbol apeNot a function
+bitsplits_multiPhylo$dllDLLInfo apeNot a function
+bitsplits_multiPhylo$numParametersintegernumericapeNot a function
+bitsplits_phyloCRoutinelistapeNot a function
+bitsplits_phylo$namecharactercharacterapeNot a function
+bitsplits_phylo$addressRegisteredNativeSymbol apeNot a function
+bitsplits_phylo$dllDLLInfo apeNot a function
+bitsplits_phylo$numParametersintegernumericapeNot a function
+boot.phylofunctionfunctionapephy	x	FUN	B100	block1	treesFALSE	quietFALSE	rootedFALSE
+BOTHlabelsfunctionfunctionapetext	sel	XX	YY	adj	frame	pch	thermo	pie	piecol	col	bg	horiz	width	height	...
+branching.timesfunctionfunctionapephy
+C_additiveCRoutinelistapeNot a function
+C_additive$namecharactercharacterapeNot a function
+C_additive$addressRegisteredNativeSymbol apeNot a function
+C_additive$dllDLLInfo apeNot a function
+C_additive$numParametersintegernumericapeNot a function
+CADM.globalfunctionfunctionapeDmat	nmat	n	nperm99	make.symTRUE	weightsNULL	silentFALSE
+CADM.postfunctionfunctionapeDmat	nmat	n	nperm99	make.symTRUE	weightsNULL	mult"holm"	mantelFALSE	silentFALSE
+cbind.DNAbinfunctionfunctionape...	check.namesTRUE	fill.with.gapsFALSE	quietFALSE
+C_bionjCRoutinelistapeNot a function
+C_bionj$namecharactercharacterapeNot a function
+C_bionj$addressRegisteredNativeSymbol apeNot a function
+C_bionj$dllDLLInfo apeNot a function
+C_bionj$numParametersintegernumericapeNot a function
+C_bionjsCRoutinelistapeNot a function
+C_bionjs$namecharactercharacterapeNot a function
+C_bionjs$addressRegisteredNativeSymbol apeNot a function
+C_bionjs$dllDLLInfo apeNot a function
+C_bionjs$numParametersintegernumericapeNot a function
+CDF.birth.deathfunctionfunctionapebirth	death	BIRTHNULL	DEATHNULL	Tmax	x	case	fastFALSE
+c.DNAbinfunctionfunctionape...	recursiveFALSE
+C_ewLassoCRoutinelistapeNot a function
+C_ewLasso$namecharactercharacterapeNot a function
+C_ewLasso$addressRegisteredNativeSymbol apeNot a function
+C_ewLasso$dllDLLInfo apeNot a function
+C_ewLasso$numParametersintegernumericapeNot a function
+checkLabelfunctionfunctionapex	...
+cherryfunctionfunctionapephy
+chronoMPLfunctionfunctionapephy	seTRUE	testTRUE
+chronoplfunctionfunctionapephy	lambda	age.min1	age.maxNULL	node"root"	S1	tol0.00000001	CVFALSE	eval.max500	iter.max500	...
+chronopl.cvfunctionfunctionapeophy	lambda	age.min	age.max	nodes	n	S	tol	eval.max	iter.max	...
+chronosfunctionfunctionapephy	lambda1	model"correlated"	quietFALSE	calibrationmakeChronosCalib(phy)	controlchronos.control()
+chronos.controlfunctionfunctionape...
+circular.plotfunctionfunctionapeedge	Ntip	Nnode	xx	yy	theta	r	edge.color	edge.width	edge.lty
+clado.buildfunctionfunctionapetp
+cladogram.plotfunctionfunctionapeedge	xx	yy	edge.color	edge.width	edge.lty
+clustalfunctionfunctionapex	pw.gapopen10	pw.gapext0.1	gapopen10	gapext0.2	execNULL	MoreArgs""	quietTRUE	original.orderingTRUE
+c.multiPhylofunctionfunctionape...	recursiveFALSE
+C_mvrCRoutinelistapeNot a function
+C_mvr$namecharactercharacterapeNot a function
+C_mvr$addressRegisteredNativeSymbol apeNot a function
+C_mvr$dllDLLInfo apeNot a function
+C_mvr$numParametersintegernumericapeNot a function
+C_mvrsCRoutinelistapeNot a function
+C_mvrs$namecharactercharacterapeNot a function
+C_mvrs$addressRegisteredNativeSymbol apeNot a function
+C_mvrs$dllDLLInfo apeNot a function
+C_mvrs$numParametersintegernumericapeNot a function
+C_njCRoutinelistapeNot a function
+C_nj$namecharactercharacterapeNot a function
+C_nj$addressRegisteredNativeSymbol apeNot a function
+C_nj$dllDLLInfo apeNot a function
+C_nj$numParametersintegernumericapeNot a function
+C_njsCRoutinelistapeNot a function
+C_njs$namecharactercharacterapeNot a function
+C_njs$addressRegisteredNativeSymbol apeNot a function
+C_njs$dllDLLInfo apeNot a function
+C_njs$numParametersintegernumericapeNot a function
+coalescent.intervalsfunctionfunctionapex
+coalescent.intervals.defaultfunctionfunctionapex
+coalescent.intervals.phylofunctionfunctionapex
+coef.corBlombergfunctionfunctionapeobject	unconstrainedTRUE	...
+coef.corBrownianfunctionfunctionapeobject	unconstrainedTRUE	...
+coef.corGrafenfunctionfunctionapeobject	unconstrainedTRUE	...
+coef.corMartinsfunctionfunctionapeobject	unconstrainedTRUE	...
+coef.corPagelfunctionfunctionapeobject	unconstrainedTRUE	...
+collapsed.intervalsfunctionfunctionapeci	epsilon0
+collapse.singlesfunctionfunctionapetree
+compar.cheverudfunctionfunctionapey	W	tolerance0.000001	gold.tol0.0001
+compar.geefunctionfunctionapeformula	dataNULL	family	phy	corStruct	scale.fixFALSE	scale.value1
+compar.lynchfunctionfunctionapex	G	eps0.0001
+compar.oufunctionfunctionapex	phy	nodeNULL	alphaNULL
+compute.brlenfunctionfunctionapephy	method"Grafen"	power1	...
+compute.brtimefunctionfunctionapephy	method"coalescent"	force.positiveNULL
+consensusfunctionfunctionape...	p1	check.labelsTRUE
+cophenetic.phylofunctionfunctionapex
+cophyloplotfunctionfunctionapex	y	assocNULL	use.edge.lengthFALSE	space0	length.line1	gap2	type"phylogram"	rotateFALSE	colpar("fg")	lwdpar("lwd")	ltypar("lty")	show.tip.labelTRUE	font3	...
+corBlombergfunctionfunctionapevalue	phy	form~1	fixedFALSE
+corBrownianfunctionfunctionapevalue1	phy	form~1
+corGrafenfunctionfunctionapevalue	phy	form~1	fixedFALSE
+corMartinsfunctionfunctionapevalue	phy	form~1	fixedFALSE
+corMatrix.corBlombergfunctionfunctionapeobject	covariategetCovariate(object)	corrTRUE	...
+corMatrix.corBrownianfunctionfunctionapeobject	covariategetCovariate(object)	corrTRUE	...
+corMatrix.corGrafenfunctionfunctionapeobject	covariategetCovariate(object)	corrTRUE	...
+corMatrix.corMartinsfunctionfunctionapeobject	covariategetCovariate(object)	corrTRUE	...
+corMatrix.corPagelfunctionfunctionapeobject	covariategetCovariate(object)	corrTRUE	...
+corPagelfunctionfunctionapevalue	phy	form~1	fixedFALSE
+correlogram.formulafunctionfunctionapeformula	dataNULL	use"all.obs"
+countBipartitionsfunctionfunctionapephy	X
+CountBipartitionsFromTreesCRoutinelistapeNot a function
+CountBipartitionsFromTrees$namecharactercharacterapeNot a function
+CountBipartitionsFromTrees$addressRegisteredNativeSymbol apeNot a function
+CountBipartitionsFromTrees$dllDLLInfo apeNot a function
+CountBipartitionsFromTrees$numParametersintegernumericapeNot a function
+c.phylofunctionfunctionape...	recursiveFALSE
+C_picCRoutinelistapeNot a function
+C_pic$namecharactercharacterapeNot a function
+C_pic$addressRegisteredNativeSymbol apeNot a function
+C_pic$dllDLLInfo apeNot a function
+C_pic$numParametersintegernumericapeNot a function
+C_rTraitContCRoutinelistapeNot a function
+C_rTraitCont$namecharactercharacterapeNot a function
+C_rTraitCont$addressRegisteredNativeSymbol apeNot a function
+C_rTraitCont$dllDLLInfo apeNot a function
+C_rTraitCont$numParametersintegernumericapeNot a function
+C_treePopCRoutinelistapeNot a function
+C_treePop$namecharactercharacterapeNot a function
+C_treePop$addressRegisteredNativeSymbol apeNot a function
+C_treePop$dllDLLInfo apeNot a function
+C_treePop$numParametersintegernumericapeNot a function
+C_triangMtdCRoutinelistapeNot a function
+C_triangMtd$namecharactercharacterapeNot a function
+C_triangMtd$addressRegisteredNativeSymbol apeNot a function
+C_triangMtd$dllDLLInfo apeNot a function
+C_triangMtd$numParametersintegernumericapeNot a function
+C_triangMtdsCRoutinelistapeNot a function
+C_triangMtds$namecharactercharacterapeNot a function
+C_triangMtds$addressRegisteredNativeSymbol apeNot a function
+C_triangMtds$dllDLLInfo apeNot a function
+C_triangMtds$numParametersintegernumericapeNot a function
+C_ultrametricCRoutinelistapeNot a function
+C_ultrametric$namecharactercharacterapeNot a function
+C_ultrametric$addressRegisteredNativeSymbol apeNot a function
+C_ultrametric$dllDLLInfo apeNot a function
+C_ultrametric$numParametersintegernumericapeNot a function
+C_whereCRoutinelistapeNot a function
+C_where$namecharactercharacterapeNot a function
+C_where$addressRegisteredNativeSymbol apeNot a function
+C_where$dllDLLInfo apeNot a function
+C_where$numParametersintegernumericapeNot a function
+dbdfunctionfunctionapex	lambda	mu	t	conditionalFALSE	logFALSE
+dbdTimefunctionfunctionapex	birth	death	t	conditionalFALSE	BIRTHNULL	DEATHNULL	fastFALSE
+death.stepfunctionfunctionapedata	pos	h	curloglik	prior	jump.prob	b.lin	sk1	ci	prior.height.mean	prior.height.var
+del.gapsfunctionfunctionapex
+delta_plotCRoutinelistapeNot a function
+delta_plot$namecharactercharacterapeNot a function
+delta_plot$addressRegisteredNativeSymbol apeNot a function
+delta_plot$dllDLLInfo apeNot a function
+delta_plot$numParametersintegernumericapeNot a function
+delta.plotfunctionfunctionapeX	k20	plotTRUE	which1:2
+deviance.acefunctionfunctionapeobject	...
+di2multifunctionfunctionapephy	tol0.00000001
+dist_dnaCRoutinelistapeNot a function
+dist_dna$namecharactercharacterapeNot a function
+dist_dna$addressRegisteredNativeSymbol apeNot a function
+dist_dna$dllDLLInfo apeNot a function
+dist_dna$numParametersintegernumericapeNot a function
+dist.dnafunctionfunctionapex	model"K80"	varianceFALSE	gammaFALSE	pairwise.deletionFALSE	base.freqNULL	as.matrixFALSE
+dist.genefunctionfunctionapex	method"pairwise"	pairwise.deletionFALSE	varianceFALSE
+dist_nodesCRoutinelistapeNot a function
+dist_nodes$namecharactercharacterapeNot a function
+dist_nodes$addressRegisteredNativeSymbol apeNot a function
+dist_nodes$dllDLLInfo apeNot a function
+dist_nodes$numParametersintegernumericapeNot a function
+dist.nodesfunctionfunctionapex
+dist.topofunctionfunctionapex	y	method"PH85"
+diversi.goffunctionfunctionapex	null"exponential"	zNULL
+diversi.timefunctionfunctionapex	censusNULL	censoring.codesc(1, 0)	TcNULL
+diversity.contrast.testfunctionfunctionapex	method"ratiolog"	alternative"two.sided"	nrep0	...
+[.DNAbinfunctionfunctionapex	i	j	dropFALSE
+drop1.compar.geefunctionfunctionapeobject	scope	quietFALSE	...
+drop.fossilfunctionfunctionapephy	tol0.00000001
+drop.tipfunctionfunctionapephy	tip	trim.internalTRUE	subtreeFALSE	root.edge0	rootedis.rooted(phy)	interactiveFALSE
+dyulefunctionfunctionapex	lambda0.1	t1	logFALSE
+edgelabelsfunctionfunctionapetext	edge	adjc(0.5, 0.5)	frame"rect"	pchNULL	thermoNULL	pieNULL	piecolNULL	col"black"	bg"lightgreen"	horizFALSE	widthNULL	heightNULL	dateNULL	...
+edgesfunctionfunctionapenodes0	nodes1	arrows0	type"classical"	...
+evonetfunctionfunctionapephy	from	toNULL
+ewLassofunctionfunctionapeX	phy
+extract.cladefunctionfunctionapephy	node	root.edge0	interactiveFALSE
+extract.popsizefunctionfunctionapemcmc.out	credible.interval0.95	time.points200	thinning1	burn.in0
+fancyarrowsfunctionfunctionapex0	y0	x1	y1	length0.25	angle30	code2	colpar("fg")	ltypar("lty")	lwdpar("lwd")	type"triangle"	...
+fastme.balfunctionfunctionapeX	nniTRUE	sprTRUE	tbrTRUE
+fastme.olsfunctionfunctionapeX	nniTRUE
+f.cherry.uniformfunctionfunctionapen	k
+f.cherry.yulefunctionfunctionapen	k
+find.skyline.epsilonfunctionfunctionapeci	GRID1000	MINEPS0.000001	...
+floating.pie.aspfunctionfunctionapexpos	ypos	x	edges200	radius1	colNULL	startpos0	...
+Ftabfunctionfunctionapex	yNULL
+gammaStatfunctionfunctionapephy
+GC.contentfunctionfunctionapex
+getMRCAfunctionfunctionapephy	tip
+GlobalDeletionDNACRoutinelistapeNot a function
+GlobalDeletionDNA$namecharactercharacterapeNot a function
+GlobalDeletionDNA$addressRegisteredNativeSymbol apeNot a function
+GlobalDeletionDNA$dllDLLInfo apeNot a function
+GlobalDeletionDNA$numParametersintegernumericapeNot a function
+howmanytreesfunctionfunctionapen	rootedTRUE	binaryTRUE	labeledTRUE	detailFALSE
+ht.movefunctionfunctionapedata	pos	h	curloglik	prior	b.lin	sk1	ci	prior.height.mean	prior.height.var
+identify.phylofunctionfunctionapex	nodesTRUE	tipsFALSE	labelsFALSE	quietFALSE	...
+image.DNAbinfunctionfunctionapex	what	col	bg"white"	xlab""	ylab""	show.labelsTRUE	cex.lab1	legendTRUE	...
+Initialize.corPhylfunctionfunctionapeobject	data	...
+integrateTrapezefunctionfunctionapeFUN	from	to	nint10
+is.binary.treefunctionfunctionapephy
+is.compatiblefunctionfunctionapeobj
+is.compatible.bitsplitsfunctionfunctionapeobj
+is.monophyleticfunctionfunctionapephy	tips	reroot!is.rooted(phy)	plotFALSE	...
+is.rootedfunctionfunctionapephy
+is.ultrametricfunctionfunctionapephy	tol.Machine$double.eps^0.5
+kronovizfunctionfunctionapex	layoutlength(x)	horizTRUE	...
+labels.DNAbinfunctionfunctionapeobject	...
+ladderizefunctionfunctionapephy	rightTRUE
+lines.popsizefunctionfunctionapex	show.medianTRUE	show.yearsFALSE	subst.rate	present.year	...
+lines.skylinefunctionfunctionapex	show.yearsFALSE	subst.rate	present.year	...
+lmoriginfunctionfunctionapeformula	dataNULL	originTRUE	nperm999	methodNULL	silentFALSE
+logLik.acefunctionfunctionapeobject	...
+loglik.popfunctionfunctionapetimesk1$time	posc(0, max(sk1$time))	hmean(sk1$population.size)	b	sk1	ci
+lower.triangfunctionfunctionapem
+LTTfunctionfunctionapebirth0.1	death0	N100	Tmax50	PI95	scaledTRUE	eps0.1	addFALSE	backwardTRUE	ltt.stylelist("black", 1, 1)	pi.stylelist("blue", 1, 2)
+ltt.coplotfunctionfunctionapephy	backwardTRUE	...
+ltt.linesfunctionfunctionapephy	backwardTRUE	tol0.000001	...
+ltt.plotfunctionfunctionapephy	xlab"Time"	ylab"N"	backwardTRUE	tol0.000001	...
+ltt.plot.coordsfunctionfunctionapephy	backwardTRUE	tol0.000001
+makeChronosCalibfunctionfunctionapephy	node"root"	age.min1	age.max	interactiveFALSE	soft.boundsFALSE
+makeLabelfunctionfunctionapex	...
+makeLabel.characterfunctionfunctionapex	len99	space"_"	make.uniqueTRUE	illegal"():;,[]"	quoteFALSE	...
+makeLabel.DNAbinfunctionfunctionapex	...
+makeLabel.multiPhylofunctionfunctionapex	tipsTRUE	nodesTRUE	...
+makeLabel.phylofunctionfunctionapex	tipsTRUE	nodesTRUE	...
+makeNodeLabelfunctionfunctionapephy	method"number"	prefix"Node"	nodeListlist()	...
+mantel.testfunctionfunctionapem1	m2	nperm999	graphFALSE	alternative"two.sided"	...
+mant.zstatfunctionfunctionapem1	m2
+matexpofunctionfunctionapex
+mat_expoCRoutinelistapeNot a function
+mat_expo$namecharactercharacterapeNot a function
+mat_expo$addressRegisteredNativeSymbol apeNot a function
+mat_expo$dllDLLInfo apeNot a function
+mat_expo$numParametersintegernumericapeNot a function
+mcconwaysims.testfunctionfunctionapex
+mcmc.popsizefunctionfunctionapetree	nstep	thinning1	burn.in0	progress.barTRUE	method.prior.changepointsc("hierarchical", "fixed.lambda")	max.nodes30	lambda0.5	gamma.shape0.5	gamma.scale2	method.prior.heightsc("skyline", "constant", "custom")	prior.height.mean	prior.height.var
+me_bCRoutinelistapeNot a function
+me_b$namecharactercharacterapeNot a function
+me_b$addressRegisteredNativeSymbol apeNot a function
+me_b$dllDLLInfo apeNot a function
+me_b$numParametersintegernumericapeNot a function
+me_oCRoutinelistapeNot a function
+me_o$namecharactercharacterapeNot a function
+me_o$addressRegisteredNativeSymbol apeNot a function
+me_o$dllDLLInfo apeNot a function
+me_o$numParametersintegernumericapeNot a function
+mixedFontLabelfunctionfunctionape...	sep" "	italicNULL	boldNULL	parenthesisNULL	always.uprightc("sp.", "spp.", "ssp.")
+mltt.plotfunctionfunctionapephy	...	dcolTRUE	dltyFALSE	legendTRUE	xlab"Time"	ylab"N"	log""	backwardTRUE	tol0.000001
+Moran.Ifunctionfunctionapex	weight	scaledFALSE	na.rmFALSE	alternative"two.sided"
+MPRfunctionfunctionapex	phy	outgroup
+mrcafunctionfunctionapephy	fullFALSE
+mstfunctionfunctionapeX
+multi2difunctionfunctionapephy	randomTRUE
+[<-.multiPhylofunctionfunctionapex	...	value
+[.multiPhylofunctionfunctionapex	i
+[[<-.multiPhylofunctionfunctionapex	...	value
+[[.multiPhylofunctionfunctionapex	i
+$<-.multiPhylofunctionfunctionapex	...	value
+$.multiPhylofunctionfunctionapex	name
+musclefunctionfunctionapex	exec"muscle"	MoreArgs""	quietTRUE	original.orderingTRUE
+mvrfunctionfunctionapeX	V
+mvrsfunctionfunctionapeX	V	fs15
+Nedgefunctionfunctionapephy
+new2old.phylofunctionfunctionapephy
+neworder_phyloCRoutinelistapeNot a function
+neworder_phylo$namecharactercharacterapeNot a function
+neworder_phylo$addressRegisteredNativeSymbol apeNot a function
+neworder_phylo$dllDLLInfo apeNot a function
+neworder_phylo$numParametersintegernumericapeNot a function
+neworder_pruningwiseCRoutinelistapeNot a function
+neworder_pruningwise$namecharactercharacterapeNot a function
+neworder_pruningwise$addressRegisteredNativeSymbol apeNot a function
+neworder_pruningwise$dllDLLInfo apeNot a function
+neworder_pruningwise$numParametersintegernumericapeNot a function
+njfunctionfunctionapeX
+njsfunctionfunctionapeX	fs15
+Nnodefunctionfunctionapephy	internal.onlyTRUE
+node_depthCRoutinelistapeNot a function
+node_depth$namecharactercharacterapeNot a function
+node_depth$addressRegisteredNativeSymbol apeNot a function
+node_depth$dllDLLInfo apeNot a function
+node_depth$numParametersintegernumericapeNot a function
+node.depthfunctionfunctionapephy	method1
+node_depth_edgelengthCRoutinelistapeNot a function
+node_depth_edgelength$namecharactercharacterapeNot a function
+node_depth_edgelength$addressRegisteredNativeSymbol apeNot a function
+node_depth_edgelength$dllDLLInfo apeNot a function
+node_depth_edgelength$numParametersintegernumericapeNot a function
+node.depth.edgelengthfunctionfunctionapephy
+node_heightCRoutinelistapeNot a function
+node_height$namecharactercharacterapeNot a function
+node_height$addressRegisteredNativeSymbol apeNot a function
+node_height$dllDLLInfo apeNot a function
+node_height$numParametersintegernumericapeNot a function
+node.heightfunctionfunctionapephy	clado.styleFALSE
+node_height_cladoCRoutinelistapeNot a function
+node_height_clado$namecharactercharacterapeNot a function
+node_height_clado$addressRegisteredNativeSymbol apeNot a function
+node_height_clado$dllDLLInfo apeNot a function
+node_height_clado$numParametersintegernumericapeNot a function
+node.height.cladofunctionfunctionapephy
+nodelabelsfunctionfunctionapetext	node	adjc(0.5, 0.5)	frame"rect"	pchNULL	thermoNULL	pieNULL	piecolNULL	col"black"	bg"lightblue"	horizFALSE	widthNULL	heightNULL	...
+nscafunctionfunctionapeA
+Ntipfunctionfunctionapephy
+old2new.phylofunctionfunctionapephy
+ONEwisefunctionfunctionapex
+parafitfunctionfunctionapehost.D	para.D	HP	nperm999	test.linksFALSE	seedNULL	correction"none"	silentFALSE
+pcoafunctionfunctionapeD	correction"none"	rnNULL
+perm.rowscolsfunctionfunctionapem1	n
+phydataplotfunctionfunctionapex	phy	style"bars"	offset1	...
++.phylofunctionfunctionapex	y
+phylogram.plotfunctionfunctionapeedge	Ntip	Nnode	xx	yy	horizontal	edge.color	edge.width	edge.lty
+phymltestfunctionfunctionapeseqfile	format"interleaved"	itreeNULL	excludeNULL	execnameNULL	appendTRUE
+picfunctionfunctionapex	phy	scaledTRUE	var.contrastsFALSE	rescaled.treeFALSE
+pic.orthofunctionfunctionapex	phy	var.contrastsFALSE	intraFALSE
+plotCophylo2functionfunctionapex	y	assoc	use.edge.length	space	length.line	gap	type	return	col	lwd	lty	show.tip.label	font	...
+plot.correlogramfunctionfunctionapex	legendTRUE	test.level0.05	colc("grey", "red")	type"b"	xlab""	ylab"Moran's I"	pch21	cex2	...
+plot.correlogramListfunctionfunctionapex	latticeTRUE	legendTRUE	test.level0.05	colc("grey", "red")	xlab""	ylab"Moran's I"	type"b"	pch21	cex2	...
+plot.evonetfunctionfunctionapex	col"blue"	lty1	lwd1	alpha0.5	arrows0	arrow.type"classical"	...
+plot.mstfunctionfunctionapex	graph"circle"	x1NULL	x2NULL	...
+plot.multiPhylofunctionfunctionapex	layout1	...
+plot.phylofunctionfunctionapex	type"phylogram"	use.edge.lengthTRUE	node.posNULL	show.tip.labelTRUE	show.node.labelFALSE	edge.color"black"	edge.width1	edge.lty1	font3	cexpar("cex")	adjNULL	srt0	no.marginFALSE	root.edgeFALSE	label.offset0	underscoreFALSE	x.limNULL	y.limNULL	direction"rightwards"	lab4ut"horizontal"	tip.color"black"	plotTRUE	rotate.tree0	open.angle0	node.depth1	...
+plotPhyloCoorfunctionfunctionapex	type"phylogram"	use.edge.lengthTRUE	node.posNULL	direction"rightwards"	tip.orderNULL	...
+plot.phymltestfunctionfunctionapex	mainNULL	col"blue"	...
+plot.popsizefunctionfunctionapex	show.medianTRUE	show.yearsFALSE	subst.rate	present.year	...
+plot.prop.partfunctionfunctionapex	barcol"blue"	leftmar4	...
+plot.skylinefunctionfunctionapex	show.yearsFALSE	subst.rate	present.year	...
+plot.varcompfunctionfunctionapex	xlab"Levels"	ylab"Variance"	type"b"	...
+polar2rectfunctionfunctionaper	angle
+pos.movefunctionfunctionapedata	pos	h	curloglik	b.lin	sk1	ci
+postprocess.prop.partfunctionfunctionapex
+predict.compar.geefunctionfunctionapeobject	newdataNULL	typec("link", "response")	...
+print.acefunctionfunctionapex	digits4	...
+print.birthdeathfunctionfunctionapex	...
+print.bitsplitsfunctionfunctionapex	...
+print.chronosfunctionfunctionapex	...
+print.compar.geefunctionfunctionapex	...
+print.DNAbinfunctionfunctionapex	printlen6	digits3	...
+print.evonetfunctionfunctionapex	...
+print.lmoriginfunctionfunctionapex	...
+print.multiPhylofunctionfunctionapex	detailsFALSE	...
+print.parafitfunctionfunctionapex	...
+print.phylofunctionfunctionapex	printlen6	...
+print.phymltestfunctionfunctionapex	...
+print.prop.partfunctionfunctionapex	...
+prop.cladesfunctionfunctionapephy	...	partNULL	rootedFALSE
+prop_partCallRoutinelistapeNot a function
+prop_part$namecharactercharacterapeNot a function
+prop_part$addressRegisteredNativeSymbol apeNot a function
+prop_part$dllDLLInfo apeNot a function
+prop_part$numParametersintegernumericapeNot a function
+prop.partfunctionfunctionape...	check.labelsTRUE
+rawStreamToDNAbinCallRoutinelistapeNot a function
+rawStreamToDNAbin$namecharactercharacterapeNot a function
+rawStreamToDNAbin$addressRegisteredNativeSymbol apeNot a function
+rawStreamToDNAbin$dllDLLInfo apeNot a function
+rawStreamToDNAbin$numParametersintegernumericapeNot a function
+rbdtreefunctionfunctionapebirth	death	Tmax50	BIRTHNULL	DEATHNULL	eps0.000001
+rbind.DNAbinfunctionfunctionape...
+rcoalfunctionfunctionapen	tip.labelNULL	br"coalescent"	...
+read.caicfunctionfunctionapefile	brlenNULL	skip0	comment.char"#"	...
+read.dnafunctionfunctionapefile	format"interleaved"	skip0	nlines0	comment.char"#"	as.characterFALSE	as.matrixNULL
+read.FASTAfunctionfunctionapefile
+read.GenBankfunctionfunctionapeaccess.nb	seq.names	species.namesTRUE	gene.namesFALSE	as.characterFALSE
+read.nexusfunctionfunctionapefile	tree.namesNULL
+read.nexus.datafunctionfunctionapefile
+read.treefunctionfunctionapefile""	textNULL	tree.namesNULL	skip0	comment.char"#"	keep.multiFALSE	...
+rect2polarfunctionfunctionapex	y
+reorder.phylofunctionfunctionapex	order"cladewise"	index.onlyFALSE	...
+richness.yule.testfunctionfunctionapex	t
+ringfunctionfunctionapex	phy	style"ring"	offset1	...
+rlineagefunctionfunctionapebirth	death	Tmax50	BIRTHNULL	DEATHNULL	eps0.000001
+rmtreefunctionfunctionapeN	n	rootedTRUE	tip.labelNULL	br	...
+rootfunctionfunctionapephy	outgroup	nodeNULL	resolve.rootFALSE	interactiveFALSE
+rotatefunctionfunctionapephy	node	polytomc(1, 2)
+rotateConstrfunctionfunctionapephy	constraint
+rTraitContfunctionfunctionapephy	model"BM"	sigma0.1	alpha1	theta0	ancestorFALSE	root.value0	...
+rTraitDiscfunctionfunctionapephy	model"ER"	kif (is.matrix(model)) ncol(model) else 2	rate0.1	statesLETTERS[1:k]	freqrep(1/k, k)	ancestorFALSE	root.value1	...
+rTraitMultfunctionfunctionapephy	model	p1	root.valuerep(0, p)	ancestorFALSE	asFactorNULL	trait.labelspaste("x", 1:p, sep = "")	...
+rtreefunctionfunctionapen	rootedTRUE	tip.labelNULL	br	...
+SDMfunctionfunctionape...
+seg.sitesfunctionfunctionapex
+SegSitesCRoutinelistapeNot a function
+SegSites$namecharactercharacterapeNot a function
+SegSites$addressRegisteredNativeSymbol apeNot a function
+SegSites$dllDLLInfo apeNot a function
+SegSites$numParametersintegernumericapeNot a function
+seq_root2tipCallRoutinelistapeNot a function
+seq_root2tip$namecharactercharacterapeNot a function
+seq_root2tip$addressRegisteredNativeSymbol apeNot a function
+seq_root2tip$dllDLLInfo apeNot a function
+seq_root2tip$numParametersintegernumericapeNot a function
+skylinefunctionfunctionapex	...
+skyline.coalescentIntervalsfunctionfunctionapex	epsilon0	...
+skyline.collapsedIntervalsfunctionfunctionapex	old.styleFALSE	...
+skyline.phylofunctionfunctionapex	...
+skylineplotfunctionfunctionapez	...
+skylineplot.deluxefunctionfunctionapetree	...
+slowinskiguyer.testfunctionfunctionapex	detailFALSE
+sortIndexfunctionfunctionapeX
+speciesTreefunctionfunctionapex	FUN
+streefunctionfunctionapen	type"star"	tip.labelNULL
+str.multiPhylofunctionfunctionapeobject	...
+subtreeplotfunctionfunctionapex	waitFALSE	...
+subtreesfunctionfunctionapetree	waitFALSE
+summary.phylofunctionfunctionapeobject	...
+summary.phymltestfunctionfunctionapeobject	...
+summary.prop.partfunctionfunctionapeobject	...
+tcoffeefunctionfunctionapex	exec"t_coffee"	MoreArgs""	quietTRUE	original.orderingTRUE
+tiplabelsfunctionfunctionapetext	tip	adjc(0.5, 0.5)	frame"rect"	pchNULL	thermoNULL	pieNULL	piecolNULL	col"black"	bg"yellow"	horizFALSE	widthNULL	heightNULL	...
+tree.buildfunctionfunctionapetp
+treeBuildWithTokensCallRoutinelistapeNot a function
+treeBuildWithTokens$namecharactercharacterapeNot a function
+treeBuildWithTokens$addressRegisteredNativeSymbol apeNot a function
+treeBuildWithTokens$dllDLLInfo apeNot a function
+treeBuildWithTokens$numParametersintegernumericapeNot a function
+treePopfunctionfunctionapeobj
+trexfunctionfunctionapephy	titleTRUE	subbg"lightyellow3"	return.treeFALSE	...
+triangMtdfunctionfunctionapeX
+triangMtdsfunctionfunctionapeX
+ultrametricfunctionfunctionapeX
+unique.multiPhylofunctionfunctionapex	incomparablesFALSE	use.edge.lengthFALSE	use.tip.labelTRUE	...
+unrootfunctionfunctionapephy
+unrooted.xyfunctionfunctionapeNtip	Nnode	edge	edge.length	nb.sp	rotate.tree
+varcompfunctionfunctionapex	scaleFALSE	cumFALSE
+varCompPhylipfunctionfunctionapex	phy	execNULL
+vcvfunctionfunctionapephy	...
+vcv.corPhylfunctionfunctionapephy	corrFALSE	...
+vcv.phylofunctionfunctionapephy	model"Brownian"	corrFALSE	...
+weight.taxofunctionfunctionapex
+weight.taxo2functionfunctionapex	y
+wherefunctionfunctionapex	pattern
+which.edgefunctionfunctionapephy	group
+write.dnafunctionfunctionapex	file	format"interleaved"	appendFALSE	nbcol6	colsep" "	colw10	indentNULL	blocksep1
+write.nexusfunctionfunctionape...	file""	translateTRUE
+write.nexus.datafunctionfunctionapex	file	format"dna"	datablockTRUE	interleavedTRUE	charsperlineNULL	gapNULL	missingNULL
+write.treefunctionfunctionapephy	file""	appendFALSE	digits10	tree.namesFALSE
+yulefunctionfunctionapephy	use.root.edgeFALSE
+yule.covfunctionfunctionapephy	formula	dataNULL
+yule.timefunctionfunctionapephy	birth	BIRTHNULL	root.time0	opti"nlm"	start0.01
+zoomfunctionfunctionapephy	focus	subtreeFALSE	col	...

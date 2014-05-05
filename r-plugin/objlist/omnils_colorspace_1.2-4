@@ -1,0 +1,31 @@
+choose_palettefunctionfunctioncolorspacepal	parentNULL
+coercefunctionfunctioncolorspacefrom	to	strictTRUE
+coordsfunctionfunctioncolorspacecolor
+desaturatefunctionfunctioncolorspacecol
+diverge_hclfunctionfunctioncolorspacen	hc(260, 0)	c80	lc(30, 90)	power1.5	gammaNULL	fixupTRUE	alpha1	...
+diverge_hsvfunctionfunctioncolorspacen	hc(240, 0)	s1	v1	power1	gammaNULL	fixupTRUE	alpha1	...
+heat_hclfunctionfunctioncolorspacen	hc(0, 90)	c.c(100, 30)	lc(50, 90)	powerc(1/5, 1)	gammaNULL	fixupTRUE	alpha1	...
+hexfunctionfunctioncolorspacefrom	gammaNULL	fixupFALSE
+hex2RGBfunctionfunctioncolorspacex	gammaFALSE
+HLSfunctionfunctioncolorspaceH	L	S	names
+HSVfunctionfunctioncolorspaceH	S	V	names
+LABfunctionfunctioncolorspaceL	A	B	names
+LUVfunctionfunctioncolorspaceL	U	V	names
+mixcolorfunctionfunctioncolorspacealpha	color1	color2	whereclass(color1)
+plotfunctionfunctioncolorspacex	yNULL	type"p"	xlimNULL	ylimNULL	log""	mainNULL	subNULL	xlabNULL	ylabNULL	annpar("ann")	axesTRUE	frame.plot	panel.firstNULL	panel.lastNULL	aspNA	...
+polarLABfunctionfunctioncolorspaceL	C	H	names
+polarLUVfunctionfunctioncolorspaceL	C	H	names
+rainbow_hclfunctionfunctioncolorspacen	c50	l70	start0	end360 * (n - 1)/n	gammaNULL	fixupTRUE	alpha1	...
+readhexfunctionfunctioncolorspacefile""	class"RGB"
+readRGBfunctionfunctioncolorspacefile	class"RGB"
+RGBfunctionfunctioncolorspaceR	G	B	names
+sequential_hclfunctionfunctioncolorspacen	h260	c.c(80, 0)	lc(30, 90)	power1.5	gammaNULL	fixupTRUE	alpha1	...
+showfunctionfunctioncolorspaceobject
+sRGBfunctionfunctioncolorspaceR	G	B	names
+terrain_hclfunctionfunctioncolorspacen	hc(130, 0)	c.c(80, 0)	lc(60, 95)	powerc(1/10, 1)	gammaNULL	fixupTRUE	alpha1	...
+USSouthPolygondata.framedata.framecolorspaceNot a function
+USSouthPolygon$xnumericnumericcolorspaceNot a function
+USSouthPolygon$ynumericnumericcolorspaceNot a function
+USSouthPolygon$znumericnumericcolorspaceNot a function
+writehexfunctionfunctioncolorspacex	file""
+XYZfunctionfunctioncolorspaceX	Y	Z	names

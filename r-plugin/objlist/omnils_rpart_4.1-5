@@ -1,0 +1,85 @@
+car90data.framedata.framerpartNot a function
+car90$CountryfactorfactorrpartNot a function
+car90$DispnumericnumericrpartNot a function
+car90$Disp2numericnumericrpartNot a function
+car90$Eng.RevnumericnumericrpartNot a function
+car90$Front.HdnumericnumericrpartNot a function
+car90$Frt.Leg.RoomnumericnumericrpartNot a function
+car90$Frt.ShldnumericnumericrpartNot a function
+car90$Gear.RationumericnumericrpartNot a function
+car90$Gear2numericnumericrpartNot a function
+car90$HPnumericnumericrpartNot a function
+car90$HP.revsnumericnumericrpartNot a function
+car90$HeightnumericnumericrpartNot a function
+car90$LengthnumericnumericrpartNot a function
+car90$LuggagenumericnumericrpartNot a function
+car90$MileagenumericnumericrpartNot a function
+car90$Model2factorfactorrpartNot a function
+car90$PricenumericnumericrpartNot a function
+car90$Rear.HdnumericnumericrpartNot a function
+car90$Rear.SeatingnumericnumericrpartNot a function
+car90$RearShldnumericnumericrpartNot a function
+car90$ReliabilityorderedfactorrpartNot a function
+car90$RimfactorfactorrpartNot a function
+car90$Sratio.mnumericnumericrpartNot a function
+car90$Sratio.pnumericnumericrpartNot a function
+car90$SteeringfactorfactorrpartNot a function
+car90$TanknumericnumericrpartNot a function
+car90$TiresfactorfactorrpartNot a function
+car90$Trans1factorfactorrpartNot a function
+car90$Trans2factorfactorrpartNot a function
+car90$TurningnumericnumericrpartNot a function
+car90$TypefactorfactorrpartNot a function
+car90$WeightnumericnumericrpartNot a function
+car90$Wheel.basenumericnumericrpartNot a function
+car90$WidthnumericnumericrpartNot a function
+car.test.framedata.framedata.framerpartNot a function
+car.test.frame$PriceintegernumericrpartNot a function
+car.test.frame$CountryfactorfactorrpartNot a function
+car.test.frame$ReliabilityintegernumericrpartNot a function
+car.test.frame$MileageintegernumericrpartNot a function
+car.test.frame$TypefactorfactorrpartNot a function
+car.test.frame$WeightintegernumericrpartNot a function
+car.test.frame$Disp.integernumericrpartNot a function
+car.test.frame$HPintegernumericrpartNot a function
+cu.summarydata.framedata.framerpartNot a function
+cu.summary$PricenumericnumericrpartNot a function
+cu.summary$CountryfactorfactorrpartNot a function
+cu.summary$ReliabilityorderedfactorrpartNot a function
+cu.summary$MileagenumericnumericrpartNot a function
+cu.summary$TypefactorfactorrpartNot a function
+kyphosisdata.framedata.framerpartNot a function
+kyphosis$KyphosisfactorfactorrpartNot a function
+kyphosis$AgeintegernumericrpartNot a function
+kyphosis$NumberintegernumericrpartNot a function
+kyphosis$StartintegernumericrpartNot a function
+meanvarfunctionfunctionrparttree	...
+na.rpartfunctionfunctionrpartx
+path.rpartfunctionfunctionrparttree	nodes	pretty0	print.itTRUE
+plotcpfunctionfunctionrpartx	minlineTRUE	lty3	col1	upperc("size", "splits", "none")	...
+postfunctionfunctionrparttree	...
+printcpfunctionfunctionrpartx	digitsgetOption("digits") - 2L
+prunefunctionfunctionrparttree	...
+prune.rpartfunctionfunctionrparttree	cp	...
+rpartfunctionfunctionrpartformula	data	weights	subset	na.action	method	modelFALSE	xFALSE	yTRUE	parms	control	cost	...
+rpart.controlfunctionfunctionrpartminbucketround(minsplit/3)	cp0.01	...
+rpart.expfunctionfunctionrparty	offset	parms	wt
+rsq.rpartfunctionfunctionrpartx
+snip.rpartfunctionfunctionrpartx	toss
+solderdata.framedata.framerpartNot a function
+solder$OpeningfactorfactorrpartNot a function
+solder$SolderfactorfactorrpartNot a function
+solder$MaskfactorfactorrpartNot a function
+solder$PadTypefactorfactorrpartNot a function
+solder$PanelintegernumericrpartNot a function
+solder$skipsintegernumericrpartNot a function
+stagecdata.framedata.framerpartNot a function
+stagec$pgtimenumericnumericrpartNot a function
+stagec$pgstatintegernumericrpartNot a function
+stagec$ageintegernumericrpartNot a function
+stagec$eetintegernumericrpartNot a function
+stagec$g2numericnumericrpartNot a function
+stagec$gradeintegernumericrpartNot a function
+stagec$gleasonintegernumericrpartNot a function
+stagec$ploidyfactorfactorrpartNot a function
+xpred.rpartfunctionfunctionrpartfit	cp	return.allFALSE

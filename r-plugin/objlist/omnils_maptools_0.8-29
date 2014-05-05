@@ -1,0 +1,87 @@
+ArcObj2SLDFfunctionfunctionmaptoolsarc	proj4stringCRS(as.character(NA))	IDs
+as.im.SpatialGridDataFramefunctionfunctionmaptoolsfrom
+as.owin.SpatialGridDataFramefunctionfunctionmaptoolsW	...	fatal
+as.owin.SpatialPixelsDataFramefunctionfunctionmaptoolsW	...	fatal
+as.owin.SpatialPolygonsfunctionfunctionmaptoolsW	...	fatal
+as.ppp.SpatialPointsfunctionfunctionmaptoolsX
+as.ppp.SpatialPointsDataFramefunctionfunctionmaptoolsX
+as.psp.Linefunctionfunctionmaptoolsfrom	...	windowNULL	marksNULL	fatal
+as.psp.Linesfunctionfunctionmaptoolsfrom	...	windowNULL	marksNULL	fatal
+as.psp.SpatialLinesfunctionfunctionmaptoolsfrom	...	windowNULL	marksNULL	characterMarksFALSE	fatal
+as.psp.SpatialLinesDataFramefunctionfunctionmaptoolsfrom	...	windowNULL	marksNULL	fatal
+as.SpatialGridDataFrame.imfunctionfunctionmaptoolsfrom
+as.SpatialGridDataFrame.pppfunctionfunctionmaptoolsfrom
+as.SpatialLines.pspfunctionfunctionmaptoolsfrom
+as.SpatialPointsDataFrame.pppfunctionfunctionmaptoolsfrom
+as.SpatialPoints.pppfunctionfunctionmaptoolsfrom
+CCmapsfunctionfunctionmaptoolsobj	zcolNULL	cvarNULL	cvar.namesNULL	...	names.attr	scaleslist(draw = FALSE)	xlabNULL	ylabNULL	aspectmapasp(obj, xlim, ylim)	sp.layoutNULL	xlimbbox(obj)[1, ]	ylimbbox(obj)[2, ]
+checkPolygonsHolesfunctionfunctionmaptoolsx	properlyTRUE	avoidGEOSFALSE	useSTRtreeFALSE
+coercefunctionfunctionmaptoolsfrom	to	strictTRUE
+ContourLines2SLDFfunctionfunctionmaptoolscL	proj4stringCRS(as.character(NA))
+crepusculefunctionfunctionmaptoolscrds	dateTime	...
+dotsInPolysfunctionfunctionmaptoolspl	x	f"random"	offset	compatibleFALSE
+elidefunctionfunctionmaptoolsobj	...
+gcDestinationfunctionfunctionmaptoolslon	lat	bearing	dist	dist.units"km"	modelNULL	VincentyFALSE
+GE_SpatialGridfunctionfunctionmaptoolsobj	aspNA	maxPixels600
+getinfo.shapefunctionfunctionmaptoolsfilen
+getKMLcoordinatesfunctionfunctionmaptoolskmlfile	ignoreAltitudeFALSE
+getRgshhsMapfunctionfunctionmaptoolsfnsystem.file("share/gshhs_c.b", package = "maptools")	xlim	ylim	level1	shiftTRUE	verboseTRUE	no.clipFALSE	properlyFALSE	avoidGEOSFALSE	checkPolygonsFALSE
+gpclibPermitfunctionfunctionmaptoolsNO_ARGS
+gpclibPermitStatusfunctionfunctionmaptoolsNO_ARGS
+gzAzimuthfunctionfunctionmaptoolsfrom	to	type"snyder_sphere"
+kmlLinefunctionfunctionmaptoolsobjNULL	kmlfileNULL	name"R Line"	description""	colNULL	visibility1	lwd1	kmlname""	kmldescription""
+kmlLinesfunctionfunctionmaptoolsobjNULL	kmlfileNULL	name"R Lines"	description""	colNULL	visibility1	lwd1	kmlname""	kmldescription""
+kmlOverlayfunctionfunctionmaptoolsobj	kmlfileNULL	imagefileNULL	name"R image"
+kmlPointsfunctionfunctionmaptoolsobjNULL	kmlfileNULL	kmlname""	kmldescription""	nameNULL	description""	icon"http://google.com/mapfiles/kml/paddle/wht-diamond.png"
+kmlPolygonfunctionfunctionmaptoolsobjNULL	kmlfileNULL	name"R Polygon"	description""	colNULL	visibility1	lwd1	border1	kmlname""	kmldescription""
+kmlPolygonsfunctionfunctionmaptoolsobjNULL	kmlfileNULL	name"KML Polygons"	description""	colNULL	visibility1	lwd1	border"white"	kmlname""	kmldescription""
+labelfunctionfunctionmaptoolsobject	text	...
+leglabsfunctionfunctionmaptoolsvec	under"under"	over"over"	between"-"
+lineLabelfunctionfunctionmaptoolsline	label	spar0.6	positionc("above", "below")	textloc"constantSlope"	coladd.text$col	alphaadd.text$alpha	cexadd.text$cex	lineheightadd.text$lineheight	fontadd.text$font	fontfamilyadd.text$fontfamily	fontfaceadd.text$fontface	ltyadd.line$lty	lwdadd.line$lwd	col.lineadd.line$col	identifier"lineLabel"	...
+map2SpatialLinesfunctionfunctionmaptoolsmap	IDsNULL	proj4stringCRS(as.character(NA))
+map2SpatialPolygonsfunctionfunctionmaptoolsmap	IDs	proj4stringCRS(as.character(NA))
+MapGen2SLfunctionfunctionmaptoolsfile	proj4stringCRS(as.character(NA))
+nearestPointOnLinefunctionfunctionmaptoolscoordsLine	coordsPoint
+nearestPointOnSegmentfunctionfunctionmaptoolss	p
+nowrapRecenterfunctionfunctionmaptoolsobj	offset0	epsrep(.Machine$double.eps^(1/2), 2)	avoidGEOSFALSE
+nowrapSpatialPolygonsfunctionfunctionmaptoolsobj	offset0	epsrep(.Machine$double.eps^(1/2), 2)	avoidGEOSFALSE
+pal2SpatialPolygonsfunctionfunctionmaptoolsarc	pal	IDs	dropPoly1TRUE	proj4stringCRS(as.character(NA))
+panel.pointLabelfunctionfunctionmaptoolsx	yNULL	labelsseq(along = x)	methodc("SANN", "GA")	allowSmallOverlapFALSE	coladd.text$col	alphaadd.text$alpha	cexadd.text$cex	lineheightadd.text$lineheight	fontadd.text$font	fontfamilyadd.text$fontfamily	fontfaceadd.text$fontface	fill"transparent"	...
+pointLabelfunctionfunctionmaptoolsx	yNULL	labelsseq(along = x)	cex1	methodc("SANN", "GA")	allowSmallOverlapFALSE	traceFALSE	doPlotTRUE	...
+PolySet2SpatialLinesfunctionfunctionmaptoolsPS
+PolySet2SpatialPolygonsfunctionfunctionmaptoolsPS	close_polysTRUE
+print.shapeheadfunctionfunctionmaptoolsx	...
+pruneMapfunctionfunctionmaptoolsmap	xlimNULL	ylimNULL
+readAsciiGridfunctionfunctionmaptoolsfname	as.imageFALSE	plot.imageFALSE	colnamebasename(fname)	proj4stringCRS(as.character(NA))	decoptions()$OutDec
+readGPSfunctionfunctionmaptoolsi"garmin"	f"usb:"	type"w"	invisibleTRUE	...
+readShapeLinesfunctionfunctionmaptoolsfn	proj4stringCRS(as.character(NA))	verboseFALSE	repairFALSE	delete_null_objFALSE
+readShapePointsfunctionfunctionmaptoolsfn	proj4stringCRS(as.character(NA))	verboseFALSE	repairFALSE
+readShapePolyfunctionfunctionmaptoolsfn	IDvarNULL	proj4stringCRS(as.character(NA))	verboseFALSE	repairFALSE	force_ringFALSE	delete_null_objFALSE	retrieve_ABS_nullFALSE
+readShapeSpatialfunctionfunctionmaptoolsfn	proj4stringCRS(as.character(NA))	verboseFALSE	repairFALSE	IDvarNULL	force_ringFALSE	delete_null_objFALSE	retrieve_ABS_nullFALSE
+readSplusfunctionfunctionmaptoolsfile	proj4stringCRS(as.character(NA))
+rgeosStatusfunctionfunctionmaptoolsNO_ARGS
+Rgshhsfunctionfunctionmaptoolsfn	xlimNULL	ylimNULL	level4	minarea0	shiftFALSE	verboseTRUE	no.clipFALSE	properlyFALSE	avoidGEOSFALSE	checkPolygonsFALSE
+snapPointsToLinesfunctionfunctionmaptoolspoints	lines	maxDistNA	withAttrsTRUE	idFieldNA
+Sobj_SpatialGridfunctionfunctionmaptoolsobj	asp1	maxDim100	nNULL
+solarnoonfunctionfunctionmaptoolscrds	dateTime	...
+solarposfunctionfunctionmaptoolscrds	dateTime	...
+sp2MondrianfunctionfunctionmaptoolsSP	file	new_formatTRUE
+sp2tmapfunctionfunctionmaptoolsSP
+sp2WBfunctionfunctionmaptoolsmap	filename	Xscale1	Yscale	plotorderFALSE
+SpatialLines2PolySetfunctionfunctionmaptoolsSL
+SpatialLinesMidPointsfunctionfunctionmaptoolssldf
+SpatialPolygons2PolySetfunctionfunctionmaptoolsSpP
+spCbindfunctionfunctionmaptoolsobj	x
+sp.lineLabelfunctionfunctionmaptoolsobject	labels	byidTRUE	...
+sp.pointLabelfunctionfunctionmaptoolsobject	labels	...
+spRbindfunctionfunctionmaptoolsobj	x
+sunrisetfunctionfunctionmaptoolscrds	dateTime	...
+symbolsInPolysfunctionfunctionmaptoolspl	dens	symb"+"	compatibleFALSE
+thinnedSpatialPolyfunctionfunctionmaptoolsSP	tolerance	minarea0	topologyPreserveFALSE	avoidGEOSFALSE
+trackAzimuthfunctionfunctionmaptoolstrack	type"snyder_sphere"
+unionSpatialPolygonsfunctionfunctionmaptoolsSpP	IDs	thresholdNULL	avoidGEOSFALSE	avoidUnaryUnionFALSE
+writeAsciiGridfunctionfunctionmaptoolsx	fname	attr1	na.value-9999	decoptions()$OutDec	...
+writeLinesShapefunctionfunctionmaptoolsx	fn	factor2charTRUE	max_nchar254
+writePointsShapefunctionfunctionmaptoolsx	fn	factor2charTRUE	max_nchar254
+writePolyShapefunctionfunctionmaptoolsx	fn	factor2charTRUE	max_nchar254
+writeSpatialShapefunctionfunctionmaptoolsx	fn	factor2charTRUE	max_nchar254

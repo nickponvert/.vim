@@ -1,0 +1,751 @@
+Air.dfdata.framedata.frameEnvStatsNot a function
+Air.df$ozonenumericnumericEnvStatsNot a function
+Air.df$radiationnumericnumericEnvStatsNot a function
+Air.df$temperaturenumericnumericEnvStatsNot a function
+Air.df$windnumericnumericEnvStatsNot a function
+anovaPEfunctionfunctionEnvStatsobject
+aovNfunctionfunctionEnvStatsmu.vec	sigma1	alpha0.05	power0.95	round.upTRUE	n.max5000	tol1e-07	maxiter1000
+aovPowerfunctionfunctionEnvStatsn.vec	mu.vecrep(0, length(n.vec))	sigma1	alpha0.05
+basefunctionfunctionEnvStatsn	base10	num.digitsmax(0, floor(log(n, base))) + 1
+Benthic.dfdata.framedata.frameEnvStatsNot a function
+Benthic.df$Site.IDfactorfactorEnvStatsNot a function
+Benthic.df$StratumfactorfactorEnvStatsNot a function
+Benthic.df$LatitudenumericnumericEnvStatsNot a function
+Benthic.df$LongitudenumericnumericEnvStatsNot a function
+Benthic.df$IndexnumericnumericEnvStatsNot a function
+Benthic.df$SalinitynumericnumericEnvStatsNot a function
+Benthic.df$SiltnumericnumericEnvStatsNot a function
+boxcoxfunctionfunctionEnvStatsx	...
+boxcoxCensoredfunctionfunctionEnvStatsx	censored	censoring.side"left"	lambda{	lambda    if (optimize) 	lambda        c(-2, 2)	lambda    else seq(-2, 2, by = 0.5)	lambda}	optimizeFALSE	objective.name"PPCC"	eps.Machine$double.eps	include.x.and.censoredTRUE	prob.method"michael-schucany"	plot.pos.con0.375
+boxcoxTransformfunctionfunctionEnvStatsx	lambda	eps.Machine$double.eps
+calibratefunctionfunctionEnvStatsformula	data	max.order4	p.crit0.05	weights	subset	na.action	method"qr"	modelFALSE	xFALSE	yFALSE	contrastsNULL	...
+cdfComparefunctionfunctionEnvStatsx	yNULL	discreteFALSE	prob.methodifelse(discrete, "emp.probs", "plot.pos")	plot.pos.conNULL	distribution"norm"	param.listNULL	estimate.paramsis.null(param.list)	est.arg.listNULL	x.col"blue"	y.or.fitted.col"black"	x.lwd3 * par("cex")	y.or.fitted.lwd3 * par("cex")	x.lty1	y.or.fitted.lty2	digits.Options$digits	...	typeifelse(discrete, "s", "l")	mainNULL	xlabNULL	ylabNULL	xlimNULL	ylimNULL
+cdfCompareCensoredfunctionfunctionEnvStatsx	censored	censoring.side"left"	yNULL	y.censoredNULL	y.censoring.side	discreteFALSE	prob.method"michael-schucany"	plot.pos.conNULL	distribution"norm"	param.listNULL	estimate.paramsis.null(param.list)	est.arg.listNULL	x.col"blue"	y.or.fitted.col"black"	x.lwd3 * par("cex")	y.or.fitted.lwd3 * par("cex")	x.lty1	y.or.fitted.lty2	include.x.cenFALSE	x.cen.pchifelse(censoring.side == "left", 6, 2)	x.cen.cexpar("cex")	x.cen.col"red"	include.y.cenFALSE	y.cen.pchifelse(y.censoring.side == "left", 6, 2)	y.cen.cexpar("cex")	y.cen.col"black"	digits.Options$digits	...	typeifelse(discrete, "s", "l")	mainNULL	xlabNULL	ylabNULL	xlimNULL	ylimNULL
+cdfPlotfunctionfunctionEnvStatsdistribution"norm"	param.listlist(mean = 0, sd = 1)	left.tail.cutoffifelse(is.finite(supp.min), 0, 0.001)	right.tail.cutoffifelse(is.finite(supp.max), 0, 0.001)	plot.itTRUE	addFALSE	n.points1000	cdf.col"black"	cdf.lwd3 * par("cex")	cdf.lty1	curve.fillFALSE	curve.fill.col"cyan"	digits.Options$digits	...	typeifelse(discrete, "s", "l")	mainNULL	xlabNULL	ylabNULL	xlimNULL	ylimNULL
+chenTTestfunctionfunctionEnvStatsx	yNULL	alternative"greater"	mu0	paired!is.null(y)	conf.level0.95	ci.method"z"
+ciBinomHalfWidthfunctionfunctionEnvStatsn.or.n1	p.hat.or.p1.hat0.5	n2	p2.hat0.4	conf.level0.95	sample.type"one.sample"	ci.method"score"	correctTRUE	warnTRUE
+ciBinomNfunctionfunctionEnvStatshalf.width	p.hat.or.p1.hat0.5	p2.hat0.4	conf.level0.95	sample.type"one.sample"	ratio1	ci.method"score"	correctTRUE	warnTRUE	n.or.n1.min2	n.or.n1.max10000	tol.half.width5e-04	tol.p.hat5e-04	tol1e-07	maxiter1000
+ciNormHalfWidthfunctionfunctionEnvStatsn.or.n1	n2	sigma.hat1	conf.level0.95	sample.typeifelse(missing(n2), "one.sample", "two.sample")
+ciNormNfunctionfunctionEnvStatshalf.width	sigma.hat1	conf.level0.95	sample.typeifelse(is.null(n2), "one.sample", "two.sample")	n2NULL	round.upTRUE	n.max5000	tol1e-07	maxiter1000
+ciNparConfLevelfunctionfunctionEnvStatsn	p0.5	lcl.rankifelse(ci.type == "upper", 0, 1)	n.plus.one.minus.ucl.rankifelse(ci.type == "lower", 0, 1)	ci.type"two.sided"
+ciNparNfunctionfunctionEnvStatsp0.5	lcl.rankifelse(ci.type == "upper", 0, 1)	n.plus.one.minus.ucl.rankifelse(ci.type == "lower", 0, 1)	ci.type"two.sided"	conf.level0.95
+ciTableMeanfunctionfunctionEnvStatsn110	n2	diff.or.mean2:0	SD1:3	sample.type"two.sample"	ci.type"two.sided"	conf.level0.95	digits1
+ciTablePropfunctionfunctionEnvStatsn110	p1.hatc(0.1, 0.2, 0.3)	n2	p2.hat.minus.p1.hatc(0.2, 0.1, 0)	sample.type"two.sample"	ci.type"two.sided"	conf.level0.95	digits2	ci.method"score"	correctTRUE	tol10^-(digits + 1)
+cvfunctionfunctionEnvStatsx	method"moments"	sd.method"sqrt.unbiased"	l.moment.method"unbiased"	plot.pos.consc(a = 0.35, b = 0)	na.rmFALSE
+dchifunctionfunctionEnvStatsx	df
+dempfunctionfunctionEnvStatsx	obs	discreteFALSE	density.arg.listNULL
+detectionLimitCalibratefunctionfunctionEnvStatsobject	coverage0.99	simultaneousFALSE
+devdfunctionfunctionEnvStatsx	location0	scale1
+dgammaAltfunctionfunctionEnvStatsx	mean	cv1	logFALSE
+dgevdfunctionfunctionEnvStatsx	location0	scale1	shape0
+Distribution.dfdata.framedata.frameEnvStatsNot a function
+Distribution.df$NamecharactercharacterEnvStatsNot a function
+Distribution.df$TypecharactercharacterEnvStatsNot a function
+Distribution.df$Support.MincharactercharacterEnvStatsNot a function
+Distribution.df$Support.MaxcharactercharacterEnvStatsNot a function
+Distribution.df$Estimation.Method(s)unknown EnvStatsNot a function
+Distribution.df$Quantile.Estimation.Method(s)unknown EnvStatsNot a function
+Distribution.df$Prediction.Interval.Method(s)unknown EnvStatsNot a function
+Distribution.df$Singly.Censored.Estimation.Method(s)unknown EnvStatsNot a function
+Distribution.df$Multiply.Censored.Estimation.Method(s)unknown EnvStatsNot a function
+Distribution.df$Number.parametersintegernumericEnvStatsNot a function
+Distribution.df$Parameter.1charactercharacterEnvStatsNot a function
+Distribution.df$Parameter.2charactercharacterEnvStatsNot a function
+Distribution.df$Parameter.3charactercharacterEnvStatsNot a function
+Distribution.df$Parameter.4charactercharacterEnvStatsNot a function
+Distribution.df$Parameter.5charactercharacterEnvStatsNot a function
+Distribution.df$Parameter.1.MincharactercharacterEnvStatsNot a function
+Distribution.df$Parameter.1.MaxcharactercharacterEnvStatsNot a function
+Distribution.df$Parameter.2.MincharactercharacterEnvStatsNot a function
+Distribution.df$Parameter.2.MaxcharactercharacterEnvStatsNot a function
+Distribution.df$Parameter.3.MincharactercharacterEnvStatsNot a function
+Distribution.df$Parameter.3.MaxcharactercharacterEnvStatsNot a function
+Distribution.df$Parameter.4.MincharactercharacterEnvStatsNot a function
+Distribution.df$Parameter.4.MaxcharactercharacterEnvStatsNot a function
+Distribution.df$Parameter.5.MinintegernumericEnvStatsNot a function
+Distribution.df$Parameter.5.MaxintegernumericEnvStatsNot a function
+dlnorm3functionfunctionEnvStatsx	meanlog0	sdlog1	threshold0
+dlnormAltfunctionfunctionEnvStatsx	meanexp(1/2)	cvsqrt(exp(1) - 1)	logFALSE
+dlnormMixfunctionfunctionEnvStatsx	meanlog10	sdlog11	meanlog20	sdlog21	p.mix0.5
+dlnormMixAltfunctionfunctionEnvStatsx	mean1exp(1/2)	cv1sqrt(exp(1) - 1)	mean2exp(1/2)	cv2sqrt(exp(1) - 1)	p.mix0.5
+dlnormTruncfunctionfunctionEnvStatsx	meanlog0	sdlog1	min0	maxInf
+dlnormTruncAltfunctionfunctionEnvStatsx	meanexp(1/2)	cvsqrt(exp(1) - 1)	min0	maxInf
+dnormMixfunctionfunctionEnvStatsx	mean10	sd11	mean20	sd21	p.mix0.5
+dnormTruncfunctionfunctionEnvStatsx	mean0	sd1	min-Inf	maxInf
+dparetofunctionfunctionEnvStatsx	location	shape1
+dtrifunctionfunctionEnvStatsx	min0	max1	mode1/2
+dzmlnormfunctionfunctionEnvStatsx	meanlog0	sdlog1	p.zero0.5
+dzmlnormAltfunctionfunctionEnvStatsx	meanexp(1/2)	cvsqrt(exp(1) - 1)	p.zero0.5
+dzmnormfunctionfunctionEnvStatsx	mean0	sd1	p.zero0.5
+ebetafunctionfunctionEnvStatsx	method"mle"
+ebinomfunctionfunctionEnvStatsx	sizeNULL	method"mle/mme/mvue"	ciFALSE	ci.type"two-sided"	ci.method"score"	correctTRUE	var.denom"n"	conf.level0.95	warnTRUE
+ecdfPlotfunctionfunctionEnvStatsx	discreteFALSE	prob.methodifelse(discrete, "emp.probs", "plot.pos")	plot.pos.con0.375	plot.itTRUE	addFALSE	ecdf.col"black"	ecdf.lwd3 * par("cex")	ecdf.lty1	curve.fillFALSE	curve.fill.col"cyan"	...	typeifelse(discrete, "s", "l")	mainNULL	xlabNULL	ylabNULL	xlimNULL	ylimNULL
+ecdfPlotCensoredfunctionfunctionEnvStatsx	censored	censoring.side"left"	discreteFALSE	prob.method"michael-schucany"	plot.pos.con0.375	plot.itTRUE	addFALSE	ecdf.col1	ecdf.lwd3 * par("cex")	ecdf.lty1	include.cenFALSE	cen.pchifelse(censoring.side == "left", 6, 2)	cen.cexpar("cex")	cen.col4	...	typeifelse(discrete, "s", "l")	mainNULL	xlabNULL	ylabNULL	xlimNULL	ylimNULL
+eevdfunctionfunctionEnvStatsx	method"mle"	pwme.method"unbiased"	plot.pos.consc(a = 0.35, b = 0)	ciFALSE	ci.parameter"location"	ci.type"two-sided"	ci.method"normal.approx"	conf.level0.95
+eexpfunctionfunctionEnvStatsx	method"mle/mme"	ciFALSE	ci.type"two-sided"	ci.method"exact"	conf.level0.95
+egammafunctionfunctionEnvStatsx	method"mle"	ciFALSE	ci.type"two-sided"	ci.method"normal.approx"	normal.approx.transform"kulkarni.powar"	conf.level0.95
+egammaAltfunctionfunctionEnvStatsx	method"mle"	ciFALSE	ci.type"two-sided"	ci.method"normal.approx"	normal.approx.transform"kulkarni.powar"	conf.level0.95
+egammaAltCensoredfunctionfunctionEnvStatsx	censored	method"mle"	censoring.side"left"	ciFALSE	ci.method"profile.likelihood"	ci.type"two-sided"	conf.level0.95	n.bootstraps1000	use.acc.conFALSE	pivot.statistic"z"	ci.sample.sizesum(!censored)
+egammaCensoredfunctionfunctionEnvStatsx	censored	method"mle"	censoring.side"left"	ciFALSE	ci.method"profile.likelihood"	ci.type"two-sided"	conf.level0.95	n.bootstraps1000	use.acc.conFALSE	pivot.statistic"z"	ci.sample.sizesum(!censored)
+egeomfunctionfunctionEnvStatsx	method"mle/mme"
+egevdfunctionfunctionEnvStatsx	method"mle"	pwme.method"unbiased"	tsoe.method"med"	plot.pos.consc(a = 0.35, b = 0)	ciFALSE	ci.parameter"location"	ci.type"two-sided"	ci.method"normal.approx"	information"observed"	conf.level0.95
+ehyperfunctionfunctionEnvStatsx	mNULL	totalNULL	k	method"mle"
+elnormfunctionfunctionEnvStatsx	method"mvue"	ciFALSE	ci.type"two-sided"	ci.method"exact"	conf.level0.95
+elnorm3functionfunctionEnvStatsx	method"lmle"	ciFALSE	ci.parameter"threshold"	ci.method"avar"	ci.type"two-sided"	conf.level0.95	threshold.lb.sd100
+elnormAltfunctionfunctionEnvStatsx	method"mvue"	ciFALSE	ci.type"two-sided"	ci.method"land"	conf.level0.95	parkin.listNULL
+elnormAltCensoredfunctionfunctionEnvStatsx	censored	method"mle"	censoring.side"left"	ciFALSE	ci.method"profile.likelihood"	ci.type"two-sided"	conf.level0.95	n.bootstraps1000	use.acc.conFALSE	pivot.statistic"z"	...
+elnormCensoredfunctionfunctionEnvStatsx	censored	method"mle"	censoring.side"left"	ciFALSE	ci.method"profile.likelihood"	ci.type"two-sided"	conf.level0.95	n.bootstraps1000	use.acc.conFALSE	pivot.statistic"z"	nmc1000	seedNULL	...
+elogisfunctionfunctionEnvStatsx	method"mle"	ciFALSE	ci.type"two-sided"	ci.method"normal.approx"	conf.level0.95
+enbinomfunctionfunctionEnvStatsx	size	method"mle/mme"
+enormfunctionfunctionEnvStatsx	method"mvue"	ciFALSE	ci.type"two-sided"	ci.method"exact"	conf.level0.95	ci.param"mean"
+enormCensoredfunctionfunctionEnvStatsx	censored	method"mle"	censoring.side"left"	ciFALSE	ci.method"profile.likelihood"	ci.type"two-sided"	conf.level0.95	n.bootstraps1000	use.acc.conFALSE	pivot.statistic"z"	nmc1000	seedNULL	...
+enparCensoredfunctionfunctionEnvStatsx	censored	censoring.side"left"	correct.seFALSE	left.censored.min"DL"	right.censored.max"DL"	ciFALSE	ci.method"normal.approx"	ci.type"two-sided"	conf.level0.95	pivot.statistic"z"	ci.sample.sizeNULL	n.bootstraps1000	use.acc.conFALSE
+Environmental.dfdata.framedata.frameEnvStatsNot a function
+Environmental.df$ozonenumericnumericEnvStatsNot a function
+Environmental.df$radiationnumericnumericEnvStatsNot a function
+Environmental.df$temperaturenumericnumericEnvStatsNot a function
+Environmental.df$windnumericnumericEnvStatsNot a function
+EPA.02d.Ex.2.ug.per.L.vecnumericnumericEnvStatsNot a function
+EPA.02d.Ex.4.mg.per.kg.vecnumericnumericEnvStatsNot a function
+EPA.02d.Ex.6.mg.per.kg.vecnumericnumericEnvStatsNot a function
+EPA.02d.Ex.9.mg.per.L.vecnumericnumericEnvStatsNot a function
+EPA.09.Ex.10.1.nickel.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.10.1.nickel.df$MonthnumericnumericEnvStatsNot a function
+EPA.09.Ex.10.1.nickel.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.10.1.nickel.df$Nickel.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.11.1.arsenic.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.11.1.arsenic.df$Arsenic.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.11.1.arsenic.df$MonthfactorfactorEnvStatsNot a function
+EPA.09.Ex.11.1.arsenic.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.12.1.ccl4.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.12.1.ccl4.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.12.1.ccl4.df$CCL4.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.12.4.naphthalene.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.12.4.naphthalene.df$QuarterintegernumericEnvStatsNot a function
+EPA.09.Ex.12.4.naphthalene.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.12.4.naphthalene.df$Naphthalene.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.13.1.iron.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.13.1.iron.df$MonthnumericnumericEnvStatsNot a function
+EPA.09.Ex.13.1.iron.df$YearnumericnumericEnvStatsNot a function
+EPA.09.Ex.13.1.iron.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.13.1.iron.df$Iron.ppmnumericnumericEnvStatsNot a function
+EPA.09.Ex.14.1.manganese.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.14.1.manganese.df$QuarterintegernumericEnvStatsNot a function
+EPA.09.Ex.14.1.manganese.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.14.1.manganese.df$Manganese.ppmnumericnumericEnvStatsNot a function
+EPA.09.Ex.14.3.alkalinity.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.14.3.alkalinity.df$DateDate EnvStatsNot a function
+EPA.09.Ex.14.3.alkalinity.df$Alkalinity.mg.per.LnumericnumericEnvStatsNot a function
+EPA.09.Ex.14.4.arsenic.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.14.4.arsenic.df$Sample.DatefactorfactorEnvStatsNot a function
+EPA.09.Ex.14.4.arsenic.df$MonthfactorfactorEnvStatsNot a function
+EPA.09.Ex.14.4.arsenic.df$YearfactorfactorEnvStatsNot a function
+EPA.09.Ex.14.4.arsenic.df$Arsenic.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.14.8.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.14.8.df$MonthfactorfactorEnvStatsNot a function
+EPA.09.Ex.14.8.df$YearintegernumericEnvStatsNot a function
+EPA.09.Ex.14.8.df$Unadj.ConcnumericnumericEnvStatsNot a function
+EPA.09.Ex.14.8.df$Adj.ConcnumericnumericEnvStatsNot a function
+EPA.09.Ex.15.1.manganese.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.15.1.manganese.df$SampleintegernumericEnvStatsNot a function
+EPA.09.Ex.15.1.manganese.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.15.1.manganese.df$Manganese.Orig.ppbcharactercharacterEnvStatsNot a function
+EPA.09.Ex.15.1.manganese.df$Manganese.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.15.1.manganese.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.09.Ex.16.1.sulfate.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.16.1.sulfate.df$MonthfactorfactorEnvStatsNot a function
+EPA.09.Ex.16.1.sulfate.df$YearfactorfactorEnvStatsNot a function
+EPA.09.Ex.16.1.sulfate.df$Well.typefactorfactorEnvStatsNot a function
+EPA.09.Ex.16.1.sulfate.df$Sulfate.ppmnumericnumericEnvStatsNot a function
+EPA.09.Ex.16.2.benzene.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.16.2.benzene.df$MonthfactorfactorEnvStatsNot a function
+EPA.09.Ex.16.2.benzene.df$Well.typefactorfactorEnvStatsNot a function
+EPA.09.Ex.16.2.benzene.df$Benzene.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.16.4.copper.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.16.4.copper.df$MonthfactorfactorEnvStatsNot a function
+EPA.09.Ex.16.4.copper.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.16.4.copper.df$Well.typefactorfactorEnvStatsNot a function
+EPA.09.Ex.16.4.copper.df$Copper.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.16.5.PCE.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.16.5.PCE.df$Well.typefactorfactorEnvStatsNot a function
+EPA.09.Ex.16.5.PCE.df$PCE.Orig.ppbcharactercharacterEnvStatsNot a function
+EPA.09.Ex.16.5.PCE.df$PCE.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.16.5.PCE.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.09.Ex.17.1.loglead.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.17.1.loglead.df$MonthfactorfactorEnvStatsNot a function
+EPA.09.Ex.17.1.loglead.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.17.1.loglead.df$Well.typefactorfactorEnvStatsNot a function
+EPA.09.Ex.17.1.loglead.df$LogLeadnumericnumericEnvStatsNot a function
+EPA.09.Ex.17.2.toluene.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.17.2.toluene.df$MonthfactorfactorEnvStatsNot a function
+EPA.09.Ex.17.2.toluene.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.17.2.toluene.df$Well.typefactorfactorEnvStatsNot a function
+EPA.09.Ex.17.2.toluene.df$Toluene.ppb.origcharactercharacterEnvStatsNot a function
+EPA.09.Ex.17.2.toluene.df$Toluene.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.17.2.toluene.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.09.Ex.17.3.chrysene.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.17.3.chrysene.df$MonthfactorfactorEnvStatsNot a function
+EPA.09.Ex.17.3.chrysene.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.17.3.chrysene.df$Well.typefactorfactorEnvStatsNot a function
+EPA.09.Ex.17.3.chrysene.df$Chrysene.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.17.3.log.chrysene.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.17.3.log.chrysene.df$MonthfactorfactorEnvStatsNot a function
+EPA.09.Ex.17.3.log.chrysene.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.17.3.log.chrysene.df$Well.typefactorfactorEnvStatsNot a function
+EPA.09.Ex.17.3.log.chrysene.df$Log.Chrysene.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.17.4.copper.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.17.4.copper.df$MonthfactorfactorEnvStatsNot a function
+EPA.09.Ex.17.4.copper.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.17.4.copper.df$Well.typefactorfactorEnvStatsNot a function
+EPA.09.Ex.17.4.copper.df$Copper.ppb.origcharactercharacterEnvStatsNot a function
+EPA.09.Ex.17.4.copper.df$Copper.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.17.4.copper.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.09.Ex.17.5.chloride.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.17.5.chloride.df$DateDate EnvStatsNot a function
+EPA.09.Ex.17.5.chloride.df$Chloride.ppmnumericnumericEnvStatsNot a function
+EPA.09.Ex.17.5.chloride.df$Elapsed.DaysnumericnumericEnvStatsNot a function
+EPA.09.Ex.17.5.chloride.df$ResidualsnumericnumericEnvStatsNot a function
+EPA.09.Ex.17.6.sulfate.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.17.6.sulfate.df$Sample.NointegernumericEnvStatsNot a function
+EPA.09.Ex.17.6.sulfate.df$YearintegernumericEnvStatsNot a function
+EPA.09.Ex.17.6.sulfate.df$MonthnumericnumericEnvStatsNot a function
+EPA.09.Ex.17.6.sulfate.df$Sampling.DatenumericnumericEnvStatsNot a function
+EPA.09.Ex.17.6.sulfate.df$DateDate EnvStatsNot a function
+EPA.09.Ex.17.6.sulfate.df$Sulfate.ppmnumericnumericEnvStatsNot a function
+EPA.09.Ex.17.7.sodium.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.17.7.sodium.df$YearnumericnumericEnvStatsNot a function
+EPA.09.Ex.17.7.sodium.df$Sodium.ppmnumericnumericEnvStatsNot a function
+EPA.09.Ex.18.1.arsenic.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.18.1.arsenic.df$YearfactorfactorEnvStatsNot a function
+EPA.09.Ex.18.1.arsenic.df$Sampling.PeriodfactorfactorEnvStatsNot a function
+EPA.09.Ex.18.1.arsenic.df$Arsenic.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.18.2.chrysene.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.18.2.chrysene.df$MonthfactorfactorEnvStatsNot a function
+EPA.09.Ex.18.2.chrysene.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.18.2.chrysene.df$Well.typefactorfactorEnvStatsNot a function
+EPA.09.Ex.18.2.chrysene.df$Chrysene.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.18.3.TCE.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.18.3.TCE.df$MonthfactorfactorEnvStatsNot a function
+EPA.09.Ex.18.3.TCE.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.18.3.TCE.df$Well.typefactorfactorEnvStatsNot a function
+EPA.09.Ex.18.3.TCE.df$TCE.ppb.origcharactercharacterEnvStatsNot a function
+EPA.09.Ex.18.3.TCE.df$TCE.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.18.3.TCE.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.09.Ex.18.4.xylene.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.18.4.xylene.df$MonthfactorfactorEnvStatsNot a function
+EPA.09.Ex.18.4.xylene.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.18.4.xylene.df$Well.typefactorfactorEnvStatsNot a function
+EPA.09.Ex.18.4.xylene.df$Xylene.ppb.origcharactercharacterEnvStatsNot a function
+EPA.09.Ex.18.4.xylene.df$Xylene.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.18.4.xylene.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.09.Ex.19.1.sulfate.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.19.1.sulfate.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.19.1.sulfate.df$MonthnumericnumericEnvStatsNot a function
+EPA.09.Ex.19.1.sulfate.df$DaynumericnumericEnvStatsNot a function
+EPA.09.Ex.19.1.sulfate.df$YearnumericnumericEnvStatsNot a function
+EPA.09.Ex.19.1.sulfate.df$DateDate EnvStatsNot a function
+EPA.09.Ex.19.1.sulfate.df$Sulfate.mg.per.lnumericnumericEnvStatsNot a function
+EPA.09.Ex.19.1.sulfate.df$log.Sulfate.mg.per.lnumericnumericEnvStatsNot a function
+EPA.09.Ex.19.2.chloride.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.19.2.chloride.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.19.2.chloride.df$Chloride.mg.per.lnumericnumericEnvStatsNot a function
+EPA.09.Ex.19.5.mercury.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.19.5.mercury.df$EventfactorfactorEnvStatsNot a function
+EPA.09.Ex.19.5.mercury.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.19.5.mercury.df$Well.typefactorfactorEnvStatsNot a function
+EPA.09.Ex.19.5.mercury.df$Mercury.ppb.origcharactercharacterEnvStatsNot a function
+EPA.09.Ex.19.5.mercury.df$Mercury.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.19.5.mercury.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.09.Ex.20.1.nickel.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.20.1.nickel.df$MonthfactorfactorEnvStatsNot a function
+EPA.09.Ex.20.1.nickel.df$YearfactorfactorEnvStatsNot a function
+EPA.09.Ex.20.1.nickel.df$PeriodfactorfactorEnvStatsNot a function
+EPA.09.Ex.20.1.nickel.df$Nickel.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.21.1.aldicarb.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.21.1.aldicarb.df$MonthfactorfactorEnvStatsNot a function
+EPA.09.Ex.21.1.aldicarb.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.21.1.aldicarb.df$Aldicarb.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.21.2.benzene.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.21.2.benzene.df$MonthintegernumericEnvStatsNot a function
+EPA.09.Ex.21.2.benzene.df$Benzene.ppb.origcharactercharacterEnvStatsNot a function
+EPA.09.Ex.21.2.benzene.df$Benzene.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.21.2.benzene.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.09.Ex.21.5.beryllium.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.21.5.beryllium.df$YearfactorfactorEnvStatsNot a function
+EPA.09.Ex.21.5.beryllium.df$QuarterfactorfactorEnvStatsNot a function
+EPA.09.Ex.21.5.beryllium.df$Beryllium.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.21.6.nitrate.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.21.6.nitrate.df$Sampling.DatecharactercharacterEnvStatsNot a function
+EPA.09.Ex.21.6.nitrate.df$DateDate EnvStatsNot a function
+EPA.09.Ex.21.6.nitrate.df$Nitrate.mg.per.l.origcharactercharacterEnvStatsNot a function
+EPA.09.Ex.21.6.nitrate.df$Nitrate.mg.per.lnumericnumericEnvStatsNot a function
+EPA.09.Ex.21.6.nitrate.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.09.Ex.21.7.TCE.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.21.7.TCE.df$MonthnumericnumericEnvStatsNot a function
+EPA.09.Ex.21.7.TCE.df$TCE.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.22.1.VC.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.22.1.VC.df$YearfactorfactorEnvStatsNot a function
+EPA.09.Ex.22.1.VC.df$QuarterfactorfactorEnvStatsNot a function
+EPA.09.Ex.22.1.VC.df$PeriodfactorfactorEnvStatsNot a function
+EPA.09.Ex.22.1.VC.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.22.1.VC.df$VC.ppbnumericnumericEnvStatsNot a function
+EPA.09.Ex.22.2.Specific.Conductance.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.22.2.Specific.Conductance.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.22.2.Specific.Conductance.df$DateDate EnvStatsNot a function
+EPA.09.Ex.22.2.Specific.Conductance.df$Specific.Conductance.umhonumericnumericEnvStatsNot a function
+EPA.09.Ex.6.3.sulfate.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.6.3.sulfate.df$MonthnumericnumericEnvStatsNot a function
+EPA.09.Ex.6.3.sulfate.df$YearnumericnumericEnvStatsNot a function
+EPA.09.Ex.6.3.sulfate.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Ex.6.3.sulfate.df$Sulfate.ppmnumericnumericEnvStatsNot a function
+EPA.09.Ex.7.1.arsenic.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Ex.7.1.arsenic.df$Data.SourcefactorfactorEnvStatsNot a function
+EPA.09.Ex.7.1.arsenic.df$Arsenic.ug.per.lnumericnumericEnvStatsNot a function
+EPA.09.Table.9.1.TCE.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Table.9.1.TCE.df$Date.CollectedfactorfactorEnvStatsNot a function
+EPA.09.Table.9.1.TCE.df$DateDate EnvStatsNot a function
+EPA.09.Table.9.1.TCE.df$WellfactorfactorEnvStatsNot a function
+EPA.09.Table.9.1.TCE.df$TCE.mg.per.LnumericnumericEnvStatsNot a function
+EPA.09.Table.9.1.TCE.df$Data.QualifierfactorfactorEnvStatsNot a function
+EPA.09.Table.9.3.dfdata.framedata.frameEnvStatsNot a function
+EPA.09.Table.9.3.df$Date.CollectedfactorfactorEnvStatsNot a function
+EPA.09.Table.9.3.df$DateDate EnvStatsNot a function
+EPA.09.Table.9.3.df$Arsenic.mg.per.LnumericnumericEnvStatsNot a function
+EPA.09.Table.9.3.df$Arsenic.Data.QualifierfactorfactorEnvStatsNot a function
+EPA.09.Table.9.3.df$Mercury.mg.per.LnumericnumericEnvStatsNot a function
+EPA.09.Table.9.3.df$Mercury.Data.QualifierfactorfactorEnvStatsNot a function
+EPA.09.Table.9.3.df$Strontium.mg.per.LnumericnumericEnvStatsNot a function
+EPA.09.Table.9.3.df$Strontium.Data.QualifierfactorfactorEnvStatsNot a function
+EPA.09.Table.9.4.nickel.vecnumericnumericEnvStatsNot a function
+EPA.89b.aldicarb1.dfdata.framedata.frameEnvStatsNot a function
+EPA.89b.aldicarb1.df$AldicarbnumericnumericEnvStatsNot a function
+EPA.89b.aldicarb1.df$MonthfactorfactorEnvStatsNot a function
+EPA.89b.aldicarb1.df$WellfactorfactorEnvStatsNot a function
+EPA.89b.aldicarb2.dfdata.framedata.frameEnvStatsNot a function
+EPA.89b.aldicarb2.df$AldicarbnumericnumericEnvStatsNot a function
+EPA.89b.aldicarb2.df$MonthfactorfactorEnvStatsNot a function
+EPA.89b.aldicarb2.df$WellfactorfactorEnvStatsNot a function
+EPA.89b.benzene.dfdata.framedata.frameEnvStatsNot a function
+EPA.89b.benzene.df$Benzene.origcharactercharacterEnvStatsNot a function
+EPA.89b.benzene.df$BenzenenumericnumericEnvStatsNot a function
+EPA.89b.benzene.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.89b.benzene.df$MonthfactorfactorEnvStatsNot a function
+EPA.89b.benzene.df$WellfactorfactorEnvStatsNot a function
+EPA.89b.benzene.df$Well.typefactorfactorEnvStatsNot a function
+EPA.89b.cadmium.dfdata.framedata.frameEnvStatsNot a function
+EPA.89b.cadmium.df$Cadmium.origcharactercharacterEnvStatsNot a function
+EPA.89b.cadmium.df$CadmiumnumericnumericEnvStatsNot a function
+EPA.89b.cadmium.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.89b.cadmium.df$Well.typefactorfactorEnvStatsNot a function
+EPA.89b.chlordane1.dfdata.framedata.frameEnvStatsNot a function
+EPA.89b.chlordane1.df$ChlordanenumericnumericEnvStatsNot a function
+EPA.89b.chlordane1.df$PhasefactorfactorEnvStatsNot a function
+EPA.89b.chlordane2.dfdata.framedata.frameEnvStatsNot a function
+EPA.89b.chlordane2.df$ChlordanenumericnumericEnvStatsNot a function
+EPA.89b.chlordane2.df$MonthfactorfactorEnvStatsNot a function
+EPA.89b.chlordane2.df$YearnumericnumericEnvStatsNot a function
+EPA.89b.chlordane2.df$ReplicatefactorfactorEnvStatsNot a function
+EPA.89b.chlordane2.df$Well.typefactorfactorEnvStatsNot a function
+EPA.89b.edb.dfdata.framedata.frameEnvStatsNot a function
+EPA.89b.edb.df$EDBnumericnumericEnvStatsNot a function
+EPA.89b.edb.df$MonthfactorfactorEnvStatsNot a function
+EPA.89b.edb.df$WellfactorfactorEnvStatsNot a function
+EPA.89b.lead.dfdata.framedata.frameEnvStatsNot a function
+EPA.89b.lead.df$LeadnumericnumericEnvStatsNot a function
+EPA.89b.lead.df$MonthfactorfactorEnvStatsNot a function
+EPA.89b.lead.df$WellfactorfactorEnvStatsNot a function
+EPA.89b.lead.df$Well.typefactorfactorEnvStatsNot a function
+EPA.89b.loglead.dfdata.framedata.frameEnvStatsNot a function
+EPA.89b.loglead.df$LogLeadnumericnumericEnvStatsNot a function
+EPA.89b.loglead.df$MonthfactorfactorEnvStatsNot a function
+EPA.89b.loglead.df$WellfactorfactorEnvStatsNot a function
+EPA.89b.loglead.df$Well.typefactorfactorEnvStatsNot a function
+EPA.89b.manganese.dfdata.framedata.frameEnvStatsNot a function
+EPA.89b.manganese.df$ManganesenumericnumericEnvStatsNot a function
+EPA.89b.manganese.df$MonthfactorfactorEnvStatsNot a function
+EPA.89b.manganese.df$WellfactorfactorEnvStatsNot a function
+EPA.89b.sulfate.dfdata.framedata.frameEnvStatsNot a function
+EPA.89b.sulfate.df$Sulfate.origcharactercharacterEnvStatsNot a function
+EPA.89b.sulfate.df$SulfatenumericnumericEnvStatsNot a function
+EPA.89b.sulfate.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.89b.t29.dfdata.framedata.frameEnvStatsNot a function
+EPA.89b.t29.df$T29.origcharactercharacterEnvStatsNot a function
+EPA.89b.t29.df$T29numericnumericEnvStatsNot a function
+EPA.89b.t29.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.89b.t29.df$MonthfactorfactorEnvStatsNot a function
+EPA.89b.t29.df$ReplicatefactorfactorEnvStatsNot a function
+EPA.89b.t29.df$WellfactorfactorEnvStatsNot a function
+EPA.89b.toc.vecnumericnumericEnvStatsNot a function
+EPA.92c.arsenic1.dfdata.framedata.frameEnvStatsNot a function
+EPA.92c.arsenic1.df$ArsenicnumericnumericEnvStatsNot a function
+EPA.92c.arsenic1.df$MonthfactorfactorEnvStatsNot a function
+EPA.92c.arsenic1.df$WellfactorfactorEnvStatsNot a function
+EPA.92c.arsenic2.dfdata.framedata.frameEnvStatsNot a function
+EPA.92c.arsenic2.df$Arsenic.origcharactercharacterEnvStatsNot a function
+EPA.92c.arsenic2.df$ArsenicnumericnumericEnvStatsNot a function
+EPA.92c.arsenic2.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.92c.arsenic2.df$MonthfactorfactorEnvStatsNot a function
+EPA.92c.arsenic2.df$WellfactorfactorEnvStatsNot a function
+EPA.92c.arsenic2.df$Well.typefactorfactorEnvStatsNot a function
+EPA.92c.arsenic3.dfdata.framedata.frameEnvStatsNot a function
+EPA.92c.arsenic3.df$ArsenicnumericnumericEnvStatsNot a function
+EPA.92c.arsenic3.df$YearfactorfactorEnvStatsNot a function
+EPA.92c.arsenic3.df$Well.typefactorfactorEnvStatsNot a function
+EPA.92c.benzene1.dfdata.framedata.frameEnvStatsNot a function
+EPA.92c.benzene1.df$Benzene.origcharactercharacterEnvStatsNot a function
+EPA.92c.benzene1.df$BenzenenumericnumericEnvStatsNot a function
+EPA.92c.benzene1.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.92c.benzene1.df$MonthfactorfactorEnvStatsNot a function
+EPA.92c.benzene1.df$WellfactorfactorEnvStatsNot a function
+EPA.92c.benzene2.dfdata.framedata.frameEnvStatsNot a function
+EPA.92c.benzene2.df$BenzenenumericnumericEnvStatsNot a function
+EPA.92c.benzene2.df$MonthfactorfactorEnvStatsNot a function
+EPA.92c.benzene2.df$Well.typefactorfactorEnvStatsNot a function
+EPA.92c.ccl4.dfdata.framedata.frameEnvStatsNot a function
+EPA.92c.ccl4.df$CCL4numericnumericEnvStatsNot a function
+EPA.92c.ccl4.df$MonthfactorfactorEnvStatsNot a function
+EPA.92c.ccl4.df$WellfactorfactorEnvStatsNot a function
+EPA.92c.chrysene.dfdata.framedata.frameEnvStatsNot a function
+EPA.92c.chrysene.df$ChrysenenumericnumericEnvStatsNot a function
+EPA.92c.chrysene.df$MonthfactorfactorEnvStatsNot a function
+EPA.92c.chrysene.df$WellfactorfactorEnvStatsNot a function
+EPA.92c.copper1.dfdata.framedata.frameEnvStatsNot a function
+EPA.92c.copper1.df$CoppernumericnumericEnvStatsNot a function
+EPA.92c.copper1.df$MonthfactorfactorEnvStatsNot a function
+EPA.92c.copper1.df$WellfactorfactorEnvStatsNot a function
+EPA.92c.copper1.df$Well.typefactorfactorEnvStatsNot a function
+EPA.92c.copper2.dfdata.framedata.frameEnvStatsNot a function
+EPA.92c.copper2.df$Copper.origcharactercharacterEnvStatsNot a function
+EPA.92c.copper2.df$CoppernumericnumericEnvStatsNot a function
+EPA.92c.copper2.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.92c.copper2.df$MonthfactorfactorEnvStatsNot a function
+EPA.92c.copper2.df$WellfactorfactorEnvStatsNot a function
+EPA.92c.copper2.df$Well.typefactorfactorEnvStatsNot a function
+EPA.92c.lognickel1.dfdata.framedata.frameEnvStatsNot a function
+EPA.92c.lognickel1.df$LogNickelnumericnumericEnvStatsNot a function
+EPA.92c.lognickel1.df$MonthfactorfactorEnvStatsNot a function
+EPA.92c.lognickel1.df$WellfactorfactorEnvStatsNot a function
+EPA.92c.nickel1.dfdata.framedata.frameEnvStatsNot a function
+EPA.92c.nickel1.df$NickelnumericnumericEnvStatsNot a function
+EPA.92c.nickel1.df$MonthfactorfactorEnvStatsNot a function
+EPA.92c.nickel1.df$WellfactorfactorEnvStatsNot a function
+EPA.92c.nickel2.dfdata.framedata.frameEnvStatsNot a function
+EPA.92c.nickel2.df$NickelnumericnumericEnvStatsNot a function
+EPA.92c.nickel2.df$MonthfactorfactorEnvStatsNot a function
+EPA.92c.nickel2.df$SamplefactorfactorEnvStatsNot a function
+EPA.92c.toluene.dfdata.framedata.frameEnvStatsNot a function
+EPA.92c.toluene.df$Toluene.origcharactercharacterEnvStatsNot a function
+EPA.92c.toluene.df$ToluenenumericnumericEnvStatsNot a function
+EPA.92c.toluene.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.92c.toluene.df$MonthfactorfactorEnvStatsNot a function
+EPA.92c.toluene.df$WellfactorfactorEnvStatsNot a function
+EPA.92c.toluene.df$Well.typefactorfactorEnvStatsNot a function
+EPA.92c.zinc.dfdata.framedata.frameEnvStatsNot a function
+EPA.92c.zinc.df$Zinc.origcharactercharacterEnvStatsNot a function
+EPA.92c.zinc.df$ZincnumericnumericEnvStatsNot a function
+EPA.92c.zinc.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.92c.zinc.df$SamplefactorfactorEnvStatsNot a function
+EPA.92c.zinc.df$WellfactorfactorEnvStatsNot a function
+EPA.92d.chromium.dfdata.framedata.frameEnvStatsNot a function
+EPA.92d.chromium.df$CrnumericnumericEnvStatsNot a function
+EPA.92d.chromium.vecnumericnumericEnvStatsNot a function
+EPA.94b.lead.dfdata.framedata.frameEnvStatsNot a function
+EPA.94b.lead.df$Lead.origcharactercharacterEnvStatsNot a function
+EPA.94b.lead.df$LeadnumericnumericEnvStatsNot a function
+EPA.94b.lead.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.94b.lead.df$AreafactorfactorEnvStatsNot a function
+EPA.94b.tccb.dfdata.framedata.frameEnvStatsNot a function
+EPA.94b.tccb.df$TcCB.origcharactercharacterEnvStatsNot a function
+EPA.94b.tccb.df$TcCBnumericnumericEnvStatsNot a function
+EPA.94b.tccb.df$CensoredlogicallogicalEnvStatsNot a function
+EPA.94b.tccb.df$AreafactorfactorEnvStatsNot a function
+EPA.97.cadmium.111.dfdata.framedata.frameEnvStatsNot a function
+EPA.97.cadmium.111.df$CadmiumnumericnumericEnvStatsNot a function
+EPA.97.cadmium.111.df$SpikenumericnumericEnvStatsNot a function
+eparetofunctionfunctionEnvStatsx	method"mle"	plot.pos.con0.375
+epdfPlotfunctionfunctionEnvStatsx	discreteFALSE	density.arg.listNULL	plot.itTRUE	addFALSE	epdf.col"black"	epdf.lwd3 * par("cex")	epdf.lty1	curve.fillFALSE	curve.fill.col"cyan"	...	typeifelse(discrete, "h", "l")	mainNULL	xlabNULL	ylabNULL	xlimNULL	ylimNULL
+epoisfunctionfunctionEnvStatsx	method"mle/mme/mvue"	ciFALSE	ci.type"two-sided"	ci.method"exact"	conf.level0.95
+epoisCensoredfunctionfunctionEnvStatsx	censored	method"mle"	censoring.side"left"	ciFALSE	ci.method"profile.likelihood"	ci.type"two-sided"	conf.level0.95	n.bootstraps1000	use.acc.conFALSE	pivot.statistic"z"	ci.sample.sizesum(!censored)
+eqbetafunctionfunctionEnvStatsx	p0.5	method"mle"	digits0
+eqbinomfunctionfunctionEnvStatsx	sizeNULL	p0.5	method"mle/mme/mvue"	digits0
+eqevdfunctionfunctionEnvStatsx	p0.5	method"mle"	pwme.method"unbiased"	plot.pos.consc(a = 0.35, b = 0)	digits0
+eqexpfunctionfunctionEnvStatsx	p0.5	method"mle/mme"	digits0
+eqgammafunctionfunctionEnvStatsx	p0.5	method"mle"	ciFALSE	ci.type"two-sided"	conf.level0.95	normal.approx.transform"kulkarni.powar"	digits0
+eqgammaAltfunctionfunctionEnvStatsx	p0.5	method"mle"	ciFALSE	ci.type"two-sided"	conf.level0.95	normal.approx.transform"kulkarni.powar"	digits0
+eqgeomfunctionfunctionEnvStatsx	p0.5	method"mle/mme"	digits0
+eqgevdfunctionfunctionEnvStatsx	p0.5	method"mle"	pwme.method"unbiased"	tsoe.method"med"	plot.pos.consc(a = 0.35, b = 0)	digits0
+eqhyperfunctionfunctionEnvStatsx	mNULL	totalNULL	kNULL	p0.5	method"mle"	digits0
+eqlnormfunctionfunctionEnvStatsx	p0.5	method"qmle"	ciFALSE	ci.method"exact"	ci.type"two-sided"	conf.level0.95	digits0
+eqlnorm3functionfunctionEnvStatsx	p0.5	method"lmle"	digits0
+eqlnormCensoredfunctionfunctionEnvStatsx	censored	censoring.side"left"	p0.5	method"mle"	ciFALSE	ci.method"exact.for.complete"	ci.type"two-sided"	conf.level0.95	digits0	nmc1000	seedNULL
+eqlogisfunctionfunctionEnvStatsx	p0.5	method"mle"	digits0
+eqnbinomfunctionfunctionEnvStatsx	sizeNULL	p0.5	method"mle/mme"	digits0
+eqnormfunctionfunctionEnvStatsx	p0.5	method"qmle"	ciFALSE	ci.method"exact"	ci.type"two-sided"	conf.level0.95	digits0	warnTRUE
+eqnormCensoredfunctionfunctionEnvStatsx	censored	censoring.side"left"	p0.5	method"mle"	ciFALSE	ci.method"exact.for.complete"	ci.type"two-sided"	conf.level0.95	digits0	nmc1000	seedNULL
+eqnparfunctionfunctionEnvStatsx	p0.5	ciFALSE	lcl.rankNULL	ucl.rankNULL	lb-Inf	ubInf	ci.type"two-sided"	ci.method"exact"	approx.conf.level0.95	digits0
+eqparetofunctionfunctionEnvStatsx	p0.5	method"mle"	plot.pos.con0.375	digits0
+eqpoisfunctionfunctionEnvStatsx	p0.5	method"mle/mme/mvue"	ciFALSE	ci.method"exact"	ci.type"two-sided"	conf.level0.95	digits0
+equniffunctionfunctionEnvStatsx	p0.5	method"mle"	digits0
+eqweibullfunctionfunctionEnvStatsx	p0.5	method"mle"	digits0
+eqzmlnormfunctionfunctionEnvStatsx	p0.5	method"mvue"	digits0
+eqzmlnormAltfunctionfunctionEnvStatsx	p0.5	method"mvue"	digits0
+eqzmnormfunctionfunctionEnvStatsx	p0.5	method"mvue"	digits0
+euniffunctionfunctionEnvStatsx	method"mle"
+evNormOrdStatsfunctionfunctionEnvStatsn1	approximateFALSE
+evNormOrdStatsScalarfunctionfunctionEnvStatsr1	n1	approximateFALSE
+eweibullfunctionfunctionEnvStatsx	method"mle"
+ezmlnormfunctionfunctionEnvStatsx	method"mvue"	ciFALSE	ci.type"two-sided"	ci.method"normal.approx"	conf.level0.95
+ezmlnormAltfunctionfunctionEnvStatsx	method"mvue"	ciFALSE	ci.type"two-sided"	ci.method"normal.approx"	conf.level0.95
+ezmnormfunctionfunctionEnvStatsx	method"mvue"	ciFALSE	ci.type"two-sided"	ci.method"normal.approx"	conf.level0.95
+geoMeanfunctionfunctionEnvStatsx	na.rmFALSE
+geoSDfunctionfunctionEnvStatsx	na.rmFALSE	sqrt.unbiasedTRUE
+Gibbons.et.al.09.Alkilinity.vecnumericnumericEnvStatsNot a function
+Gibbons.et.al.09.Vinyl.Chloride.vecnumericnumericEnvStatsNot a function
+gofGroupTestfunctionfunctionEnvStatsobject	...
+gofTestfunctionfunctionEnvStatsy	...
+gofTestCensoredfunctionfunctionEnvStatsx	censored	censoring.side"left"	test"sf"	distribution"norm"	est.arg.listNULL	prob.method"hirsch-stedinger"	plot.pos.con0.375
+gpqCiNormMultiplyCensoredfunctionfunctionEnvStatsn	cen.index	probs	nmc	method"mle"	censoring.side"left"	seedNULL	namesTRUE
+gpqCiNormSinglyCensoredfunctionfunctionEnvStatsn	n.cen	probs	nmc	method"mle"	censoring.side"left"	seedNULL	namesTRUE
+gpqTolIntNormMultiplyCensoredfunctionfunctionEnvStatsn	cen.index	p	probs	nmc	method"mle"	censoring.side"left"	seedNULL	namesTRUE
+gpqTolIntNormSinglyCensoredfunctionfunctionEnvStatsn	n.cen	p	probs	nmc	method"mle"	censoring.side"left"	seedNULL	namesTRUE
+Graham.et.al.75.etu.dfdata.framedata.frameEnvStatsNot a function
+Graham.et.al.75.etu.df$dosenumericnumericEnvStatsNot a function
+Graham.et.al.75.etu.df$tumorsnumericnumericEnvStatsNot a function
+Graham.et.al.75.etu.df$nnumericnumericEnvStatsNot a function
+Graham.et.al.75.etu.df$proportionnumericnumericEnvStatsNot a function
+Helsel.Cohn.88.app.b.dfdata.framedata.frameEnvStatsNot a function
+Helsel.Cohn.88.app.b.df$Conc.origcharactercharacterEnvStatsNot a function
+Helsel.Cohn.88.app.b.df$ConcnumericnumericEnvStatsNot a function
+Helsel.Cohn.88.app.b.df$CensoredlogicallogicalEnvStatsNot a function
+Helsel.Cohn.88.silver.dfdata.framedata.frameEnvStatsNot a function
+Helsel.Cohn.88.silver.df$Ag.origcharactercharacterEnvStatsNot a function
+Helsel.Cohn.88.silver.df$AgnumericnumericEnvStatsNot a function
+Helsel.Cohn.88.silver.df$CensoredlogicallogicalEnvStatsNot a function
+Helsel.Cohn.88.silver.df$log.AgnumericnumericEnvStatsNot a function
+inversePredictCalibratefunctionfunctionEnvStatsobject	obs.yNULL	n.pointsifelse(is.null(obs.y), 100, length(obs.y))	intervalsFALSE	coverage0.99	simultaneousFALSE	individualFALSE	traceFALSE
+iqrfunctionfunctionEnvStatsx	na.rmFALSE
+kendallSeasonalTrendTestfunctionfunctionEnvStatsy	...
+kendallTrendTestfunctionfunctionEnvStatsy	...
+kurtosisfunctionfunctionEnvStatsx	na.rmFALSE	method"fisher"	l.moment.method"unbiased"	plot.pos.consc(a = 0.35, b = 0)	excessTRUE
+linearTrendTestNfunctionfunctionEnvStatsslope.over.sigma	alpha0.05	power0.95	alternative"two.sided"	approxFALSE	round.upTRUE	n.max5000	tol1e-07	maxiter1000
+linearTrendTestPowerfunctionfunctionEnvStatsn	xlapply(n, seq)	slope.over.sigma0	alpha0.05	alternative"two.sided"	approxFALSE
+linearTrendTestScaledMdsfunctionfunctionEnvStatsn	xlapply(n, seq)	alpha0.05	power0.95	alternative"two.sided"	two.sided.direction"greater"	approxFALSE	tol1e-07	maxiter1000
+Lin.Evans.80.dfdata.framedata.frameEnvStatsNot a function
+Lin.Evans.80.df$Fecal.ColiformnumericnumericEnvStatsNot a function
+Lin.Evans.80.df$SeasonorderedfactorEnvStatsNot a function
+lMomentfunctionfunctionEnvStatsx	r1	method"unbiased"	plot.pos.consc(a = 0.35, b = 0)	na.rmFALSE
+longToWidefunctionfunctionEnvStatsx	data.var	row.var	col.var	row.labelslevels(factor(x[, row.var]))	col.labelslevels(factor(x[, col.var]))	paste.row.nameFALSE	paste.col.nameFALSE	sep"."	check.namesFALSE	...
+Millard.Deverel.88.dfdata.framedata.frameEnvStatsNot a function
+Millard.Deverel.88.df$Cu.origcharactercharacterEnvStatsNot a function
+Millard.Deverel.88.df$CunumericnumericEnvStatsNot a function
+Millard.Deverel.88.df$Cu.censoredlogicallogicalEnvStatsNot a function
+Millard.Deverel.88.df$Zn.origcharactercharacterEnvStatsNot a function
+Millard.Deverel.88.df$ZnnumericnumericEnvStatsNot a function
+Millard.Deverel.88.df$Zn.censoredlogicallogicalEnvStatsNot a function
+Millard.Deverel.88.df$ZonefactorfactorEnvStatsNot a function
+Millard.Deverel.88.df$LocationnumericnumericEnvStatsNot a function
+Modified.TcCB.dfdata.framedata.frameEnvStatsNot a function
+Modified.TcCB.df$TcCB.origcharactercharacterEnvStatsNot a function
+Modified.TcCB.df$TcCBnumericnumericEnvStatsNot a function
+Modified.TcCB.df$CensoredlogicallogicalEnvStatsNot a function
+newsEnvStatsfunctionfunctionEnvStatsNO_ARGS
+NIOSH.89.air.lead.vecnumericnumericEnvStatsNot a function
+Olympic.NH4.dfdata.framedata.frameEnvStatsNot a function
+Olympic.NH4.df$Date.OnDate EnvStatsNot a function
+Olympic.NH4.df$Date.OffDate EnvStatsNot a function
+Olympic.NH4.df$WeekintegernumericEnvStatsNot a function
+Olympic.NH4.df$NH4.Orig.mg.per.LcharactercharacterEnvStatsNot a function
+Olympic.NH4.df$NH4.mg.per.LnumericnumericEnvStatsNot a function
+Olympic.NH4.df$CensoredlogicallogicalEnvStatsNot a function
+oneSamplePermutationTestfunctionfunctionEnvStatsx	alternative"two.sided"	mu0	exactFALSE	n.permutations5000	seedsample(.Random.seed, size = 1)	...
+Ozone.NE.dfdata.framedata.frameEnvStatsNot a function
+Ozone.NE.df$MediannumericnumericEnvStatsNot a function
+Ozone.NE.df$QuartilenumericnumericEnvStatsNot a function
+Ozone.NE.df$CityfactorfactorEnvStatsNot a function
+Ozone.NE.df$LongitudenumericnumericEnvStatsNot a function
+Ozone.NE.df$LatitudenumericnumericEnvStatsNot a function
+pchifunctionfunctionEnvStatsq	df
+pdfPlotfunctionfunctionEnvStatsdistribution"norm"	param.listlist(mean = 0, sd = 1)	left.tail.cutoffifelse(is.finite(supp.min), 0, 0.001)	right.tail.cutoffifelse(is.finite(supp.max), 0, 0.001)	plot.itTRUE	addFALSE	n.points1000	pdf.col"black"	pdf.lwd3 * par("cex")	pdf.lty1	curve.fill!add	curve.fill.col"cyan"	x.ticks.at.all.x.max15	hist.colifelse(add, "black", "cyan")	density5	digits.Options$digits	...	type"l"	mainNULL	xlabNULL	ylabNULL	xlimNULL	ylimNULL
+pempfunctionfunctionEnvStatsq	obs	discreteFALSE	prob.methodifelse(discrete, "emp.probs", "plot.pos")	plot.pos.con0.375
+pevdfunctionfunctionEnvStatsq	location0	scale1
+pgammaAltfunctionfunctionEnvStatsq	mean	cv1	lower.tailTRUE	log.pFALSE
+pgevdfunctionfunctionEnvStatsq	location0	scale1	shape0
+plnorm3functionfunctionEnvStatsq	meanlog0	sdlog1	threshold0
+plnormAltfunctionfunctionEnvStatsq	meanexp(1/2)	cvsqrt(exp(1) - 1)	lower.tailTRUE	log.pFALSE
+plnormMixfunctionfunctionEnvStatsq	meanlog10	sdlog11	meanlog20	sdlog21	p.mix0.5
+plnormMixAltfunctionfunctionEnvStatsq	mean1exp(1/2)	cv1sqrt(exp(1) - 1)	mean2exp(1/2)	cv2sqrt(exp(1) - 1)	p.mix0.5
+plnormTruncfunctionfunctionEnvStatsq	meanlog0	sdlog1	min0	maxInf
+plnormTruncAltfunctionfunctionEnvStatsq	meanexp(1/2)	cvsqrt(exp(1) - 1)	min0	maxInf
+plotAovDesignfunctionfunctionEnvStatsx.var"n"	y.var"power"	range.x.varNULL	n.vecc(25, 25)	mu.vecc(0, 1)	sigma1	alpha0.05	power0.95	round.upFALSE	n.max5000	tol1e-07	maxiter1000	plot.itTRUE	addFALSE	n.points50	plot.col1	plot.lwd3 * par("cex")	plot.lty1	digits.Options$digits	mainNULL	xlabNULL	ylabNULL	type"l"	...
+plot.boxcoxfunctionfunctionEnvStatsx	plot.type"Objective vs. lambda"	same.windowTRUE	asksame.window & plot.type != "Ojective vs. lambda"	plot.pos.con0.375	estimate.paramsFALSE	equal.axesqq.line.type == "0-1" || estimate.params	add.lineTRUE	qq.line.type"least squares"	duplicate.points.method"standard"	points.col1	line.col1	line.lwdpar("cex")	line.lty1	digits.Options$digits	cex.main1.4 * par("cex")	cex.subpar("cex")	mainNULL	subNULL	xlabNULL	ylabNULL	xlimNULL	ylimNULL	...
+plot.boxcoxCensoredfunctionfunctionEnvStatsx	plot.type"Objective vs. lambda"	same.windowTRUE	asksame.window & plot.type != "Ojective vs. lambda"	prob.method"michael-schucany"	plot.pos.con0.375	estimate.paramsFALSE	equal.axesqq.line.type == "0-1" || estimate.params	add.lineTRUE	qq.line.type"least squares"	duplicate.points.method"standard"	points.col1	line.col1	line.lwdpar("cex")	line.lty1	digits.Options$digits	cex.main1.4 * par("cex")	cex.subpar("cex")	mainNULL	subNULL	xlabNULL	ylabNULL	xlimNULL	ylimNULL	...
+plot.boxcoxLmfunctionfunctionEnvStatsx	plot.type"Objective vs. lambda"	same.windowTRUE	asksame.window & plot.type != "Ojective vs. lambda"	plot.pos.con0.375	estimate.paramsFALSE	equal.axesqq.line.type == "0-1" || estimate.params	add.lineTRUE	qq.line.type"least squares"	duplicate.points.method"standard"	points.col1	line.col1	line.lwdpar("cex")	line.lty1	digits.Options$digits	cex.main1.4 * par("cex")	cex.subpar("cex")	mainNULL	subNULL	xlabNULL	ylabNULL	xlimNULL	ylimNULL	...
+plotCiBinomDesignfunctionfunctionEnvStatsx.var"n"	y.var"half.width"	range.x.varNULL	n.or.n125	p.hat.or.p1.hat0.5	n2	p2.hat0.4	ratio1	half.width0.05	conf.level0.95	sample.type"one.sample"	ci.method"score"	correctTRUE	warnTRUE	n.or.n1.min2	n.or.n1.max10000	tol.half.width0.005	tol.p.hat0.005	maxiter10000	plot.itTRUE	addFALSE	n.points100	plot.col1	plot.lwd3 * par("cex")	plot.lty1	digits.Options$digits	mainNULL	xlabNULL	ylabNULL	type"l"	...
+plotCiNormDesignfunctionfunctionEnvStatsx.var"n"	y.var"half.width"	range.x.varNULL	n.or.n125	n2	half.widthsigma.hat/2	sigma.hat1	conf.level0.95	sample.typeifelse(missing(n2), "one.sample", "two.sample")	round.upFALSE	n.max5000	tol1e-07	maxiter1000	plot.itTRUE	addFALSE	n.points100	plot.col"black"	plot.lwd3 * par("cex")	plot.lty1	digits.Options$digits	mainNULL	xlabNULL	ylabNULL	type"l"	...
+plotCiNparDesignfunctionfunctionEnvStatsx.var"n"	y.var"conf.level"	range.x.varNULL	n25	p0.5	conf.level0.95	ci.type"two.sided"	lcl.rankifelse(ci.type == "upper", 0, 1)	n.plus.one.minus.ucl.rankifelse(ci.type == "lower", 0, 1)	plot.itTRUE	addFALSE	n.points100	plot.col"black"	plot.lwd3 * par("cex")	plot.lty1	digits.Options$digits	cex.mainpar("cex")	...	mainNULL	xlabNULL	ylabNULL	type"l"
+plot.goffunctionfunctionEnvStatsx	plot.type"Summary"	captionslist(PDFs = NULL, CDFs = NULL, QQ = NULL, MDQQ = NULL, Results = NULL)	x.labelslist(PDFs = NULL, CDFs = NULL, QQ = NULL, MDQQ = NULL)	y.labelslist(PDFs = NULL, CDFs = NULL, QQ = NULL, MDQQ = NULL)	same.windowFALSE	asksame.window & plot.type == "All"	hist.col"cyan"	fitted.pdf.col"black"	fitted.pdf.lwd3 * par("cex")	fitted.pdf.lty1	plot.pos.conswitch(dist.abb, norm = , lnorm = , lnormAlt = , lnorm3 = 0.375, 	plot.pos.con    evd = 0.44, 0.4)	ecdf.col"cyan"	fitted.cdf.col"black"	ecdf.lwd3 * par("cex")	fitted.cdf.lwd3 * par("cex")	ecdf.lty1	fitted.cdf.lty2	add.lineTRUE	digitsifelse(plot.type == "Summary", 2, .Options$digits)	test.result.font1	test.result.cexifelse(plot.type == "Summary", 0.9, 1) * par("cex")	test.result.marc(0, 0, 3, 0) + 0.1	cex.mainifelse(plot.type == "Summary", 1.2, 1.5) * par("cex")	cex.axisifelse(plot.type == "Summary", 0.9, 1) * par("cex")	cex.labifelse(plot.type == "Summary", 0.9, 1) * par("cex")	mainNULL	xlabNULL	ylabNULL	xlimNULL	ylimNULL	add.om.titleTRUE	omaif (plot.type == "Summary" & add.om.title) c(0, 0, 2.5, 0) else c(0, 	oma    0, 0, 0)	om.titleNULL	om.font2	om.cex.main1.75 * par("cex")	om.line0.5	...
+plot.gofCensoredfunctionfunctionEnvStatsx	plot.type"Summary"	captionslist(PDFs = NULL, CDFs = NULL, QQ = NULL, MDQQ = NULL, Results = NULL)	x.labelslist(PDFs = NULL, CDFs = NULL, QQ = NULL, MDQQ = NULL)	y.labelslist(PDFs = NULL, CDFs = NULL, QQ = NULL, MDQQ = NULL)	same.windowFALSE	asksame.window & plot.type == "All"	hist.col"cyan"	fitted.pdf.col"black"	fitted.pdf.lwd3 * par("cex")	fitted.pdf.lty1	prob.method"michael-schucany"	plot.pos.con0.375	ecdf.col"cyan"	fitted.cdf.col"black"	ecdf.lwd3 * par("cex")	fitted.cdf.lwd3 * par("cex")	ecdf.lty1	fitted.cdf.lty2	add.lineTRUE	digitsifelse(plot.type == "Summary", 2, .Options$digits)	test.result.font1	test.result.cexifelse(plot.type == "Summary", 0.9, 1) * par("cex")	test.result.marc(0, 0, 3, 0) + 0.1	cex.mainifelse(plot.type == "Summary", 1.2, 1.5) * par("cex")	cex.axisifelse(plot.type == "Summary", 0.9, 1) * par("cex")	cex.labifelse(plot.type == "Summary", 0.9, 1) * par("cex")	mainNULL	xlabNULL	ylabNULL	xlimNULL	ylimNULL	add.om.titleTRUE	omaif (plot.type == "Summary" & add.om.title) c(0, 0, 4, 0) else c(0, 	oma    0, 0, 0)	om.titleNULL	om.font2	om.cex.main1.5 * par("cex")	om.line0	...
+plot.gofGroupfunctionfunctionEnvStatsx	plot.type"Summary"	captionslist(QQ = NULL, MDQQ = NULL, ScoresQQ = NULL, ScoresMDQQ = NULL, 	captions    Results = NULL)	x.labelslist(QQ = NULL, MDQQ = NULL, ScoresQQ = NULL, ScoresMDQQ = NULL)	y.labelslist(QQ = NULL, MDQQ = NULL, ScoresQQ = NULL, ScoresMDQQ = NULL)	same.windowFALSE	asksame.window & plot.type == "All"	add.lineTRUE	digitsifelse(plot.type == "Summary", 2, .Options$digits)	test.result.font1	test.result.cexifelse(plot.type == "Summary", 0.9, 1) * par("cex")	test.result.marc(0, 0, 3, 0) + 0.1	individual.p.valuesFALSE	cex.mainifelse(plot.type == "Summary", 1.2, 1.5) * par("cex")	cex.axisifelse(plot.type == "Summary", 0.9, 1) * par("cex")	cex.labifelse(plot.type == "Summary", 0.9, 1) * par("cex")	mainNULL	xlabNULL	ylabNULL	xlimNULL	ylimNULL	add.om.titleTRUE	omaif (plot.type == "Summary" & add.om.title) c(0, 0, 5, 0) else c(0, 	oma    0, 0, 0)	om.titleNULL	om.font2	om.cex.main1.5 * par("cex")	om.line1	...
+plot.gofTwoSamplefunctionfunctionEnvStatsx	plot.type"Summary"	captionslist(PDFs = NULL, CDFs = NULL, QQ = NULL, MDQQ = NULL, Results = NULL)	x.labelslist(PDFs = NULL, CDFs = NULL, QQ = NULL, MDQQ = NULL)	y.labelslist(PDFs = NULL, CDFs = NULL, QQ = NULL, MDQQ = NULL)	same.windowFALSE	asksame.window & plot.type == "All"	x.points.col"blue"	y.points.col"black"	points.pch1	jitter.pointsTRUE	discreteFALSE	plot.pos.con0.375	x.ecdf.col"blue"	y.ecdf.col"black"	x.ecdf.lwd3 * par("cex")	y.ecdf.lwd3 * par("cex")	x.ecdf.lty1	y.ecdf.lty4	add.lineTRUE	digitsifelse(plot.type == "Summary", 2, .Options$digits)	test.result.font1	test.result.cexifelse(plot.type == "Summary", 0.9, 1) * par("cex")	test.result.marc(0, 0, 3, 0) + 0.1	cex.mainifelse(plot.type == "Summary", 1.2, 1.5) * par("cex")	cex.axisifelse(plot.type == "Summary", 0.9, 1) * par("cex")	cex.labifelse(plot.type == "Summary", 0.9, 1) * par("cex")	mainNULL	xlabNULL	ylabNULL	xlimNULL	ylimNULL	add.om.titleTRUE	omaif (plot.type == "Summary" & add.om.title) c(0, 0, 4, 0) else c(0, 	oma    0, 0, 0)	om.titleNULL	om.font2	om.cex.main1.5 * par("cex")	om.line0	...
+plotLinearTrendTestDesignfunctionfunctionEnvStatsx.var"n"	y.var"power"	range.x.varNULL	n12	slope.over.sigmaswitch(alternative, greater = 0.1, less = -0.1, two.sided = ifelse(two.sided.direction == 	slope.over.sigma    "greater", 0.1, -0.1))	alpha0.05	power0.95	alternative"two.sided"	two.sided.direction"greater"	approxFALSE	round.upFALSE	n.max5000	tol1e-07	maxiter1000	plot.itTRUE	addFALSE	n.pointsifelse(x.var == "n", diff(range.x.var) + 1, 50)	plot.col"black"	plot.lwd3 * par("cex")	plot.lty1	digits.Options$digits	...	mainNULL	xlabNULL	ylabNULL	type"l"
+plot.permutationTestfunctionfunctionEnvStatsx	hist.col"cyan"	stat.col"black"	stat.lwd3 * par("cex")	stat.lty1	cex.mainpar("cex")	digits.Options$digits	mainNULL	xlabNULL	ylabNULL	xlimNULL	ylimNULL	...
+plotPredIntLnormAltSimultaneousTestPowerCurvefunctionfunctionEnvStatsn8	dfn - 1	n.geomean1	k1	m2	r1	rule"k.of.m"	cv1	range.ratio.of.meansc(1, 5)	pi.type"upper"	conf.level0.95	r.shifted	K.tol.Machine$double.eps^(1/2)	integrate.args.listNULL	plot.itTRUE	addFALSE	n.points20	plot.col"black"	plot.lwd3 * par("cex")	plot.lty1	digits.Options$digits	cex.mainpar("cex")	...	mainNULL	xlabNULL	ylabNULL	type"l"
+plotPredIntLnormAltTestPowerCurvefunctionfunctionEnvStatsn8	dfn - 1	n.geomean1	k1	cv1	range.ratio.of.meansc(1, 5)	pi.type"upper"	conf.level0.95	plot.itTRUE	addFALSE	n.points20	plot.col"black"	plot.lwd3 * par("cex")	plot.lty1	digits.Options$digits	...	mainNULL	xlabNULL	ylabNULL	type"l"
+plotPredIntNormDesignfunctionfunctionEnvStatsx.var"n"	y.var"half.width"	range.x.varNULL	n25	k1	n.mean1	half.width4 * sigma.hat	sigma.hat1	method"Bonferroni"	conf.level0.95	round.upFALSE	n.max5000	tol1e-07	maxiter1000	plot.itTRUE	addFALSE	n.points100	plot.col"black"	plot.lwd3 * par("cex")	plot.lty1	digits.Options$digits	cex.mainpar("cex")	...	mainNULL	xlabNULL	ylabNULL	type"l"
+plotPredIntNormSimultaneousTestPowerCurvefunctionfunctionEnvStatsn8	dfn - 1	n.mean1	k1	m2	r1	rule"k.of.m"	range.delta.over.sigmac(0, 5)	pi.type"upper"	conf.level0.95	r.shifted	K.tol.Machine$double.eps^(1/2)	integrate.args.listNULL	plot.itTRUE	addFALSE	n.points20	plot.col"black"	plot.lwd3 * par("cex")	plot.lty1	digits.Options$digits	cex.mainpar("cex")	...	mainNULL	xlabNULL	ylabNULL	type"l"
+plotPredIntNormTestPowerCurvefunctionfunctionEnvStatsn8	dfn - 1	n.mean1	k1	range.delta.over.sigmac(0, 5)	pi.type"upper"	conf.level0.95	plot.itTRUE	addFALSE	n.points20	plot.col"black"	plot.lwd3 * par("cex")	plot.lty1	digits.Options$digits	...	mainNULL	xlabNULL	ylabNULL	type"l"
+plotPredIntNparDesignfunctionfunctionEnvStatsx.var"n"	y.var"conf.level"	range.x.varNULL	nmax(25, lpl.rank + n.plus.one.minus.upl.rank + 1)	k1	mifelse(x.var == "k", ceiling(max.x), 1)	conf.level0.95	pi.type"two.sided"	lpl.rankifelse(pi.type == "upper", 0, 1)	n.plus.one.minus.upl.rankifelse(pi.type == "lower", 0, 1)	n.max5000	maxiter1000	plot.itTRUE	addFALSE	n.points100	plot.col"black"	plot.lwd3 * par("cex")	plot.lty1	digits.Options$digits	cex.mainpar("cex")	...	mainNULL	xlabNULL	ylabNULL	type"l"
+plotPredIntNparSimultaneousDesignfunctionfunctionEnvStatsx.var"n"	y.var"conf.level"	range.x.varNULL	nmax(25, lpl.rank + n.plus.one.minus.upl.rank + 1)	n.median1	k1	mifelse(x.var == "k", ceiling(max.x), 1)	r2	rule"k.of.m"	conf.level0.95	pi.type"upper"	lpl.rankifelse(pi.type == "upper", 0, 1)	n.plus.one.minus.upl.rankifelse(pi.type == "lower", 0, 1)	n.max5000	maxiter1000	integrate.args.listNULL	plot.itTRUE	addFALSE	n.points100	plot.col"black"	plot.lwd3 * par("cex")	plot.lty1	digits.Options$digits	cex.mainpar("cex")	...	mainNULL	xlabNULL	ylabNULL	type"l"
+plotPredIntNparSimultaneousTestPowerCurvefunctionfunctionEnvStatsn8	n.median1	k1	m2	r1	rule"k.of.m"	lpl.rankifelse(pi.type == "upper", 0, 1)	n.plus.one.minus.upl.rankifelse(pi.type == "lower", 0, 1)	pi.type"upper"	r.shifted	integrate.args.listNULL	method"approx"	NMC100	range.delta.over.sigmac(0, 5)	plot.itTRUE	addFALSE	n.points20	plot.col"black"	plot.lwd3 * par("cex")	plot.lty1	digits.Options$digits	cex.mainpar("cex")	...	mainNULL	xlabNULL	ylabNULL	type"l"
+plotPropTestDesignfunctionfunctionEnvStatsx.var"n"	y.var"power"	range.x.varNULL	n.or.n125	n2	ratio1	p.or.p1switch(alternative, greater = 0.6, less = 0.4, two.sided = ifelse(two.sided.direction == 	p.or.p1    "greater", 0.6, 0.4))	p0.or.p20.5	alpha0.05	power0.95	sample.typeifelse(!missing(n2) || !missing(ratio), "two.sample", "one.sample")	alternative"two.sided"	two.sided.direction"greater"	approxTRUE	correctsample.type == "two.sample"	round.upFALSE	warnTRUE	n.min2	n.max10000	tol.alpha0.1 * alpha	tol1e-07	maxiter1000	plot.itTRUE	addFALSE	n.points50	plot.col"black"	plot.lwd3 * par("cex")	plot.lty1	digits.Options$digits	cex.mainpar("cex")	...	mainNULL	xlabNULL	ylabNULL	type"l"
+plotTolIntNormDesignfunctionfunctionEnvStatsx.var"n"	y.var"half.width"	range.x.varNULL	n25	half.widthifelse(x.var == "sigma.hat", 3 * max.x, 3 * sigma.hat)	sigma.hat1	coverage0.95	conf.level0.95	cov.type"content"	round.upFALSE	n.max5000	tol1e-07	maxiter1000	plot.itTRUE	addFALSE	n.points100	plot.col1	plot.lwd3 * par("cex")	plot.lty1	digits.Options$digits	...	mainNULL	xlabNULL	ylabNULL	type"l"
+plotTolIntNparDesignfunctionfunctionEnvStatsx.var"n"	y.var"conf.level"	range.x.varNULL	n25	coverage0.95	conf.level0.95	ti.type"two.sided"	cov.type"content"	ltl.rankifelse(ti.type == "upper", 0, 1)	n.plus.one.minus.utl.rankifelse(ti.type == "lower", 0, 1)	plot.itTRUE	addFALSE	n.points100	plot.col"black"	plot.lwd3 * par("cex")	plot.lty1	digits.Options$digits	cex.mainpar("cex")	...	mainNULL	xlabNULL	ylabNULL	type"l"
+plotTTestDesignfunctionfunctionEnvStatsx.var"n"	y.var"power"	range.x.varNULL	n.or.n125	n2	delta.over.sigmaswitch(alternative, greater = 0.5, less = -0.5, two.sided = ifelse(two.sided.direction == 	delta.over.sigma    "greater", 0.5, -0.5))	alpha0.05	power0.95	sample.typeifelse(!missing(n2), "two.sample", "one.sample")	alternative"two.sided"	two.sided.direction"greater"	approxFALSE	round.upFALSE	n.max5000	tol1e-07	maxiter1000	plot.itTRUE	addFALSE	n.points50	plot.col"black"	plot.lwd3 * par("cex")	plot.lty1	digits.Options$digits	...	mainNULL	xlabNULL	ylabNULL	type"l"
+plotTTestLnormAltDesignfunctionfunctionEnvStatsx.var"n"	y.var"power"	range.x.varNULL	n.or.n125	n2	ratio.of.meansswitch(alternative, greater = 2, less = 0.5, two.sided = ifelse(two.sided.direction == 	ratio.of.means    "greater", 2, 0.5))	cv1	alpha0.05	power0.95	sample.typeifelse(!missing(n2), "two.sample", "one.sample")	alternative"two.sided"	two.sided.direction"greater"	approxFALSE	round.upFALSE	n.max5000	tol1e-07	maxiter1000	plot.itTRUE	addFALSE	n.points50	plot.col"black"	plot.lwd3 * par("cex")	plot.lty1	digits.Options$digits	cex.mainpar("cex")	...	mainNULL	xlabNULL	ylabNULL	type"l"
+pnormMixfunctionfunctionEnvStatsq	mean10	sd11	mean20	sd21	p.mix0.5
+pnormTruncfunctionfunctionEnvStatsq	mean0	sd1	min-Inf	maxInf
+pointwisefunctionfunctionEnvStatsresults.predict	coverage0.99	simultaneousFALSE	individualFALSE
+pparetofunctionfunctionEnvStatsq	location	shape1
+ppointsCensoredfunctionfunctionEnvStatsx	censored	censoring.side"left"	prob.method"michael-schucany"	plot.pos.con0.375
+predict.lmfunctionfunctionEnvStatsobject	newdata	se.fitFALSE	scaleNULL	dfInf	intervalc("none", "confidence", "prediction")	level0.95	typec("response", "terms")	termsNULL	na.action	pred.varNULL	weights1	...
+predIntGammafunctionfunctionEnvStatsx	n.transmean1	k1	method"Bonferroni"	pi.type"two-sided"	conf.level0.95	est.method"mle"	normal.approx.transform"kulkarni.powar"
+predIntGammaAltfunctionfunctionEnvStatsx	n.transmean1	k1	method"Bonferroni"	pi.type"two-sided"	conf.level0.95	est.method"mle"	normal.approx.transform"kulkarni.powar"
+predIntGammaAltSimultaneousfunctionfunctionEnvStatsx	n.transmean1	k1	m2	r1	rule"k.of.m"	delta.over.sigma0	pi.type"upper"	conf.level0.95	K.tol1e-07	est.method"mle"	normal.approx.transform"kulkarni.powar"
+predIntGammaSimultaneousfunctionfunctionEnvStatsx	n.transmean1	k1	m2	r1	rule"k.of.m"	delta.over.sigma0	pi.type"upper"	conf.level0.95	K.tol1e-07	est.method"mle"	normal.approx.transform"kulkarni.powar"
+predIntLnormfunctionfunctionEnvStatsx	n.geomean1	k1	method"Bonferroni"	pi.type"two-sided"	conf.level0.95
+predIntLnormAltfunctionfunctionEnvStatsx	n.geomean1	k1	method"Bonferroni"	pi.type"two-sided"	conf.level0.95	est.arg.listNULL
+predIntLnormAltSimultaneousfunctionfunctionEnvStatsx	n.geomean1	k1	m2	r1	rule"k.of.m"	delta.over.sigma0	pi.type"upper"	conf.level0.95	K.tol.Machine$double.eps^0.5	est.arg.listNULL
+predIntLnormAltSimultaneousTestPowerfunctionfunctionEnvStatsn	dfn - 1	n.geomean1	k1	m2	r1	rule"k.of.m"	ratio.of.means1	cv1	pi.type"upper"	conf.level0.95	r.shifted	K.tol.Machine$double.eps^0.5	integrate.args.listNULL
+predIntLnormAltTestPowerfunctionfunctionEnvStatsn	dfn - 1	n.geomean1	k1	ratio.of.means1	cv1	pi.type"upper"	conf.level0.95
+predIntLnormSimultaneousfunctionfunctionEnvStatsx	n.geomean1	k1	m2	r1	rule"k.of.m"	delta.over.sigma0	pi.type"upper"	conf.level0.95	K.tol.Machine$double.eps^0.5
+predIntNormfunctionfunctionEnvStatsx	n.mean1	k1	method"Bonferroni"	pi.type"two-sided"	conf.level0.95
+predIntNormHalfWidthfunctionfunctionEnvStatsn	dfn - 1	n.mean1	k1	sigma.hat1	method"Bonferroni"	conf.level0.95
+predIntNormKfunctionfunctionEnvStatsn	dfn - 1	n.mean1	k1	method"Bonferroni"	pi.type"two-sided"	conf.level0.95
+predIntNormNfunctionfunctionEnvStatshalf.width	n.mean1	k1	sigma.hat1	method"Bonferroni"	conf.level0.95	round.upTRUE	n.max5000	tol1e-07	maxiter1000
+predIntNormSimultaneousfunctionfunctionEnvStatsx	n.mean1	k1	m2	r1	rule"k.of.m"	delta.over.sigma0	pi.type"upper"	conf.level0.95	K.tol.Machine$double.eps^0.5
+predIntNormSimultaneousKfunctionfunctionEnvStatsn	dfn - 1	n.mean1	k1	m2	r1	rule"k.of.m"	delta.over.sigma0	pi.type"upper"	conf.level0.95	K.tol.Machine$double.eps^0.5	integrate.args.listNULL
+predIntNormSimultaneousTestPowerfunctionfunctionEnvStatsn	dfn - 1	n.mean1	k1	m2	r1	rule"k.of.m"	delta.over.sigma0	pi.type"upper"	conf.level0.95	r.shifted	K.tol.Machine$double.eps^0.5	integrate.args.listNULL
+predIntNormTestPowerfunctionfunctionEnvStatsn	dfn - 1	n.mean1	k1	delta.over.sigma0	pi.type"upper"	conf.level0.95
+predIntNparfunctionfunctionEnvStatsx	k	m1	lpl.rankifelse(pi.type == "upper", 0, 1)	n.plus.one.minus.upl.rankifelse(pi.type == "lower", 0, 1)	lb-Inf	ubInf	pi.type"two-sided"
+predIntNparConfLevelfunctionfunctionEnvStatsn	k	m1	lpl.rankifelse(pi.type == "upper", 0, 1)	n.plus.one.minus.upl.rankifelse(pi.type == "lower", 0, 1)	pi.type"two.sided"
+predIntNparNfunctionfunctionEnvStatsk	m1	lpl.rankifelse(pi.type == "upper", 0, 1)	n.plus.one.minus.upl.rankifelse(pi.type == "lower", 0, 1)	pi.type"two.sided"	conf.level0.95	n.max5000	maxiter1000
+predIntNparSimultaneousfunctionfunctionEnvStatsx	n.median1	k1	m2	r1	rule"k.of.m"	lpl.rankifelse(pi.type == "upper", 0, 1)	n.plus.one.minus.upl.rankifelse(pi.type == "lower", 0, 1)	lb-Inf	ubInf	pi.type"upper"	integrate.args.listNULL
+predIntNparSimultaneousConfLevelfunctionfunctionEnvStatsn	n.median1	k1	m2	r1	rule"k.of.m"	lpl.rankifelse(pi.type == "upper", 0, 1)	n.plus.one.minus.upl.rankifelse(pi.type == "lower", 0, 1)	pi.type"upper"	integrate.args.listNULL
+predIntNparSimultaneousNfunctionfunctionEnvStatsn.median1	k1	m2	r1	rule"k.of.m"	lpl.rankifelse(pi.type == "upper", 0, 1)	n.plus.one.minus.upl.rankifelse(pi.type == "lower", 0, 1)	pi.type"upper"	conf.level0.95	n.max5000	integrate.args.listNULL	maxiter1000
+predIntNparSimultaneousTestPowerfunctionfunctionEnvStatsn	n.median1	k1	m2	r1	rule"k.of.m"	lpl.rankifelse(pi.type == "upper", 0, 1)	n.plus.one.minus.upl.rankifelse(pi.type == "lower", 0, 1)	delta.over.sigma0	pi.type"upper"	r.shifted	method"approx"	NMC100	ciFALSE	ci.conf.level0.95	integrate.args.listNULL
+predIntPoisfunctionfunctionEnvStatsx	k1	n.sum1	method"conditional"	pi.type"two-sided"	conf.level0.95	round.limitsTRUE
+print.boxcoxfunctionfunctionEnvStatsx	...
+print.boxcoxCensoredfunctionfunctionEnvStatsx	...
+print.boxcoxLmfunctionfunctionEnvStatsx	...
+print.estimatefunctionfunctionEnvStatsx	conf.cov.sig.digits.Options$digits	limits.sig.digits.Options$digits	...
+print.estimateCensoredfunctionfunctionEnvStatsx	show.cen.levelsTRUE	pct.censored.digits.Options$digits	conf.cov.sig.digits.Options$digits	limits.sig.digits.Options$digits	...
+print.goffunctionfunctionEnvStatsx	...
+print.gofCensoredfunctionfunctionEnvStatsx	...
+print.gofGroupfunctionfunctionEnvStatsx	...
+print.gofTwoSamplefunctionfunctionEnvStatsx	...
+print.htestfunctionfunctionEnvStatsx	...
+print.htestCensoredfunctionfunctionEnvStatsx	show.cen.levelsTRUE	...
+print.permutationTestfunctionfunctionEnvStatsx	...
+print.summaryStatsfunctionfunctionEnvStatsx	...
+propTestMddfunctionfunctionEnvStatsn.or.n1	n2	p0.or.p20.5	alpha0.05	power0.95	sample.type"one.sample"	alternative"two.sided"	two.sided.direction"greater"	approxTRUE	correctsample.type == "two.sample"	warnTRUE	return.exact.listTRUE	tol1e-07	maxiter1000
+propTestNfunctionfunctionEnvStatsp.or.p1	p0.or.p2	alpha0.05	power0.95	sample.type"one.sample"	alternative"two.sided"	ratio1	approxTRUE	correctsample.type == "two.sample"	round.upTRUE	warnTRUE	return.exact.listTRUE	n.min2	n.max10000	tol.alpha0.1 * alpha	tol1e-07	maxiter1000
+propTestPowerfunctionfunctionEnvStatsn.or.n1	p.or.p10.5	n2	p0.or.p20.5	alpha0.05	sample.type"one.sample"	alternative"two.sided"	approxTRUE	correctsample.type == "two.sample"	warnTRUE	return.exact.listTRUE
+ptrifunctionfunctionEnvStatsq	min0	max1	mode1/2
+pwMomentfunctionfunctionEnvStatsx	j0	k0	method"unbiased"	plot.pos.consc(a = 0.35, b = 0)	na.rmFALSE
+pzmlnormfunctionfunctionEnvStatsq	meanlog0	sdlog1	p.zero0.5
+pzmlnormAltfunctionfunctionEnvStatsq	meanexp(1/2)	cvsqrt(exp(1) - 1)	p.zero0.5
+pzmnormfunctionfunctionEnvStatsq	mean0	sd1	p.zero0.5
+qchifunctionfunctionEnvStatsp	df
+qempfunctionfunctionEnvStatsp	obs	discreteFALSE	prob.methodifelse(discrete, "emp.probs", "plot.pos")	plot.pos.con0.375
+qevdfunctionfunctionEnvStatsp	location0	scale1
+qgammaAltfunctionfunctionEnvStatsp	mean	cv1	lower.tailTRUE	log.pFALSE
+qgevdfunctionfunctionEnvStatsp	location0	scale1	shape0
+qlnorm3functionfunctionEnvStatsp	meanlog0	sdlog1	threshold0
+qlnormAltfunctionfunctionEnvStatsp	meanexp(1/2)	cvsqrt(exp(1) - 1)	lower.tailTRUE	log.pFALSE
+qlnormMixfunctionfunctionEnvStatsp	meanlog10	sdlog11	meanlog20	sdlog21	p.mix0.5
+qlnormMixAltfunctionfunctionEnvStatsp	mean1exp(1/2)	cv1sqrt(exp(1) - 1)	mean2exp(1/2)	cv2sqrt(exp(1) - 1)	p.mix0.5
+qlnormTruncfunctionfunctionEnvStatsp	meanlog0	sdlog1	min0	maxInf
+qlnormTruncAltfunctionfunctionEnvStatsp	meanexp(1/2)	cvsqrt(exp(1) - 1)	min0	maxInf
+qnormMixfunctionfunctionEnvStatsp	mean10	sd11	mean20	sd21	p.mix0.5
+qnormTruncfunctionfunctionEnvStatsp	mean0	sd1	min-Inf	maxInf
+qparetofunctionfunctionEnvStatsp	location	shape1
+qqPlotfunctionfunctionEnvStatsx	yNULL	distribution"norm"	param.listlist(mean = 0, sd = 1)	estimate.paramsplot.type == "Tukey Mean-Difference Q-Q"	est.arg.listNULL	plot.type"Q-Q"	plot.pos.conNULL	plot.itTRUE	equal.axesqq.line.type == "0-1" || estimate.params	add.lineFALSE	qq.line.type"least squares"	duplicate.points.method"standard"	points.col1	line.col1	line.lwdpar("cex")	line.lty1	digits.Options$digits	...	mainNULL	xlabNULL	ylabNULL	xlimNULL	ylimNULL
+qqPlotCensoredfunctionfunctionEnvStatsx	censored	censoring.side"left"	prob.method"michael-schucany"	plot.pos.conNULL	distribution"norm"	param.listlist(mean = 0, sd = 1)	estimate.paramsplot.type == "Tukey Mean-Difference Q-Q"	est.arg.listNULL	plot.type"Q-Q"	plot.itTRUE	equal.axesqq.line.type == "0-1" || estimate.params	add.lineFALSE	qq.line.type"least squares"	duplicate.points.method"standard"	points.col1	line.col1	line.lwdpar("cex")	line.lty1	digits.Options$digits	include.cenFALSE	cen.pchifelse(censoring.side == "left", 6, 2)	cen.cexpar("cex")	cen.col4	...	mainNULL	xlabNULL	ylabNULL	xlimNULL	ylimNULL
+qqPlotGestaltfunctionfunctionEnvStatsdistribution"norm"	param.listlist(mean = 0, sd = 1)	estimate.paramsFALSE	est.arg.listNULL	sample.size10	num.pages2	num.plots.per.page4	nrowceiling(num.plots.per.page/2)	plot.type"Q-Q"	plot.pos.conswitch(dist.abb, norm = , lnorm = , lnormAlt = , lnorm3 = 0.375, 	plot.pos.con    evd = 0.44, 0.4)	equal.axes(qq.line.type == "0-1" || estimate.params)	margin.titleNULL	add.lineFALSE	qq.line.type"least squares"	duplicate.points.method"standard"	points.col1	line.col1	line.lwdpar("cex")	line.lty1	digits.Options$digits	same.windowTRUE	asksame.window & num.pages > 1	mfrowc(nrow, num.plots.per.page/nrow)	marc(4, 4, 1, 1) + 0.1	omac(0, 0, 7, 0)	mgpc(2, 0.5, 0)	...	mainNULL	xlabNULL	ylabNULL	xlimNULL	ylimNULL
+qtrifunctionfunctionEnvStatsp	min0	max1	mode1/2
+quantileTestfunctionfunctionEnvStatsx	y	alternative"greater"	target.quantile0.5	target.rNULL	exact.pTRUE
+quantileTestPValuefunctionfunctionEnvStatsm	n	r	k	exact.pTRUE
+qzmlnormfunctionfunctionEnvStatsp	meanlog0	sdlog1	p.zero0.5
+qzmlnormAltfunctionfunctionEnvStatsp	meanexp(1/2)	cvsqrt(exp(1) - 1)	p.zero0.5
+qzmnormfunctionfunctionEnvStatsp	mean0	sd1	p.zero0.5
+rchifunctionfunctionEnvStatsn	dfstop("no 'df' arg")
+Refinery.CO.dfdata.framedata.frameEnvStatsNot a function
+Refinery.CO.df$CO.ppmnumericnumericEnvStatsNot a function
+Refinery.CO.df$SourcefactorfactorEnvStatsNot a function
+Refinery.CO.df$DateDate EnvStatsNot a function
+rempfunctionfunctionEnvStatsn	obs
+revdfunctionfunctionEnvStatsn	location0	scale1
+rgammaAltfunctionfunctionEnvStatsn	mean	cv1
+rgevdfunctionfunctionEnvStatsn	location0	scale1	shape0
+rlnorm3functionfunctionEnvStatsn	meanlog0	sdlog1	threshold0
+rlnormAltfunctionfunctionEnvStatsn	meanexp(1/2)	cvsqrt(exp(1) - 1)
+rlnormMixfunctionfunctionEnvStatsn	meanlog10	sdlog11	meanlog20	sdlog21	p.mix0.5
+rlnormMixAltfunctionfunctionEnvStatsn	mean1exp(1/2)	cv1sqrt(exp(1) - 1)	mean2exp(1/2)	cv2sqrt(exp(1) - 1)	p.mix0.5
+rlnormTruncfunctionfunctionEnvStatsn	meanlog0	sdlog1	min0	maxInf
+rlnormTruncAltfunctionfunctionEnvStatsn	meanexp(1/2)	cvsqrt(exp(1) - 1)	min0	maxInf
+rnormMixfunctionfunctionEnvStatsn	mean10	sd11	mean20	sd21	p.mix0.5
+rnormTruncfunctionfunctionEnvStatsn	mean0	sd1	min-Inf	maxInf
+rparetofunctionfunctionEnvStatsn	location	shape1
+rtrifunctionfunctionEnvStatsn	min0	max1	mode1/2
+rzmlnormfunctionfunctionEnvStatsn	meanlog0	sdlog1	p.zero0.5
+rzmlnormAltfunctionfunctionEnvStatsn	meanexp(1/2)	cvsqrt(exp(1) - 1)	p.zero0.5
+rzmnormfunctionfunctionEnvStatsn	mean0	sd1	p.zero0.5
+serialCorrelationTestfunctionfunctionEnvStatsx	...
+signTestfunctionfunctionEnvStatsx	yNULL	alternative"two.sided"	mu0	pairedFALSE	conf.level0.95
+simulateMvMatrixfunctionfunctionEnvStatsn	distributionsc(Var.1 = "norm", Var.2 = "norm")	param.listlist(Var.1 = list(mean = 0, sd = 1), Var.2 = list(mean = 0, sd = 1))	cor.matdiag(length(distributions))	sample.method"SRS"	seedNULL	left.tail.cutoffifelse(is.finite(supp.min), 0, .Machine$double.eps)	right.tail.cutoffifelse(is.finite(supp.max), 0, .Machine$double.eps)	tol.1.Machine$double.eps	tol.symmetry.Machine$double.eps	tol.recip.cond.num.Machine$double.eps	max.iter10
+simulateVectorfunctionfunctionEnvStatsn	distribution"norm"	param.listlist(mean = 0, sd = 1)	sample.method"SRS"	seedNULL	sortedFALSE	left.tail.cutoffifelse(is.finite(supp.min), 0, .Machine$double.eps)	right.tail.cutoffifelse(is.finite(supp.max), 0, .Machine$double.eps)
+Skagit.NH3_N.dfdata.framedata.frameEnvStatsNot a function
+Skagit.NH3_N.df$DateDate EnvStatsNot a function
+Skagit.NH3_N.df$NH3_N.Orig.mg.per.LcharactercharacterEnvStatsNot a function
+Skagit.NH3_N.df$NH3_N.mg.per.LnumericnumericEnvStatsNot a function
+Skagit.NH3_N.df$DQ1factorfactorEnvStatsNot a function
+Skagit.NH3_N.df$DQ2factorfactorEnvStatsNot a function
+Skagit.NH3_N.df$CensoredlogicallogicalEnvStatsNot a function
+skewnessfunctionfunctionEnvStatsx	na.rmFALSE	method"fisher"	l.moment.method"unbiased"	plot.pos.consc(a = 0.35, b = 0)
+stripChartfunctionfunctionEnvStatsx	...
+summaryFullfunctionfunctionEnvStatsobject	...
+summaryStatsfunctionfunctionEnvStatsobject	...
+tolIntGammafunctionfunctionEnvStatsx	coverage0.95	cov.type"content"	ti.type"two-sided"	conf.level0.95	method"exact"	est.method"mle"	normal.approx.transform"kulkarni.powar"
+tolIntGammaAltfunctionfunctionEnvStatsx	coverage0.95	cov.type"content"	ti.type"two-sided"	conf.level0.95	method"exact"	est.method"mle"	normal.approx.transform"kulkarni.powar"
+tolIntLnormfunctionfunctionEnvStatsx	coverage0.95	cov.type"content"	ti.type"two-sided"	conf.level0.95	method"exact"
+tolIntLnormAltfunctionfunctionEnvStatsx	coverage0.95	cov.type"content"	ti.type"two-sided"	conf.level0.95	method"exact"	est.method"mvue"
+tolIntLnormCensoredfunctionfunctionEnvStatsx	censored	censoring.side"left"	coverage0.95	cov.type"content"	ti.type"two-sided"	conf.level0.95	method"mle"	ti.method"exact.for.complete"	seedNULL	nmc1000
+tolIntNormfunctionfunctionEnvStatsx	coverage0.95	cov.type"content"	ti.type"two-sided"	conf.level0.95	method"exact"
+tolIntNormCensoredfunctionfunctionEnvStatsx	censored	censoring.side"left"	coverage0.95	cov.type"content"	ti.type"two-sided"	conf.level0.95	method"mle"	ti.method"exact.for.complete"	seedNULL	nmc1000
+tolIntNormHalfWidthfunctionfunctionEnvStatsn	sigma.hat1	coverage0.95	cov.type"content"	conf.level0.95	method"wald.wolfowitz"
+tolIntNormKfunctionfunctionEnvStatsn	dfn - 1	coverage0.95	cov.type"content"	ti.type"two-sided"	conf.level0.95	method"exact"	rel.tol1e-07	abs.tol
+tolIntNormNfunctionfunctionEnvStatshalf.width	sigma.hat1	coverage0.95	cov.type"content"	conf.level0.95	method"wald.wolfowitz"	round.upTRUE	n.max5000	tol1e-07	maxiter1000
+tolIntNparfunctionfunctionEnvStatsx	coverage	conf.level	cov.type"content"	ltl.rankifelse(ti.type == "upper", 0, 1)	n.plus.one.minus.utl.rankifelse(ti.type == "lower", 0, 1)	lb-Inf	ubInf	ti.type"two-sided"
+tolIntNparConfLevelfunctionfunctionEnvStatsn	coverage0.95	ltl.rankifelse(ti.type == "upper", 0, 1)	n.plus.one.minus.utl.rankifelse(ti.type == "lower", 0, 1)	ti.type"two.sided"
+tolIntNparCoveragefunctionfunctionEnvStatsn	conf.level0.95	cov.type"content"	ltl.rankifelse(ti.type == "upper", 0, 1)	n.plus.one.minus.utl.rankifelse(ti.type == "lower", 0, 1)	ti.type"two.sided"
+tolIntNparNfunctionfunctionEnvStatscoverage0.95	conf.level0.95	cov.type"content"	ltl.rankifelse(ti.type == "upper", 0, 1)	n.plus.one.minus.utl.rankifelse(ti.type == "lower", 0, 1)	ti.type"two.sided"
+tolIntPoisfunctionfunctionEnvStatsx	coverage0.95	cov.type"content"	ti.type"two-sided"	conf.level0.95
+Total.P.dfdata.framedata.frameEnvStatsNot a function
+Total.P.df$CB3.1numericnumericEnvStatsNot a function
+Total.P.df$CB3.3enumericnumericEnvStatsNot a function
+Total.P.df$MonthfactorfactorEnvStatsNot a function
+Total.P.df$YearnumericnumericEnvStatsNot a function
+tTestAlphafunctionfunctionEnvStatsn.or.n1	n2	delta.over.sigma0	power0.95	sample.typeifelse(!missing(n2) && !is.null(n2), "two.sample", "one.sample")	alternative"two.sided"	approxFALSE	tol1e-07	maxiter1000
+tTestLnormAltNfunctionfunctionEnvStatsratio.of.means	cv1	alpha0.05	power0.95	sample.typeifelse(!is.null(n2), "two.sample", "one.sample")	alternative"two.sided"	approxFALSE	n2NULL	round.upTRUE	n.max5000	tol1e-07	maxiter1000
+tTestLnormAltPowerfunctionfunctionEnvStatsn.or.n1	n2	ratio.of.means1	cv1	alpha0.05	sample.typeifelse(!missing(n2), "two.sample", "one.sample")	alternative"two.sided"	approxFALSE
+tTestLnormAltRatioOfMeansfunctionfunctionEnvStatsn.or.n1	n2	cv1	alpha0.05	power0.95	sample.typeifelse(!missing(n2), "two.sample", "one.sample")	alternative"two.sided"	two.sided.direction"greater"	approxFALSE	tol1e-07	maxiter1000
+tTestNfunctionfunctionEnvStatsdelta.over.sigma	alpha0.05	power0.95	sample.typeifelse(!is.null(n2), "two.sample", "one.sample")	alternative"two.sided"	approxFALSE	n2NULL	round.upTRUE	n.max5000	tol1e-07	maxiter1000
+tTestPowerfunctionfunctionEnvStatsn.or.n1	n2	delta.over.sigma0	alpha0.05	sample.typeifelse(!missing(n2), "two.sample", "one.sample")	alternative"two.sided"	approxFALSE
+tTestScaledMddfunctionfunctionEnvStatsn.or.n1	n2	alpha0.05	power0.95	sample.typeifelse(!missing(n2) && !is.null(n2), "two.sample", "one.sample")	alternative"two.sided"	two.sided.direction"greater"	approxFALSE	tol1e-07	maxiter1000
+twoSampleLinearRankTestfunctionfunctionEnvStatsx	y	location.shift.null0	scale.shift.null1	alternative"two.sided"	test"wilcoxon"	shift.type"location"
+twoSampleLinearRankTestCensoredfunctionfunctionEnvStatsx	x.censored	y	y.censored	censoring.side"left"	location.shift.null0	scale.shift.null1	alternative"two.sided"	test"logrank"	variance"hypergeometric"	surv.est"prentice"	shift.type"location"
+twoSamplePermutationTestLocationfunctionfunctionEnvStatsx	y	fcn"mean"	alternative"two.sided"	mu1.minus.mu20	pairedFALSE	exactFALSE	n.permutations5000	seedsample(.Random.seed, size = 1)	tolsqrt(.Machine$double.eps)
+twoSamplePermutationTestProportionfunctionfunctionEnvStatsx	y	x.and.y"Binomial Outcomes"	alternative"two.sided"	tolsqrt(.Machine$double.eps)
+varGroupTestfunctionfunctionEnvStatsobject	...
+varTestfunctionfunctionEnvStatsx	alternative"two.sided"	conf.level0.95	sigma.squared1	data.nameNULL
+zTestGevdShapefunctionfunctionEnvStatsx	pwme.method"unbiased"	plot.pos.consc(a = 0.35, b = 0)	alternative"two.sided"

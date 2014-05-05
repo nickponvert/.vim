@@ -1,0 +1,3 @@
+syn keyword rFunction brewer.pal
+syn keyword rFunction display.brewer.all
+syn keyword rFunction display.brewer.pal

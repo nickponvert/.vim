@@ -1,0 +1,428 @@
+Adlerdata.framedata.framecarNot a function
+Adler$instructionfactorfactorcarNot a function
+Adler$expectationfactorfactorcarNot a function
+Adler$ratingintegernumericcarNot a function
+AMSsurveydata.framedata.framecarNot a function
+AMSsurvey$typefactorfactorcarNot a function
+AMSsurvey$sexfactorfactorcarNot a function
+AMSsurvey$citizenfactorfactorcarNot a function
+AMSsurvey$countintegernumericcarNot a function
+AMSsurvey$count11integernumericcarNot a function
+Angelldata.framedata.framecarNot a function
+Angell$moralnumericnumericcarNot a function
+Angell$heteronumericnumericcarNot a function
+Angell$mobilitynumericnumericcarNot a function
+Angell$regionfactorfactorcarNot a function
+Anovafunctionfunctioncarmod	...
+Anscombedata.framedata.framecarNot a function
+Anscombe$educationintegernumericcarNot a function
+Anscombe$incomeintegernumericcarNot a function
+Anscombe$youngnumericnumericcarNot a function
+Anscombe$urbanintegernumericcarNot a function
+av.plotfunctionfunctioncar...
+avPlotfunctionfunctioncarmodel	...
+av.plotsfunctionfunctioncar...
+avPlotsfunctionfunctioncarmodel	terms~.	interceptFALSE	layoutNULL	ask	main	...
+basicPowerfunctionfunctioncarU	lambda
+basicPowerAxisfunctionfunctioncarpower	baseexp(1)	sidec("right", "above", "left", "below")	at	start0	lead.digits1	n.ticks	gridFALSE	grid.colgray(0.5)	grid.lty2	axis.title"Untransformed Data"	cex1	laspar("las")
+Baumanndata.framedata.framecarNot a function
+Baumann$groupfactorfactorcarNot a function
+Baumann$pretest.1integernumericcarNot a function
+Baumann$pretest.2integernumericcarNot a function
+Baumann$post.test.1integernumericcarNot a function
+Baumann$post.test.2integernumericcarNot a function
+Baumann$post.test.3integernumericcarNot a function
+bcfunctionfunctioncar...
+bcPowerfunctionfunctioncarU	lambda	jacobian.adjustedFALSE
+bcPowerAxisfunctionfunctioncarpower	sidec("right", "above", "left", "below")	at	start0	lead.digits1	n.ticks	gridFALSE	grid.colgray(0.5)	grid.lty2	axis.title"Untransformed Data"	cex1	laspar("las")
+Bfoxdata.framedata.framecarNot a function
+Bfox$particnumericnumericcarNot a function
+Bfox$tfrintegernumericcarNot a function
+Bfox$menwagenumericnumericcarNot a function
+Bfox$womwagenumericnumericcarNot a function
+Bfox$debtnumericnumericcarNot a function
+Bfox$parttimenumericnumericcarNot a function
+Blackmoordata.framedata.framecarNot a function
+Blackmoor$subjectfactorfactorcarNot a function
+Blackmoor$agenumericnumericcarNot a function
+Blackmoor$exercisenumericnumericcarNot a function
+Blackmoor$groupfactorfactorcarNot a function
+Bootfunctionfunctioncarobject	f	labels	R999	method
+bootCasefunctionfunctioncarobject	f.	B999
+box.coxfunctionfunctioncar...
+boxCoxfunctionfunctioncarobject	...
+box.cox.powersfunctionfunctioncar...
+box.cox.varfunctionfunctioncar...
+boxCoxVariablefunctionfunctioncary
+Boxplotfunctionfunctioncary	...
+box.tidwellfunctionfunctioncar...
+boxTidwellfunctionfunctioncary	...
+Burtdata.framedata.framecarNot a function
+Burt$IQbiointegernumericcarNot a function
+Burt$IQfosterintegernumericcarNot a function
+Burt$classfactorfactorcarNot a function
+CanPopdata.framedata.framecarNot a function
+CanPop$yearnumericnumericcarNot a function
+CanPop$populationnumericnumericcarNot a function
+carWebfunctionfunctioncarpagec("webpage", "errata", "taskviews")	script	data
+ceres.plotfunctionfunctioncar...
+ceresPlotfunctionfunctioncarmodel	...
+ceres.plotsfunctionfunctioncar...
+ceresPlotsfunctionfunctioncarmodel	terms~.	layoutNULL	ask	main	...
+Chiledata.framedata.framecarNot a function
+Chile$regionfactorfactorcarNot a function
+Chile$populationintegernumericcarNot a function
+Chile$sexfactorfactorcarNot a function
+Chile$ageintegernumericcarNot a function
+Chile$educationfactorfactorcarNot a function
+Chile$incomeintegernumericcarNot a function
+Chile$statusquonumericnumericcarNot a function
+Chile$votefactorfactorcarNot a function
+Chirotdata.framedata.framecarNot a function
+Chirot$intensitynumericnumericcarNot a function
+Chirot$commercenumericnumericcarNot a function
+Chirot$traditionnumericnumericcarNot a function
+Chirot$midpeasantnumericnumericcarNot a function
+Chirot$inequalitynumericnumericcarNot a function
+compareCoefsfunctionfunctioncar...	seTRUE	printTRUE	digits3
+confidence.ellipsefunctionfunctioncar...
+confidenceEllipsefunctionfunctioncarmodel	...
+contr.Helmertfunctionfunctioncarn	contrastsTRUE
+contr.Sumfunctionfunctioncarn	contrastsTRUE
+contr.Treatmentfunctionfunctioncarn	base1	contrastsTRUE
+cookdfunctionfunctioncar...
+Cowlesdata.framedata.framecarNot a function
+Cowles$neuroticismintegernumericcarNot a function
+Cowles$extraversionintegernumericcarNot a function
+Cowles$sexfactorfactorcarNot a function
+Cowles$volunteerfactorfactorcarNot a function
+crpfunctionfunctioncar...
+cr.plotfunctionfunctioncar...
+crPlotfunctionfunctioncarmodel	...
+cr.plotsfunctionfunctioncar...
+crPlotsfunctionfunctioncarmodel	terms~.	layoutNULL	ask	main	...
+data.ellipsefunctionfunctioncar...
+dataEllipsefunctionfunctioncarx	y	groups	group.labels	ellipse.label	weights	log""	levelsc(0.5, 0.95)	center.pch19	center.cex1.5	drawTRUE	plot.points	add!plot.points	segments51	robustFALSE	xlabdeparse(substitute(x))	ylabdeparse(substitute(y))	colif (missing(groups)) palette()[1:2] else palette()[1:length(group.levels)]	pchif (missing(groups)) 1 else seq(group.levels)	lwd2	fillFALSE	fill.alpha0.3	gridTRUE	labels	id.method"mahal"	id.nif (id.method[1] == "identify") Inf else 0	id.cex1	id.colif (missing(groups)) palette()[1] else palette()(1:length(groups))	...
+Davisdata.framedata.framecarNot a function
+Davis$sexfactorfactorcarNot a function
+Davis$weightintegernumericcarNot a function
+Davis$heightintegernumericcarNot a function
+Davis$repwtintegernumericcarNot a function
+Davis$rephtintegernumericcarNot a function
+DavisThindata.framedata.framecarNot a function
+DavisThin$DT1integernumericcarNot a function
+DavisThin$DT2integernumericcarNot a function
+DavisThin$DT3integernumericcarNot a function
+DavisThin$DT4integernumericcarNot a function
+DavisThin$DT5integernumericcarNot a function
+DavisThin$DT6integernumericcarNot a function
+DavisThin$DT7integernumericcarNot a function
+deltaMethodfunctionfunctioncarobject	...
+densityPlotfunctionfunctioncarx	...
+Depredationsdata.framedata.framecarNot a function
+Depredations$longitudenumericnumericcarNot a function
+Depredations$latitudenumericnumericcarNot a function
+Depredations$numberintegernumericcarNot a function
+Depredations$earlyintegernumericcarNot a function
+Depredations$lateintegernumericcarNot a function
+dfbetaPlotsfunctionfunctioncarmodel	...
+dfbetasPlotsfunctionfunctioncarmodel	...
+Duncandata.framedata.framecarNot a function
+Duncan$typefactorfactorcarNot a function
+Duncan$incomeintegernumericcarNot a function
+Duncan$educationintegernumericcarNot a function
+Duncan$prestigeintegernumericcarNot a function
+durbin.watsonfunctionfunctioncar...
+durbinWatsonTestfunctionfunctioncarmodel	...
+dwtfunctionfunctioncar...
+ellipsefunctionfunctioncarcenter	shape	radius	log""	center.pch19	center.cex1.5	segments51	drawTRUE	add	xlab""	ylab""	colpalette()[2]	lwd2	fillFALSE	fill.alpha0.3	gridTRUE	...
+Ericksendata.framedata.framecarNot a function
+Ericksen$minoritynumericnumericcarNot a function
+Ericksen$crimeintegernumericcarNot a function
+Ericksen$povertynumericnumericcarNot a function
+Ericksen$languagenumericnumericcarNot a function
+Ericksen$highschoolnumericnumericcarNot a function
+Ericksen$housingnumericnumericcarNot a function
+Ericksen$cityfactorfactorcarNot a function
+Ericksen$conventionalintegernumericcarNot a function
+Ericksen$undercountnumericnumericcarNot a function
+estimateTransformfunctionfunctioncarX	Y	weightsNULL	family"bcPower"	startNULL	method"L-BFGS-B"	...
+Floridadata.framedata.framecarNot a function
+Florida$GOREintegernumericcarNot a function
+Florida$BUSHintegernumericcarNot a function
+Florida$BUCHANANintegernumericcarNot a function
+Florida$NADERintegernumericcarNot a function
+Florida$BROWNEintegernumericcarNot a function
+Florida$HAGELINintegernumericcarNot a function
+Florida$HARRISintegernumericcarNot a function
+Florida$MCREYNOLDSintegernumericcarNot a function
+Florida$MOOREHEADintegernumericcarNot a function
+Florida$PHILLIPSintegernumericcarNot a function
+Florida$TotalintegernumericcarNot a function
+Freedmandata.framedata.framecarNot a function
+Freedman$populationintegernumericcarNot a function
+Freedman$nonwhitenumericnumericcarNot a function
+Freedman$densityintegernumericcarNot a function
+Freedman$crimeintegernumericcarNot a function
+Friendlydata.framedata.framecarNot a function
+Friendly$conditionfactorfactorcarNot a function
+Friendly$correctintegernumericcarNot a function
+gamLinefunctionfunctioncarx	y	col	log.x	log.y	spreadFALSE	smoother.args	drawTRUE
+Ginzbergdata.framedata.framecarNot a function
+Ginzberg$simplicitynumericnumericcarNot a function
+Ginzberg$fatalismnumericnumericcarNot a function
+Ginzberg$depressionnumericnumericcarNot a function
+Ginzberg$adjsimpnumericnumericcarNot a function
+Ginzberg$adjfatalnumericnumericcarNot a function
+Ginzberg$adjdepnumericnumericcarNot a function
+Greenedata.framedata.framecarNot a function
+Greene$judgefactorfactorcarNot a function
+Greene$nationfactorfactorcarNot a function
+Greene$raterfactorfactorcarNot a function
+Greene$decisionfactorfactorcarNot a function
+Greene$languagefactorfactorcarNot a function
+Greene$locationfactorfactorcarNot a function
+Greene$successnumericnumericcarNot a function
+Guyerdata.framedata.framecarNot a function
+Guyer$cooperationintegernumericcarNot a function
+Guyer$conditionfactorfactorcarNot a function
+Guyer$sexfactorfactorcarNot a function
+Hartnageldata.framedata.framecarNot a function
+Hartnagel$yearintegernumericcarNot a function
+Hartnagel$tfrintegernumericcarNot a function
+Hartnagel$particintegernumericcarNot a function
+Hartnagel$degreesnumericnumericcarNot a function
+Hartnagel$fconvictnumericnumericcarNot a function
+Hartnagel$ftheftnumericnumericcarNot a function
+Hartnagel$mconvictnumericnumericcarNot a function
+Hartnagel$mtheftnumericnumericcarNot a function
+hccmfunctionfunctioncarmodel	...
+Highway1data.framedata.framecarNot a function
+Highway1$ratenumericnumericcarNot a function
+Highway1$lennumericnumericcarNot a function
+Highway1$ADTintegernumericcarNot a function
+Highway1$trksintegernumericcarNot a function
+Highway1$sigs1numericnumericcarNot a function
+Highway1$slimintegernumericcarNot a function
+Highway1$shldintegernumericcarNot a function
+Highway1$laneintegernumericcarNot a function
+Highway1$acptnumericnumericcarNot a function
+Highway1$itgnumericnumericcarNot a function
+Highway1$lwidintegernumericcarNot a function
+Highway1$hwyfactorfactorcarNot a function
+identify3dfunctionfunctioncarx	y	z	axis.scalesTRUE	groupsNULL	labels1:length(x)	colc("blue", "green", "orange", "magenta", "cyan", "red", "yellow", 	col    "gray")	offset((100/length(x))^(1/3)) * 0.02
+infIndexPlotfunctionfunctioncarmodel	...
+influenceIndexPlotfunctionfunctioncarmodel	...
+influencePlotfunctionfunctioncarmodel	...
+inverseResponsePlotfunctionfunctioncarmodel	lambdac(-1, 0, 1)	robustFALSE	xlabNULL	...
+invResPlotfunctionfunctioncarmodel	...
+invTranEstimatefunctionfunctioncarx	y	family"bcPower"	confidence0.95	robustFALSE
+invTranPlotfunctionfunctioncarx	...
+Leinhardtdata.framedata.framecarNot a function
+Leinhardt$incomeintegernumericcarNot a function
+Leinhardt$infantnumericnumericcarNot a function
+Leinhardt$regionfactorfactorcarNot a function
+Leinhardt$oilfactorfactorcarNot a function
+levene.testfunctionfunctioncar...
+leveneTestfunctionfunctioncary	...
+leverage.plotfunctionfunctioncar...
+leveragePlotfunctionfunctioncarmodel	...
+leverage.plotsfunctionfunctioncar...
+leveragePlotsfunctionfunctioncarmodel	terms~.	layoutNULL	ask	main	...
+lhtfunctionfunctioncarmodel	...
+linear.hypothesisfunctionfunctioncar...
+linearHypothesisfunctionfunctioncarmodel	hypothesis.matrix	rhsNULL	testc("Chisq", "F")	vcov.NULL	singular.okFALSE	verboseFALSE	coef.coef(model)	...
+linearHypothesis.defaultfunctionfunctioncarmodel	hypothesis.matrix	rhsNULL	testc("Chisq", "F")	vcov.NULL	singular.okFALSE	verboseFALSE	coef.coef(model)	...
+loessLinefunctionfunctioncarx	y	col	log.x	log.y	spreadFALSE	smoother.args	drawTRUE
+logitfunctionfunctioncarp	percentsrange.p[2] > 1	adjust
+Mandeldata.framedata.framecarNot a function
+Mandel$x1numericnumericcarNot a function
+Mandel$x2numericnumericcarNot a function
+Mandel$ynumericnumericcarNot a function
+Manovafunctionfunctioncarmod	...
+marginalModelPlotfunctionfunctioncar...
+marginalModelPlotsfunctionfunctioncar...
+matchCoefsfunctionfunctioncarmodel	pattern	...
+Migrationdata.framedata.framecarNot a function
+Migration$sourcefactorfactorcarNot a function
+Migration$destinationfactorfactorcarNot a function
+Migration$migrantsintegernumericcarNot a function
+Migration$distanceintegernumericcarNot a function
+Migration$pops66integernumericcarNot a function
+Migration$pops71integernumericcarNot a function
+Migration$popd66integernumericcarNot a function
+Migration$popd71integernumericcarNot a function
+mmpfunctionfunctioncarmodel	...
+mmpsfunctionfunctioncarmodel	terms~.	fittedTRUE	layoutNULL	ask	main	groups	keyTRUE	...
+Mooredata.framedata.framecarNot a function
+Moore$partner.statusfactorfactorcarNot a function
+Moore$conformityintegernumericcarNot a function
+Moore$fcategoryfactorfactorcarNot a function
+Moore$fscoreintegernumericcarNot a function
+Mrozdata.framedata.framecarNot a function
+Mroz$lfpfactorfactorcarNot a function
+Mroz$k5integernumericcarNot a function
+Mroz$k618integernumericcarNot a function
+Mroz$ageintegernumericcarNot a function
+Mroz$wcfactorfactorcarNot a function
+Mroz$hcfactorfactorcarNot a function
+Mroz$lwgnumericnumericcarNot a function
+Mroz$incnumericnumericcarNot a function
+ncv.testfunctionfunctioncar...
+ncvTestfunctionfunctioncarmodel	...
+nextBootfunctionfunctioncarobject	sample
+OBrienKaiserdata.framedata.framecarNot a function
+OBrienKaiser$treatmentfactorfactorcarNot a function
+OBrienKaiser$genderfactorfactorcarNot a function
+OBrienKaiser$pre.1numericnumericcarNot a function
+OBrienKaiser$pre.2numericnumericcarNot a function
+OBrienKaiser$pre.3numericnumericcarNot a function
+OBrienKaiser$pre.4numericnumericcarNot a function
+OBrienKaiser$pre.5numericnumericcarNot a function
+OBrienKaiser$post.1numericnumericcarNot a function
+OBrienKaiser$post.2numericnumericcarNot a function
+OBrienKaiser$post.3numericnumericcarNot a function
+OBrienKaiser$post.4numericnumericcarNot a function
+OBrienKaiser$post.5numericnumericcarNot a function
+OBrienKaiser$fup.1numericnumericcarNot a function
+OBrienKaiser$fup.2numericnumericcarNot a function
+OBrienKaiser$fup.3numericnumericcarNot a function
+OBrienKaiser$fup.4numericnumericcarNot a function
+OBrienKaiser$fup.5numericnumericcarNot a function
+Ornsteindata.framedata.framecarNot a function
+Ornstein$assetsintegernumericcarNot a function
+Ornstein$sectorfactorfactorcarNot a function
+Ornstein$nationfactorfactorcarNot a function
+Ornstein$interlocksintegernumericcarNot a function
+outlier.testfunctionfunctioncar...
+outlierTestfunctionfunctioncarmodel	...
+panel.carfunctionfunctioncarx	y	col	pch	cex1	span0.5	lwd2	reg.line	lowess.lineTRUE	...
+Potterydata.framedata.framecarNot a function
+Pottery$SitefactorfactorcarNot a function
+Pottery$AlnumericnumericcarNot a function
+Pottery$FenumericnumericcarNot a function
+Pottery$MgnumericnumericcarNot a function
+Pottery$CanumericnumericcarNot a function
+Pottery$NanumericnumericcarNot a function
+powerTransformfunctionfunctioncarobject	...
+Prestigedata.framedata.framecarNot a function
+Prestige$educationnumericnumericcarNot a function
+Prestige$incomeintegernumericcarNot a function
+Prestige$womennumericnumericcarNot a function
+Prestige$prestigenumericnumericcarNot a function
+Prestige$censusintegernumericcarNot a function
+Prestige$typefactorfactorcarNot a function
+probabilityAxisfunctionfunctioncarscalec("logit", "probit")	sidec("right", "above", "left", "below")	at	lead.digits1	gridFALSE	grid.lty2	grid.colgray(0.5)	axis.title"Probability"	interval0.1	cex1	laspar("las")
+qqpfunctionfunctioncar...
+qq.plotfunctionfunctioncar...
+qqPlotfunctionfunctioncarx	...
+quantregLinefunctionfunctioncarx	y	col	log.x	log.y	spreadFALSE	smoother.args	drawTRUE
+Quartetdata.framedata.framecarNot a function
+Quartet$xintegernumericcarNot a function
+Quartet$y1numericnumericcarNot a function
+Quartet$y2numericnumericcarNot a function
+Quartet$y3numericnumericcarNot a function
+Quartet$x4integernumericcarNot a function
+Quartet$y4numericnumericcarNot a function
+recodefunctionfunctioncarvar	recodes	as.factor.result	as.numeric.resultTRUE	levels
+Recodefunctionfunctioncar...
+regLinefunctionfunctioncarmod	colpalette()[2]	lwd2	lty1	...
+residualPlotfunctionfunctioncarmodel	...
+residualPlotsfunctionfunctioncarmodel	...
+Robeydata.framedata.framecarNot a function
+Robey$regionfactorfactorcarNot a function
+Robey$tfrnumericnumericcarNot a function
+Robey$contraceptorsintegernumericcarNot a function
+Sahlinsdata.framedata.framecarNot a function
+Sahlins$consumersnumericnumericcarNot a function
+Sahlins$acresnumericnumericcarNot a function
+Salariesdata.framedata.framecarNot a function
+Salaries$rankfactorfactorcarNot a function
+Salaries$disciplinefactorfactorcarNot a function
+Salaries$yrs.since.phdintegernumericcarNot a function
+Salaries$yrs.serviceintegernumericcarNot a function
+Salaries$sexfactorfactorcarNot a function
+Salaries$salaryintegernumericcarNot a function
+scatter3dfunctionfunctioncarx	...
+scatterplotfunctionfunctioncarx	...
+scatterplot.matrixfunctionfunctioncar...
+scatterplotMatrixfunctionfunctioncarx	...
+showLabelsfunctionfunctioncarx	y	labelsNULL	id.method"identify"	id.nlength(x)	id.cex1	id.colpalette()[1]	...
+sigmaHatfunctionfunctioncarobject
+SLIDdata.framedata.framecarNot a function
+SLID$wagesnumericnumericcarNot a function
+SLID$educationnumericnumericcarNot a function
+SLID$ageintegernumericcarNot a function
+SLID$sexfactorfactorcarNot a function
+SLID$languagefactorfactorcarNot a function
+slpfunctionfunctioncar...
+Soilsdata.framedata.framecarNot a function
+Soils$GroupfactorfactorcarNot a function
+Soils$ContourfactorfactorcarNot a function
+Soils$DepthfactorfactorcarNot a function
+Soils$GpfactorfactorcarNot a function
+Soils$BlockfactorfactorcarNot a function
+Soils$pHnumericnumericcarNot a function
+Soils$NnumericnumericcarNot a function
+Soils$DensnumericnumericcarNot a function
+Soils$PintegernumericcarNot a function
+Soils$CanumericnumericcarNot a function
+Soils$MgnumericnumericcarNot a function
+Soils$KnumericnumericcarNot a function
+Soils$NanumericnumericcarNot a function
+Soils$ConducnumericnumericcarNot a function
+somefunctionfunctioncarx	...
+spfunctionfunctioncar...
+spmfunctionfunctioncarx	...
+spread.level.plotfunctionfunctioncar...
+spreadLevelPlotfunctionfunctioncarx	...
+Statesdata.framedata.framecarNot a function
+States$regionfactorfactorcarNot a function
+States$popintegernumericcarNot a function
+States$SATVintegernumericcarNot a function
+States$SATMintegernumericcarNot a function
+States$percentintegernumericcarNot a function
+States$dollarsnumericnumericcarNot a function
+States$payintegernumericcarNot a function
+subsetsfunctionfunctioncarobject	...
+symboxfunctionfunctioncarx	...
+testTransformfunctionfunctioncarobject	lambda
+Transactdata.framedata.framecarNot a function
+Transact$t1integernumericcarNot a function
+Transact$t2integernumericcarNot a function
+Transact$timeintegernumericcarNot a function
+UNdata.framedata.framecarNot a function
+UN$infant.mortalityintegernumericcarNot a function
+UN$gdpintegernumericcarNot a function
+USPopdata.framedata.framecarNot a function
+USPop$yearintegernumericcarNot a function
+USPop$populationnumericnumericcarNot a function
+viffunctionfunctioncarmod	...
+Vocabdata.framedata.framecarNot a function
+Vocab$yearintegernumericcarNot a function
+Vocab$sexfactorfactorcarNot a function
+Vocab$educationintegernumericcarNot a function
+Vocab$vocabularyintegernumericcarNot a function
+wcrossprodfunctionfunctioncarx	y	w
+WeightLossdata.framedata.framecarNot a function
+WeightLoss$groupfactorfactorcarNot a function
+WeightLoss$wl1integernumericcarNot a function
+WeightLoss$wl2integernumericcarNot a function
+WeightLoss$wl3integernumericcarNot a function
+WeightLoss$se1integernumericcarNot a function
+WeightLoss$se2integernumericcarNot a function
+WeightLoss$se3integernumericcarNot a function
+which.namesfunctionfunctioncarnames	object
+whichNamesfunctionfunctioncar...
+Womenlfdata.framedata.framecarNot a function
+Womenlf$particfactorfactorcarNot a function
+Womenlf$hincomeintegernumericcarNot a function
+Womenlf$childrenfactorfactorcarNot a function
+Womenlf$regionfactorfactorcarNot a function
+Wooldata.framedata.framecarNot a function
+Wool$lenintegernumericcarNot a function
+Wool$ampintegernumericcarNot a function
+Wool$loadintegernumericcarNot a function
+Wool$cyclesintegernumericcarNot a function
+yjPowerfunctionfunctioncarU	lambda	jacobian.adjustedFALSE
+yjPowerAxisfunctionfunctioncarpower	sidec("right", "above", "left", "below")	at	lead.digits1	n.ticks	gridFALSE	grid.colgray(0.5)	grid.lty2	axis.title"Untransformed Data"	cex1	laspar("las")
