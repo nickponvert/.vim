@@ -1,0 +1,15 @@
+batchSOMfunctionfunctionclassdata	gridsomgrid()	radii	init
+condensefunctionfunctionclasstrain	class	storesample(seq(n), 1)	traceTRUE
+knnfunctionfunctionclasstrain	test	cl	k1	l0	probFALSE	use.allTRUE
+knn1functionfunctionclasstrain	test	cl
+knn.cvfunctionfunctionclasstrain	cl	k1	l0	probFALSE	use.allTRUE
+lvq1functionfunctionclassx	cl	codebk	niter100 * nrow(codebk$x)	alpha0.03
+lvq2functionfunctionclassx	cl	codebk	niter100 * nrow(codebk$x)	alpha0.03	win0.3
+lvq3functionfunctionclassx	cl	codebk	niter100 * nrow(codebk$x)	alpha0.03	win0.3	epsilon0.1
+lvqinitfunctionfunctionclassx	cl	size	prior	k5
+lvqtestfunctionfunctionclasscodebk	test
+multieditfunctionfunctionclassx	class	k1	V3	I5	traceTRUE
+olvq1functionfunctionclassx	cl	codebk	niter40 * nrow(codebk$x)	alpha0.3
+reduce.nnfunctionfunctionclasstrain	ind	class
+SOMfunctionfunctionclassdata	gridsomgrid()	rlen10000	alphaseq(0.05, 0, len = rlen)	radiiseq(4, 1, len = rlen)	init
+somgridfunctionfunctionclassxdim8	ydim6	topoc("rectangular", "hexagonal")
